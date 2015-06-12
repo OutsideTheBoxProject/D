@@ -194,7 +194,7 @@ def update_line_slider(newColour):
 		line.rect = draw_button(con.LINEWHITE, line.coords)
 	elif newColour == con.BEIGE:
 		line.rect = draw_button(con.LINEBEIGE, line.coords)
-	draw_button(lineSlide.img, lineSlide.coords)	
+	lineSlide.rect = draw_button(lineSlide.img, lineSlide.coords)	
 
 
 # updates the sliders according to colour
@@ -213,5 +213,19 @@ def update_colour(prev, newColour):
 			c.rect = draw_button(c.on, c.coords)
 			update_sliders(c.rgb)
 			
-	pygame.display.flip()		
+	pygame.display.flip()	
+	
+# clear drawing area
+def new_image():
+	x = con.MENURIGHT + 0.7 * con.MENUBORDER
+	pygame.draw.rect(screen, con.WHITE, (x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT))
+	pygame.display.flip()
+
+# imaging interaction
+def update_lineslide(x, y, colour):
+	print "updating with " + str(x) + " and " + str(y)
+	lineSlide.coords = (x, y)
+	update_line_slider(colour)
+	pygame.display.flip()
+	return 26 - int(x/9) 
 	

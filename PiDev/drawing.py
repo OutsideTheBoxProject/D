@@ -18,10 +18,13 @@ screen = menu.initialise_app()
 
 # control variable for mouse
 mouseDown = False
+lineProcess = False
 
 # control variable for line points
 prevx = prevy = mousex = mousey = -1
 colours = list(menu.colours)
+buttons = list(menu.buttons)
+
 
 
 # Pygame Loop
@@ -54,10 +57,31 @@ while True:
 			if x > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER):
 				mouseDown = True
 			#functional interaction		
+			for button in buttons:
+				if button.rect.collidepoint(event.pos):
+					#new image
+					if button.img == con.NEW:
+						#first save it (coming soon)
+						menu.new_image()
+					# line width
+					if button == menu.lineSlide:
+						lineProcess = True
+						prevx = button.coords[0]
 			
 			
 		#toggle mouse button
 		if event.type == MOUSEBUTTONUP:
+			# for toggling line width
+			if lineProcess:
+				x, y = event.pos
+				if x > con.LINESLIDERIGHT[0]:
+					x = con.LINESLIDERIGHT[0]
+				elif x < con.LINESLIDELEFT[0]:
+					x = con.LINESLIDELEFT[0]
+				y = con.LINESLIDELEFT[1]
+				lineWidth = menu.update_lineslide(x, y, colour)
+				lineProcess = False	
+			# for drawing
 			prevx = prevy = -1
 			mouseDown = False
 			
