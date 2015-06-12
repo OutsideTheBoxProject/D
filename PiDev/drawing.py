@@ -72,7 +72,6 @@ while True:
 				if button.rect.collidepoint(event.pos):
 					#new image
 					if button.img == con.NEW:
-						#first save it (coming soon)
 						menu.new_image()
 					# line width
 					if button == menu.lineSlide:
@@ -92,6 +91,10 @@ while True:
 							lineWidth = prevLineWidth
 							colour = prevColour
 							erasing = False
+					#saving
+					if button == menu.save:
+						menu.save_image()
+						
 						
 			
 			
@@ -117,7 +120,6 @@ while True:
 				#y = con.OPACITYSLIDELEFT[1]
 				#alpha = menu.update_opacslide(x, y, colour)
 				#opacProcess = False
-			
 			# for drawing
 			prevx = prevy = -1
 			mouseDown = False

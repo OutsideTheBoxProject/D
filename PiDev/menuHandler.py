@@ -1,7 +1,7 @@
 import constants as con
 import pygame
 from pygame.locals import *
-import random
+import os, time
 
 colours = []
 buttons = []
@@ -16,6 +16,8 @@ save = None
 #opacitySlide = None
 line = None
 lineSlide = None
+firstSave = True
+foldername = ""
 
 class colour:
 	def __init__(self, irgb, icoords, ioff, ion):
@@ -103,14 +105,6 @@ def draw_screen():
 	pygame.draw.rect(screen, con.MENUGRAY, ((0,0), (con.MENURIGHT, con.SCREENHEIGHT)))
 	return screen
 
-# colour picker for random colours
-def pick_colour():
-	r = random.randint(0, 255)
-	g = random.randint(0, 255)	
-	b = random.randint(0, 255)
-	return (r, g, b)
-
-
 # draw a button on the right position with the right picture
 def draw_button(image, coords):
 	global screen
@@ -184,7 +178,7 @@ def update_line_slider(newColour):
 		line.rect = draw_button(con.LINEDARKGREEN, line.coords)
 	elif newColour == con.GREEN:
 		line.rect = draw_button(con.LINEGREEN, line.coords)
-	elif newColour == con.CORNFLOWER:
+	elif newColour == con.CLORNFLOWER:
 		line.rect = draw_button(con.LINECORNFLOWER, line.coords)
 	elif newColour == con.DARKBLUE:
 		line.rect = draw_button(con.LINEDARKBLUE, line.coords)
@@ -219,6 +213,7 @@ def update_colour(prev, newColour):
 	
 # clear drawing area
 def new_image():
+	save_image()
 	x = con.MENURIGHT + 0.7 * con.MENUBORDER
 	pygame.draw.rect(screen, con.WHITE, (x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT))
 	pygame.display.flip()
@@ -236,3 +231,36 @@ def update_lineslide(x, y, colour):
 	#update_opacity_slider(colour)
 	#pygame.display.flip()
 	#return 100 - int((x-8)/2.2)
+	
+# get the correctly formatted timestamp for the local time	
+def get_cur_timestamp():
+	return time.strftime("%Y-%m-%d_%H:%M:%S")	
+
+# get a sorted array of folder contents
+def get_dir_content(filedir):
+	contents = os.listdir(filedir)
+	contents.sort()
+	return contents	
+
+# for not overwriting pictures	
+def create_save_name():
+	global firstSave, foldername
+	if firstSave:
+		dirs = filter(os.path.isdir, os.listdir(con.PICS))
+		if len(dirs) == 0:
+			foldername = "1/"
+		else:
+			dirs.sort()
+			foldername = str(int(dirs[-1])+1) + "/"
+		os.makedirs(con.PICS + foldername)
+		firstSave = False
+	return con.PICS + foldername + get_cur_timestamp() + ".png"
+	
+# saving an image
+def save_image():
+	global screen
+	x = con.MENURIGHT + 0.7 * con.MENUBORDER
+	rect = pygame.Rect(x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT)
+	sub = screen.subsurface(rect)
+	pygame.image.save(sub, create_save_name())
+	
