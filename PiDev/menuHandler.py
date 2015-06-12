@@ -228,7 +228,7 @@ def update_lineslide(x, y, colour):
 	lineSlide.coords = (x, y)
 	update_line_slider(colour)
 	pygame.display.flip()
-	return 26 - int((x-8)/9) 
+	return 51 - int((x-8)/4.5) 
 	
 # imaging opacity interaction
 #def update_opacslide(x, y, colour):

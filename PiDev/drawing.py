@@ -7,7 +7,7 @@ import menuHandler as menu
 from pygame.locals import *
 
 # global variables 
-lineWidth = 10
+lineWidth = 25
 #alpha = 100
 colour = con.BLACK
 
@@ -22,11 +22,14 @@ screen = menu.initialise_app()
 mouseDown = False
 lineProcess = False
 #opacProcess = False
+erasing = False
 
 # control variable for line points
 prevx = prevy = mousex = mousey = -1
 colours = list(menu.colours)
 buttons = list(menu.buttons)
+prevLineWidth = lineWidth
+prevColour = colour
 
 
 
@@ -54,10 +57,12 @@ while True:
 		#Menu Interaction
 		if event.type == MOUSEBUTTONDOWN:
 			#colours
-			prevColour = colour
 			for c in colours:
 				if c.rect.collidepoint(event.pos):
 					colour = c.rgb
+					if erasing:
+						linewidth = prevLineWidth
+						erasing = False
 					break
 			x, y = event.pos
 			if x > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER):
@@ -75,6 +80,19 @@ while True:
 					# opacity
 					#if button == menu.opacitySlide:
 						#opacProcess = True
+					if button == menu.eraser:
+						if not erasing:
+							prevLineWidth = lineWidth
+							prevColour = colour
+							lineWidth = 100
+							colour = con.WHITE
+							erasing = True
+						else:
+							print "erasing"
+							lineWidth = prevLineWidth
+							colour = prevColour
+							erasing = False
+						
 			
 			
 		#toggle mouse button
