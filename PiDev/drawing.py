@@ -15,6 +15,7 @@ def pick_colour():
 	b = random.randint(0, 255)
 	return (r, g, b)
 	
+
 # instructions
 print "ESC Key to exit, click to change colour."
 
@@ -25,17 +26,44 @@ screen.fill((255, 255, 255))
 # draw menu area left
 pygame.draw.line(screen, (200, 200, 200), (con.MENURIGHT, 0), (con.MENURIGHT,con.SCREENHEIGHT), con.MENUBORDER)
 pygame.draw.rect(screen, (232, 232, 232), ((0,0), (con.MENURIGHT, con.SCREENHEIGHT)))
-# draw buttons
-screen.blit(pygame.image.load(con.NEW), (36,8))
-screen.blit(pygame.image.load(con.GROUP), (130,8))
-screen.blit(pygame.image.load(con.OFFUNDO), (28,98))
-screen.blit(pygame.image.load(con.OFFREDO), (130,98))
-screen.blit(pygame.image.load(con.ERASER), (28,158))
-screen.blit(pygame.image.load(con.SAVE), (130,184))
-# opacity slider
-screen.blit(pygame.image.load(con.OPACBLACK), (10,263))
-screen.blit(pygame.image.load(con.WHITEOFF), (95,253))
 
+# draw a button on the right position with the right picture
+def draw_button(image, coords):
+	global screen
+	button = pygame.image.load(image)
+	buttonRect = button.get_rect()
+	buttonRect.x = coords[0]
+	buttonRect.y = coords[1]
+	screen.blit(button, buttonRect)
+	return button, buttonRect
+	
+	
+# draw buttons
+new, newRect = draw_button(con.NEW, con.NEWCOORDS)
+group, groupRect = draw_button(con.GROUP, con.GROUPCOORDS) 
+undo, undoRect = draw_button(con.OFFUNDO, con.UNDOCOORDS)
+redo, redoRect = draw_button(con.OFFREDO, con.REDOCOORDS) 
+eraser, eraserRect = draw_button(con.ERASER, con.ERASERCOORDS)
+save, saveRect = draw_button(con.SAVE, con.SAVECOORDS)
+# opacity slider
+opacity, opacityRect = draw_button(con.OPACBLACK, con.OPACITYCOORDS)
+opacitySlide, opacitySlideRect = draw_button(con.WHITEOFF, con.OPACITYSLIDEMIDDLE)
+# line thickness slider
+line, lineRect = draw_button(con.LINEBLACK, con.LINECOORDS)
+lineSlide, lineSlideRect = draw_button(con.WHITEOFF, con.LINESLIDEMIDDLE)
+# colours
+red, redRect = draw_button(con.REDOFF, con.REDCOORDS)
+purple, purpleRect = draw_button(con.PURPLEOFF, con.PURPLECOORDS)
+orange, orangeRect = draw_button(con.ORANGEOFF, con.ORANGECOORDS) 
+pink, pinkRect = draw_button(con.PINKOFF, con.PINKCOORDS) 
+darkGreen, darkGreenRect = draw_button(con.DARKGREENOFF, con.DARKGREENCOORDS)
+green, greenRect = draw_button(con.GREENOFF, con.GREENCOORDS)
+cornflower, cornflowerRect = draw_button(con.CORNFLOWEROFF, con.CORNFLOWERCOORDS)
+darkBlue, darkBlueRect = draw_button(con.DARKBLUEOFF, con.DARKBLUECOORDS) 
+black, blackRect = draw_button(con.BLACKON, con.BLACKCOORDS)
+gray, grayRect = draw_button(con.GRAYOFF, con.GRAYCOORDS)
+white, whiteRect = draw_button(con.WHITEOFF, con.WHITECOORDS)
+beige, beigeRect = draw_button(con.BEIGEOFF, con.BEIGECOORDS)
 # show it on the display
 pygame.display.flip()
 
@@ -62,7 +90,7 @@ while True:
 				if not (prevx > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)):
 					prevx = con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)
 				if not (mousex > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)):
-					mousex = con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)
+					mousex = con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER) 
 				pygame.draw.line(screen, (r, g, b), (prevx, prevy), (mousex, mousey), lineWidth)
 				(prevx, prevy) = (mousex, mousey)
 				pygame.display.flip()
@@ -70,6 +98,8 @@ while True:
 		#change of colour
 		if event.type == MOUSEBUTTONDOWN:
 			(r, g, b) = pick_colour()
+			x,y = event.pos
+
 			mouseDown = True
 			
 		#toggle mouse button

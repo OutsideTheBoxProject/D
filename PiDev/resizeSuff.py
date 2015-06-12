@@ -15,9 +15,9 @@ def resize_images(filedir):
 		if ".png" in f:
 			print "dealing with " + filedir + f
 			img = Image.open(filedir + f)
-			hpercent = (.8 * float(img.size[1])/float(img.size[1]))
-			wsize = int((float(img.size[0]) * float(hpercent)))
-			img = img.resize((wsize, int(.8 * float(img.size[1])) ), PIL.Image.ANTIALIAS)
+			# hpercent = (.8 * float(img.size[1])/float(img.size[1]))
+			# wsize = int((float(img.size[0]) * float(hpercent)))
+			img = img.resize((int(img.size[0]), int(.8 * float(img.size[1])) ), PIL.Image.ANTIALIAS)
 			img.save(con.TESTGRAPHICS + f)
 	print "done."
 		
