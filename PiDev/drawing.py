@@ -8,7 +8,9 @@ from pygame.locals import *
 
 # global variables 
 lineWidth = 10
+#alpha = 100
 colour = con.BLACK
+
 	
 # instructions
 print "ESC Key to exit, click to change colour."
@@ -19,6 +21,7 @@ screen = menu.initialise_app()
 # control variable for mouse
 mouseDown = False
 lineProcess = False
+#opacProcess = False
 
 # control variable for line points
 prevx = prevy = mousex = mousey = -1
@@ -41,6 +44,10 @@ while True:
 				if not (mousex > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)):
 					mousex = con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER) 
 				pygame.draw.line(screen, colour, (prevx, prevy), (mousex, mousey), lineWidth)
+				#point = pygame.Surface((lineWidth, lineWidth))
+				#point.fill(colour)
+				#point.set_alpha(alpha)
+				#screen.blit(point, (mousex, mousey))
 				(prevx, prevy) = (mousex, mousey)
 				pygame.display.flip()
 		
@@ -50,7 +57,6 @@ while True:
 			prevColour = colour
 			for c in colours:
 				if c.rect.collidepoint(event.pos):
-					menu.update_colour(prevColour, c.rgb)
 					colour = c.rgb
 					break
 			x, y = event.pos
@@ -66,7 +72,9 @@ while True:
 					# line width
 					if button == menu.lineSlide:
 						lineProcess = True
-						prevx = button.coords[0]
+					# opacity
+					#if button == menu.opacitySlide:
+						#opacProcess = True
 			
 			
 		#toggle mouse button
@@ -81,6 +89,17 @@ while True:
 				y = con.LINESLIDELEFT[1]
 				lineWidth = menu.update_lineslide(x, y, colour)
 				lineProcess = False	
+			# for toggling opacity
+			#if opacProcess:
+				#x, y = event.pos
+				#if x > con.OPACITYSLIDERIGHT[0]:
+					#x = con.OPACITYSLIDERIGHT[0]
+				#elif x < con.OPACITYSLIDELEFT[0]:
+					#x = con.OPACITYSLIDELEFT[0]
+				#y = con.OPACITYSLIDELEFT[1]
+				#alpha = menu.update_opacslide(x, y, colour)
+				#opacProcess = False
+			
 			# for drawing
 			prevx = prevy = -1
 			mouseDown = False
