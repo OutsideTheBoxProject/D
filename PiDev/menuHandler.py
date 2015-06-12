@@ -4,8 +4,18 @@ from pygame.locals import *
 import random
 
 colours = []
-buttons = {}
+buttons = []
 screen = None
+new = None
+group = None
+undo = None
+redo = None
+eraser = None
+save = None
+opacity = None
+opacitySlide = None
+line = None
+lineSlide = None
 
 class colour:
 	def __init__(self, irgb, icoords, ioff, ion):
@@ -15,6 +25,13 @@ class colour:
 		self.on = ion
 		self.rect = None
 		
+class button:
+	def __init__(self, icoords, iimg):
+		self.coords = icoords
+		self.img = iimg
+		self.rect = None
+
+# initialising all colours		
 def setup_colours():
 	global colours
 	red = colour(con.RED, con.REDCOORDS, con.REDOFF, con.REDON)
@@ -41,6 +58,30 @@ def setup_colours():
 	colours.append(white)
 	beige = colour(con.BEIGE, con.BEIGECOORDS, con.BEIGEOFF, con.BEIGEON)
 	colours.append(beige)
+	
+# setup non colour related buttons
+def setup_buttons():
+	global buttons, new, group, undo, redo, eraser, save, opacity, opacitySlide, line, lineSlide
+	new = button(con.NEWCOORDS, con.NEW)
+	buttons.append(new)
+	group = button(con.GROUPCOORDS, con.GROUP)
+	buttons.append(group)
+	undo = button(con.UNDOCOORDS, con.OFFUNDO)
+	buttons.append(undo)
+	redo = button(con.REDOCOORDS, con.OFFREDO)
+	buttons.append(redo)
+	eraser = button(con.ERASERCOORDS, con.ERASER)
+	buttons.append(eraser)
+	save = button(con.SAVECOORDS, con.SAVE)
+	buttons.append(save)
+	opacity = button(con.OPACITYCOORDS, con.OPACBLACK)
+	buttons.append(opacity)
+	opacitySlide = button(con.OPACITYSLIDELEFT, con.WHITEOFF)
+	buttons.append(opacitySlide)
+	line = button(con.LINECOORDS, con.LINEBLACK)
+	buttons.append(line)
+	lineSlide = button(con.LINESLIDEMIDDLE, con.WHITEOFF)
+	buttons.append(lineSlide)
 		
 # paint the app interface
 def initialise_app():
@@ -76,42 +117,101 @@ def draw_button(image, coords):
 	buttonRect.x = coords[0]
 	buttonRect.y = coords[1]
 	screen.blit(button, buttonRect)
-	return button, buttonRect
+	return buttonRect
 
 # draws all menu buttons
 def draw_menu_buttons():
 	global colours, buttons
-	# draw buttons
-	new, newRect = draw_button(con.NEW, con.NEWCOORDS)
-	group, groupRect = draw_button(con.GROUP, con.GROUPCOORDS) 
-	undo, undoRect = draw_button(con.OFFUNDO, con.UNDOCOORDS)
-	redo, redoRect = draw_button(con.OFFREDO, con.REDOCOORDS) 
-	eraser, eraserRect = draw_button(con.ERASER, con.ERASERCOORDS)
-	save, saveRect = draw_button(con.SAVE, con.SAVECOORDS)
-	# opacity slider
-	opacity, opacityRect = draw_button(con.OPACBLACK, con.OPACITYCOORDS)
-	opacitySlide, opacitySlideRect = draw_button(con.WHITEOFF, con.OPACITYSLIDEMIDDLE)
-	# line thickness slider
-	line, lineRect = draw_button(con.LINEBLACK, con.LINECOORDS)
-	lineSlide, lineSlideRect = draw_button(con.WHITEOFF, con.LINESLIDEMIDDLE)
+	# buttons
+	setup_buttons()
+	for button in buttons:
+		button.rect = draw_button(button.img, button.coords)
 	# colours
 	setup_colours()
 	for colour in colours:
 		if not colour.rgb == con.BLACK:
-			temp, colour.rect = draw_button(colour.off, colour.coords)
+			colour.rect = draw_button(colour.off, colour.coords)
 		else:
-			temp, colour.rect = draw_button(colour.on, colour.coords)
-	buttons = {new:newRect, group:groupRect, undo:undoRect, redo:redoRect, eraser:eraserRect, save:saveRect, opacity:opacityRect, opacitySlide:opacitySlideRect, line:lineRect, lineSlide:lineSlideRect}
+			colour.rect = draw_button(colour.on, colour.coords)
 
 
-#get a new colour and update the responding images
+# colour update for opacity slider
+def update_opacity_slider(newColour):
+	pygame.draw.rect(screen, con.MENUGRAY, opacity.rect)
+	pygame.draw.rect(screen, con.MENUGRAY, opacitySlide.rect)
+	if newColour == con.RED:
+		opacity.rect = draw_button(con.OPACRED, opacity.coords)
+	elif newColour == con.PURPLE:
+		opacity.rect = draw_button(con.OPACPURPLE, opacity.coords)
+	elif newColour == con.ORANGE:
+		opacity.rect = draw_button(con.OPACORANGE, opacity.coords)
+	elif newColour == con.PINK:
+		opacity.rect = draw_button(con.OPACPINK, opacity.coords)
+	elif newColour == con.DARKGREEN:
+		opacity.rect = draw_button(con.OPACDARKGREEN, opacity.coords)
+	elif newColour == con.GREEN:
+		opacity.rect = draw_button(con.OPACGREEN, opacity.coords)
+	elif newColour == con.CORNFLOWER:
+		opacity.rect = draw_button(con.OPACCORNFLOWER, opacity.coords)
+	elif newColour == con.DARKBLUE:
+		opacity.rect = draw_button(con.OPACDARKBLUE, opacity.coords)
+	elif newColour == con.BLACK:
+		opacity.rect = draw_button(con.OPACBLACK, opacity.coords)
+	elif newColour == con.GRAY:
+		opacity.rect = draw_button(con.OPACGRAY, opacity.coords)
+	elif newColour == con.WHITE:
+		opacity.rect = draw_button(con.OPACWHITE, opacity.coords)
+	elif newColour == con.BEIGE:
+		opacity.rect = draw_button(con.OPACBEIGE, opacity.coords)
+	draw_button(opacitySlide.img, opacitySlide.coords)
+
+	
+# colour update for line slider
+def update_line_slider(newColour):
+	pygame.draw.rect(screen, con.MENUGRAY, line.rect)
+	pygame.draw.rect(screen, con.MENUGRAY, lineSlide.rect)
+	if newColour == con.RED:
+		line.rect = draw_button(con.LINERED, line.coords)
+	elif newColour == con.PURPLE:
+		line.rect = draw_button(con.LINEPURPLE, line.coords)
+	elif newColour == con.ORANGE:
+		line.rect = draw_button(con.LINEORANGE, line.coords)
+	elif newColour == con.PINK:
+		line.rect = draw_button(con.LINEPINK, line.coords)
+	elif newColour == con.DARKGREEN:
+		line.rect = draw_button(con.LINEDARKGREEN, line.coords)
+	elif newColour == con.GREEN:
+		line.rect = draw_button(con.LINEGREEN, line.coords)
+	elif newColour == con.CORNFLOWER:
+		line.rect = draw_button(con.LINECORNFLOWER, line.coords)
+	elif newColour == con.DARKBLUE:
+		line.rect = draw_button(con.LINEDARKBLUE, line.coords)
+	elif newColour == con.BLACK:
+		line.rect = draw_button(con.LINEBLACK, line.coords)
+	elif newColour == con.GRAY:
+		line.rect = draw_button(con.LINEGRAY, line.coords)
+	elif newColour == con.WHITE:
+		line.rect = draw_button(con.LINEWHITE, line.coords)
+	elif newColour == con.BEIGE:
+		line.rect = draw_button(con.LINEBEIGE, line.coords)
+	draw_button(lineSlide.img, lineSlide.coords)	
+
+
+# updates the sliders according to colour
+def update_sliders(newColour):
+	update_opacity_slider(newColour)
+	update_line_slider(newColour)
+
+# get a new colour and update the responding images
 def update_colour(prev, newColour):
 	global colours, screen
 	for c in colours:
 		if c.rgb == prev:
 			pygame.draw.rect(screen, con.MENUGRAY, c.rect)
-			temp, c.rect = draw_button(c.off, c.coords)
+			c.rect = draw_button(c.off, c.coords)
 		if c.rgb == newColour:
-			temp, c.rect = draw_button(c.on, c.coords)
+			c.rect = draw_button(c.on, c.coords)
+			update_sliders(c.rgb)
+			
 	pygame.display.flip()		
 	

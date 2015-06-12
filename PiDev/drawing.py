@@ -41,19 +41,23 @@ while True:
 				(prevx, prevy) = (mousex, mousey)
 				pygame.display.flip()
 		
-		#change of colour
+		#Menu Interaction
 		if event.type == MOUSEBUTTONDOWN:
+			#colours
 			prevColour = colour
 			for c in colours:
 				if c.rect.collidepoint(event.pos):
 					menu.update_colour(prevColour, c.rgb)
 					colour = c.rgb
 					break
-			mouseDown = True
+			x, y = event.pos
+			if x > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER):
+				mouseDown = True
+			#functional interaction		
+			
 			
 		#toggle mouse button
 		if event.type == MOUSEBUTTONUP:
-			
 			prevx = prevy = -1
 			mouseDown = False
 			
