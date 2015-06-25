@@ -18,6 +18,7 @@ line = None
 lineSlide = None
 firstSave = True
 foldername = ""
+templatefolder = None
 
 class colour:
 	def __init__(self, irgb, icoords, ioff, ion):
@@ -177,7 +178,7 @@ def draw_menu_buttons():
 # colour update for line slider
 def update_line_slider(newColour):
 	pygame.draw.rect(screen, con.MENUGRAY, line.rect)
-	pygame.draw.rect(screen, con.MENUGRAY, lineSlide.rect)
+	pygame.draw.rect(screen, con.MENUGRAY, lineSlide.Rrect)
 	if newColour == con.RED:
 		line.rect = draw_button(con.LINERED, line.coords)
 	elif newColour == con.PURPLE:
@@ -353,9 +354,10 @@ def redo_action():
 	
 # for reworking from old images
 def open_file():
-	global screen
+	global screen, templatefolder
 	pygame.display.set_mode((con.SCREENWIDTH, con.SCREENHEIGHT))
 	file_path = easygui.fileopenbox(default=con.PICS)
+	templatefolder = "/".join(file_path.split("/")[:-1]) + "/"
 	screen = initialise_app(False)
 	if file_path: 
 		img = pygame.image.load(file_path)
