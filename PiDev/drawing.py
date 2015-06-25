@@ -12,9 +12,6 @@ lineWidth = 25
 colour = con.BLACK
 
 	
-# instructions
-print "ESC Key to exit, click to change colour."
-
 # initialize the app
 screen = menu.initialise_app()
 
@@ -84,11 +81,12 @@ while True:
 							prevLineWidth = lineWidth
 							prevColour = colour
 							lineWidth = 100
+							menu.update_colour(colour, con.WHITE)
 							colour = con.WHITE
 							erasing = True
 						else:
-							print "erasing"
 							lineWidth = prevLineWidth
+							menu.update_colour(colour, prevColour)
 							colour = prevColour
 							erasing = False
 					#saving
