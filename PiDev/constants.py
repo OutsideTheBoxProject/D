@@ -114,5 +114,10 @@ WHITECOORDS = (155,520)
 BEIGECOORDS = (225,520)
 
 PICS = "./pics/"
+STACK = "./stack/"
+UNDO = STACK + "undo/"
+REDO = STACK + "redo/"
+
+MAXUNDO = 10
 
 

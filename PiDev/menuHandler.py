@@ -86,12 +86,23 @@ def setup_buttons():
 	buttons.append(line)
 	lineSlide = button(con.LINESLIDEMIDDLE, con.WHITEOFF)
 	buttons.append(lineSlide)
+	
+# just the procedure encapsulated
+def delete_files_in_folder(folder):
+	for f in os.listdir(folder):
+		os.remove(folder + f)
+	
+# deleting undo and redo files, if present
+def delete_temp_files():
+	delete_files_in_folder(con.UNDO)
+	delete_files_in_folder(con.REDO)
 		
 # paint the app interface
 def initialise_app():
 	pygame.init()
 	screen = draw_screen()
 	draw_menu_buttons()
+	delete_temp_files()
 	pygame.display.flip()
 	return screen
 
@@ -145,7 +156,7 @@ def draw_menu_buttons():
 		#opacity.rect = draw_button(con.OPACPINK, opacity.coords)
 	#elif newColour == con.DARKGREEN:
 		#opacity.rect = draw_button(con.OPACDARKGREEN, opacity.coords)
-	#elif newColour == con.GREEN:
+	#elif newColourbutton == con.GREEN:
 		#opacity.rect = draw_button(con.OPACGREEN, opacity.coords)
 	#elif newColour == con.CORNFLOWER:
 		#opacity.rect = draw_button(con.OPACCORNFLOWER, opacity.coords)
@@ -254,12 +265,60 @@ def create_save_name():
 		os.makedirs(con.PICS + foldername)
 		firstSave = False
 	return con.PICS + foldername + get_cur_timestamp() + ".png"
+
+# getting the area that should be saved
+def get_saving_area():
+	global screen
+	x = con.MENURIGHT + 0.8 * con.MENUBORDER
+	rect = pygame.Rect(x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT)
+	return screen.subsurface(rect)	
+
 	
 # saving an image
 def save_image():
-	global screen
-	x = con.MENURIGHT + 0.7 * con.MENUBORDER
-	rect = pygame.Rect(x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT)
-	sub = screen.subsurface(rect)
-	pygame.image.save(sub, create_save_name())
+	pygame.image.save(get_saving_area(), create_save_name())
 	
+# for having stuff in order
+def get_undo_counter():
+	dirs = os.listdir(con.UNDO)
+	dirs = sorted(dirs)
+	if len(dirs) > 0: 
+		if len(dirs) > con.MAXUNDO:
+			os.remove(con.UNDO + dirs[0])
+	else: 
+		return con.UNDO + "1.png"
+	return con.UNDO + str(int(dirs[-1].split(".")[0])+1) + ".png"
+	
+# for undo
+def put_action_into_stack():
+	delete_files_in_folder(con.REDO)
+	pygame.image.save(get_saving_area(), get_undo_counter())
+	
+# actually undoing something
+def undo_action():
+	global screen
+	undos = os.listdir(con.UNDO)
+	undos = sorted(undos)
+	if len(undos) > 1:
+		os.rename(con.UNDO + undos[-1], con.REDO + undos[-1])
+		img = pygame.image.load(con.UNDO + undos[-2])
+		x = con.MENURIGHT + 0.7 * con.MENUBORDER
+		screen.blit(img, (x,0))
+		pygame.display.flip()
+	elif len(undos) == 1:
+		os.rename(con.UNDO + undos[-1], con.REDO + undos[-1])
+		new_image()
+	print os.listdir(con.REDO)
+	
+# for redos
+def redo_action():
+	global screen
+	redos = os.listdir(con.REDO)
+	redos = sorted(redos)
+	print redos
+	if len(redos) > 0:
+		img = pygame.image.load(con.REDO + redos[0])
+		x = con.MENURIGHT + 0.7 * con.MENUBORDER
+		screen.blit(img, (x,0))
+		pygame.display.flip()
+		os.rename(con.REDO + redos[0], con.UNDO + redos[0])

@@ -94,6 +94,12 @@ while True:
 					#saving
 					if button == menu.save:
 						menu.save_image()
+					#undo
+					if button == menu.undo:
+						menu.undo_action()
+					#redo
+					if button == menu.redo:
+						menu.redo_action()
 						
 						
 			
@@ -123,6 +129,9 @@ while True:
 			# for drawing
 			prevx = prevy = -1
 			mouseDown = False
+			if drawing:
+				menu.put_action_into_stack()
+				drawing = False
 			
 		#exit
 		if event.type == pygame.KEYDOWN:
