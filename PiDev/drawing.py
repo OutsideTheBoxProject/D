@@ -23,6 +23,7 @@ mouseDown = False
 lineProcess = False
 #opacProcess = False
 erasing = False
+drawing = False
 
 # control variable for line points
 prevx = prevy = mousex = mousey = -1
@@ -47,8 +48,9 @@ while True:
 				if not (mousex > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)):
 					mousex = con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER) 
 				# pygame.draw.line(screen, colour, (prevx, prevy), (mousex, mousey), lineWidth)
-				pygame.draw.circle(screen, colour, (mousex, mousey), lineWidth/2)
+				pygame.draw.circle(screen, colour, (int(mousex), int(mousey)), int(lineWidth/2))
 				(prevx, prevy) = (mousex, mousey)
+				drawing = True
 				pygame.display.flip()
 		
 		#Menu Interaction

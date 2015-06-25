@@ -245,7 +245,7 @@ def get_dir_content(filedir):
 def create_save_name():
 	global firstSave, foldername
 	if firstSave:
-		dirs = filter(os.path.isdir, os.listdir(con.PICS))
+		dirs = os.listdir(con.PICS)
 		if len(dirs) == 0:
 			foldername = "1/"
 		else:
