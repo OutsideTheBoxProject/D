@@ -178,7 +178,7 @@ def draw_menu_buttons():
 # colour update for line slider
 def update_line_slider(newColour):
 	pygame.draw.rect(screen, con.MENUGRAY, line.rect)
-	pygame.draw.rect(screen, con.MENUGRAY, lineSlide.Rrect)
+	pygame.draw.rect(screen, con.MENUGRAY, lineSlide.rect)
 	if newColour == con.RED:
 		line.rect = draw_button(con.LINERED, line.coords)
 	elif newColour == con.PURPLE:
@@ -229,6 +229,7 @@ def new_image(save_toggle = True):
 		save_image()
 	x = con.MENURIGHT + 0.7 * con.MENUBORDER
 	pygame.draw.rect(screen, con.WHITE, (x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT))
+	templatefolder = None
 	pygame.display.flip()
 
 # imaging interaction
@@ -247,6 +248,7 @@ def update_lineslide(x, y, colour):
 
 # to show whether undo and redo are an option
 def update_undo_redo():
+	global undo, redo, screen
 	pygame.draw.rect(screen, con.MENUGRAY, undo.rect)
 	pygame.draw.rect(screen, con.MENUGRAY, redo.rect)
 	if len(os.listdir(con.UNDO)) > 0:
@@ -271,7 +273,9 @@ def get_dir_content(filedir):
 
 # for not overwriting pictures	
 def create_save_name():
-	global firstSave, foldername
+	global firstSave, foldername, templatefolder
+	if templatefolder: 
+		return templatefolder + get_cur_timestamp() + ".png"
 	if firstSave:
 		dirs = os.listdir(con.PICS)
 		if len(dirs) == 0:
