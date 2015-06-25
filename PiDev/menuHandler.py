@@ -222,8 +222,9 @@ def update_colour(prev, newColour):
 	pygame.display.flip()	
 	
 # clear drawing area
-def new_image():
-	save_image()
+def new_image(save_toggle = True):
+	if save_toggle:
+		save_image()
 	x = con.MENURIGHT + 0.7 * con.MENUBORDER
 	pygame.draw.rect(screen, con.WHITE, (x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT))
 	pygame.display.flip()
@@ -307,7 +308,7 @@ def undo_action():
 		pygame.display.flip()
 	elif len(undos) == 1:
 		os.rename(con.UNDO + undos[-1], con.REDO + undos[-1])
-		new_image()
+		new_image(False)
 	print os.listdir(con.REDO)
 	
 # for redos
