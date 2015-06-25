@@ -1,7 +1,7 @@
 import constants as con
 import pygame
 from pygame.locals import *
-import os, time, easygui
+import os, time, easygui, operator
 
 colours = []
 buttons = []
@@ -296,10 +296,20 @@ def get_saving_area():
 def save_image():
 	pygame.image.save(get_saving_area(), create_save_name())
 	
+# returns a sorted number directory
+def get_sorted_number_dir_contents(folder):
+	dirs = os.listdir(folder)
+	files = []
+	numbers = {}
+	for f in dirs:
+		numbers[int(f.split(".")[0])] = f
+	for num in sorted(numbers.keys()):
+		files.append(numbers[num])
+	return files
+
 # for having stuff in order
 def get_undo_counter():
-	dirs = os.listdir(con.UNDO)
-	dirs = sorted(dirs)
+	dirs = get_sorted_number_dir_contents(con.UNDO)
 	if len(dirs) > 0: 
 		if len(dirs) > con.MAXUNDO:
 			os.remove(con.UNDO + dirs[0])
@@ -316,8 +326,7 @@ def put_action_into_stack():
 # actually undoing something
 def undo_action():
 	global screen
-	undos = os.listdir(con.UNDO)
-	undos = sorted(undos)
+	undos = get_sorted_number_dir_contents(con.UNDO)
 	if len(undos) > 1:
 		os.rename(con.UNDO + undos[-1], con.REDO + undos[-1])
 		img = pygame.image.load(con.UNDO + undos[-2])
@@ -326,14 +335,14 @@ def undo_action():
 		pygame.display.flip()
 	elif len(undos) == 1:
 		os.rename(con.UNDO + undos[-1], con.REDO + undos[-1])
-		new_image(False)
+		if undos[-1] == "1.png":
+			new_image(False)
 	update_undo_redo()
 	
 # for redos
 def redo_action():
 	global screen
-	redos = os.listdir(con.REDO)
-	redos = sorted(redos)
+	redos = get_sorted_number_dir_contents(con.REDO)
 	if len(redos) > 0:
 		img = pygame.image.load(con.REDO + redos[0])
 		x = con.MENURIGHT + 0.7 * con.MENUBORDER
@@ -354,8 +363,7 @@ def open_file():
 		screen.blit(img, (x,0))
 		pygame.display.flip()
 	else: 
-		undos = os.listdir(con.UNDO)
-		undos = sorted(undos)
+		undos = get_sorted_number_dir_contents(con.UNDO)
 		if len(undos) > 0:
 			img = pygame.image.load(con.UNDO + undos[-1])
 			x = con.MENURIGHT + 0.7 * con.MENUBORDER
