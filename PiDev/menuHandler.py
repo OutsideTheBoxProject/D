@@ -178,7 +178,7 @@ def update_line_slider(newColour):
 		line.rect = draw_button(con.LINEDARKGREEN, line.coords)
 	elif newColour == con.GREEN:
 		line.rect = draw_button(con.LINEGREEN, line.coords)
-	elif newColour == con.CLORNFLOWER:
+	elif newColour == con.CORNFLOWER:
 		line.rect = draw_button(con.LINECORNFLOWER, line.coords)
 	elif newColour == con.DARKBLUE:
 		line.rect = draw_button(con.LINEDARKBLUE, line.coords)
@@ -207,8 +207,7 @@ def update_colour(prev, newColour):
 			c.rect = draw_button(c.off, c.coords)
 		if c.rgb == newColour:
 			c.rect = draw_button(c.on, c.coords)
-			update_sliders(c.rgb)
-			
+	update_sliders(newColour)
 	pygame.display.flip()	
 	
 # clear drawing area

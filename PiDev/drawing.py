@@ -46,11 +46,8 @@ while True:
 					prevx = con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)
 				if not (mousex > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER)):
 					mousex = con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER) 
-				pygame.draw.line(screen, colour, (prevx, prevy), (mousex, mousey), lineWidth)
-				#point = pygame.Surface((lineWidth, lineWidth))
-				#point.fill(colour)
-				#point.set_alpha(alpha)
-				#screen.blit(point, (mousex, mousey))
+				# pygame.draw.line(screen, colour, (prevx, prevy), (mousex, mousey), lineWidth)
+				pygame.draw.circle(screen, colour, (mousex, mousey), lineWidth/2)
 				(prevx, prevy) = (mousex, mousey)
 				pygame.display.flip()
 		
@@ -59,6 +56,7 @@ while True:
 			#colours
 			for c in colours:
 				if c.rect.collidepoint(event.pos):
+					menu.update_colour(colour, c.rgb)
 					colour = c.rgb
 					if erasing:
 						linewidth = prevLineWidth
