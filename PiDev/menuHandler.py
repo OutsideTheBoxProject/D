@@ -70,9 +70,9 @@ def setup_buttons():
 	buttons.append(new)
 	group = button(con.GROUPCOORDS, con.GROUP)
 	buttons.append(group)
-	undo = button(con.UNDOCOORDS, con.OFFUNDO)
+	undo = button(con.UNDOCOORDS, con.ONUNDO)
 	buttons.append(undo)
-	redo = button(con.REDOCOORDS, con.OFFREDO)
+	redo = button(con.REDOCOORDS, con.ONREDO)
 	buttons.append(redo)
 	eraser = button(con.ERASERCOORDS, con.ERASER)
 	buttons.append(eraser)
@@ -242,6 +242,20 @@ def update_lineslide(x, y, colour):
 	#update_opacity_slider(colour)
 	#pygame.display.flip()
 	#return 100 - int((x-8)/2.2)
+
+# to show whether undo and redo are an option
+def update_undo_redo():
+	pygame.draw.rect(screen, con.MENUGRAY, undo.rect)
+	pygame.draw.rect(screen, con.MENUGRAY, redo.rect)
+	if len(os.listdir(con.UNDO)) > 0:
+		undo.rect = draw_button(con.OFFUNDO, undo.coords)
+	else: 
+		undo.rect = draw_button(con.ONUNDO, undo.coords)
+	if len(os.listdir(con.REDO)) > 0:
+		redo.rect = draw_button(con.OFFREDO, redo.coords)
+	else:
+		redo.rect = draw_button(con.ONREDO, redo.coords)
+	pygame.display.flip()
 	
 # get the correctly formatted timestamp for the local time	
 def get_cur_timestamp():
@@ -294,7 +308,8 @@ def get_undo_counter():
 def put_action_into_stack():
 	delete_files_in_folder(con.REDO)
 	pygame.image.save(get_saving_area(), get_undo_counter())
-	
+	update_undo_redo()
+		
 # actually undoing something
 def undo_action():
 	global screen
@@ -309,17 +324,17 @@ def undo_action():
 	elif len(undos) == 1:
 		os.rename(con.UNDO + undos[-1], con.REDO + undos[-1])
 		new_image(False)
-	print os.listdir(con.REDO)
+	update_undo_redo()
 	
 # for redos
 def redo_action():
 	global screen
 	redos = os.listdir(con.REDO)
 	redos = sorted(redos)
-	print redos
 	if len(redos) > 0:
 		img = pygame.image.load(con.REDO + redos[0])
 		x = con.MENURIGHT + 0.7 * con.MENUBORDER
 		screen.blit(img, (x,0))
 		pygame.display.flip()
 		os.rename(con.REDO + redos[0], con.UNDO + redos[0])
+	update_undo_redo()
