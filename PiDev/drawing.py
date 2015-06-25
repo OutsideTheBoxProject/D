@@ -100,6 +100,9 @@ while True:
 					#redo
 					if button == menu.redo:
 						menu.redo_action()
+					#load file
+					if button == menu.group:
+						menu.open_file()
 						
 						
 			

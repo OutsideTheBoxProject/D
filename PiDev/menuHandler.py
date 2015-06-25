@@ -1,7 +1,7 @@
 import constants as con
 import pygame
 from pygame.locals import *
-import os, time
+import os, time, easygui
 
 colours = []
 buttons = []
@@ -98,11 +98,12 @@ def delete_temp_files():
 	delete_files_in_folder(con.REDO)
 		
 # paint the app interface
-def initialise_app():
-	pygame.init()
+def initialise_app(withInit = True):
+	if withInit:
+		pygame.init()
+		delete_temp_files()
 	screen = draw_screen()
 	draw_menu_buttons()
-	delete_temp_files()
 	pygame.display.flip()
 	return screen
 
@@ -278,7 +279,9 @@ def create_save_name():
 			dirs.sort()
 			foldername = str(int(dirs[-1])+1) + "/"
 		os.makedirs(con.PICS + foldername)
-		firstSave = False
+	draw_menu_buttons()
+	delete_temp_files()	
+	firstSave = False
 	return con.PICS + foldername + get_cur_timestamp() + ".png"
 
 # getting the area that should be saved
@@ -338,3 +341,24 @@ def redo_action():
 		pygame.display.flip()
 		os.rename(con.REDO + redos[0], con.UNDO + redos[0])
 	update_undo_redo()
+	
+# for reworking from old images
+def open_file():
+	global screen
+	pygame.display.set_mode((con.SCREENWIDTH, con.SCREENHEIGHT))
+	file_path = easygui.fileopenbox(default=con.PICS)
+	screen = initialise_app(False)
+	if file_path: 
+		img = pygame.image.load(file_path)
+		x = con.MENURIGHT + 0.7 * con.MENUBORDER
+		screen.blit(img, (x,0))
+		pygame.display.flip()
+	else: 
+		undos = os.listdir(con.UNDO)
+		undos = sorted(undos)
+		if len(undos) > 0:
+			img = pygame.image.load(con.UNDO + undos[-1])
+			x = con.MENURIGHT + 0.7 * con.MENUBORDER
+			screen.blit(img, (x,0))
+			pygame.display.flip()
+
