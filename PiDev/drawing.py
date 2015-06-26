@@ -5,6 +5,7 @@ import pygame
 import constants as con
 import menuHandler as menu
 from pygame.locals import *
+import animate as anim 
 
 
 # put it all in a function, so that it is callable for later
@@ -34,6 +35,11 @@ def draw_mode():
 
 	# Pygame Loop
 	while True:
+		if menu.animating and (anim.running == 0 or (pygame.time.get_ticks() - anim.running) > anim.waittime):
+			screen.blit(pygame.image.load(anim.next_pic()), (con.MENURIGHT + 0.8 * con.MENUBORDER, 0))
+			pygame.display.flip()
+			anim.running = pygame.time.get_ticks()
+		
 		for event in pygame.event.get():
 			#drawing
 			if event.type == MOUSEMOTION and mouseDown and not menu.animating:
@@ -108,7 +114,7 @@ def draw_mode():
 								menu.open_file()
 							#animation mode
 							if button == menu.animate:
-								menu.setup_animation()
+								anim.initialise_pictures()
 						
 			#toggle mouse button
 			if event.type == MOUSEBUTTONUP:
@@ -144,4 +150,3 @@ def draw_mode():
 				if event.key == pygame.K_ESCAPE:
 					print "Goodbye."
 					exit()
-			
