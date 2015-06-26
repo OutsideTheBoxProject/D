@@ -73,3 +73,4 @@
 2015-06-26 17:54:25,waittime at,774
 2015-06-26 17:54:26,acceleration at,(129, 136, 156)
 2015-06-26 17:54:26,waittime at,53
+2015-06-26 18:11:08,starting application,

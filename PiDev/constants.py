@@ -34,8 +34,7 @@ ANIMATE = GRAPHICS + "animate.png"
 #OPACWHITE = GRAPHICS + "slide11-01.png"
 #OPACBEIGE = GRAPHICS + "slide12-01.png"
 # line thickness sliders
-LINERED = GRAP
-HICS + "slide-02.png"
+LINERED = GRAPHICS + "slide-02.png"
 LINEPURPLE = GRAPHICS + "slide2-02.png"
 LINEORANGE = GRAPHICS + "slide3-02.png"
 LINEPINK = GRAPHICS + "slide4-02.png"
@@ -53,8 +52,7 @@ REDON = GRAPHICS + "on-01.png"
 PURPLEOFF = GRAPHICS + "2.png"
 PURPLEON = GRAPHICS + "on-02.png"
 ORANGEOFF = GRAPHICS + "3.png"
-ORANGEON = GRAP
-HICS + "on-03.png"
+ORANGEON = GRAPHICS + "on-03.png"
 PINKOFF = GRAPHICS + "4.png"
 PINKON = GRAPHICS + "on-04.png"
 DARKGREENOFF = GRAPHICS + "5.png"
@@ -89,8 +87,7 @@ DARKBLUE = (48,38,131)
 BLACK = (28,28,27)
 GRAY = (157,156,156)
 WHITE = (255,255,255)
-BEIGE = (212,16
-8,63)
+BEIGE = (212,168,63)
 MENUGRAY = (232, 232, 232)
 
 #button coordinates
