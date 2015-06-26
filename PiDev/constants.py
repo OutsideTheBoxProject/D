@@ -129,4 +129,6 @@ REDO = STACK + "redo/"
 MAXUNDO = 10
 BASEWAIT = 3000
 
+LOG = "./log.txt"
+
 

@@ -2,6 +2,7 @@ import constants as con
 import pygame
 from pygame.locals import *
 import os, time, easygui, operator
+import logging as log
 
 colours = []
 buttons = []
@@ -113,6 +114,7 @@ def initialise_app(withInit = True):
 	screen = draw_screen()
 	draw_menu_buttons()
 	pygame.display.flip()
+	log.log_start_application()
 	return screen
 
 #initialises the basic screen setup
@@ -238,6 +240,7 @@ def new_image(save_toggle = True):
 	pygame.draw.rect(screen, con.WHITE, (x, 0, con.SCREENWIDTH-x, con.SCREENHEIGHT))
 	templatefolder = None
 	pygame.display.flip()
+	log.log_new_file()
 
 # imaging interaction
 def update_lineslide(x, y, colour):
@@ -306,7 +309,9 @@ def get_saving_area():
 	
 # saving an image
 def save_image():
-	pygame.image.save(get_saving_area(), create_save_name())
+	where = create_save_name()
+	pygame.image.save(get_saving_area(), where)
+	log.log_save_image(where)
 	
 # returns a sorted number directory
 def get_sorted_number_dir_contents(folder):
@@ -350,6 +355,7 @@ def undo_action():
 		if undos[-1] == "1.png":
 			new_image(False)
 	update_undo_redo()
+	log.log_undo()
 	
 # for redos
 def redo_action():
@@ -362,11 +368,13 @@ def redo_action():
 		pygame.display.flip()
 		os.rename(con.REDO + redos[0], con.UNDO + redos[0])
 	update_undo_redo()
+	log.log_redo()
 	
 # for reworking from old images
 def open_file():
-	global screen, templatefolder
-	pygame.display.set_mode((con.SCREENWIDTH, con.SCREENHEIGHT))
+	global screen, templatefolder, group
+	print "opening file"
+	pygame.display.set_mode((con.SCREENWIDTH/2, con.SCREENHEIGHT/2))
 	file_path = easygui.fileopenbox(default=con.PICS)
 	templatefolder = "/".join(file_path.split("/")[:-1]) + "/"
 	screen = initialise_app(False)
@@ -374,14 +382,16 @@ def open_file():
 		img = pygame.image.load(file_path)
 		x = con.MENURIGHT + 0.7 * con.MENUBORDER
 		screen.blit(img, (x,0))
-		pygame.display.flip()
 	else: 
 		undos = get_sorted_number_dir_contents(con.UNDO)
 		if len(undos) > 0:
 			img = pygame.image.load(con.UNDO + undos[-1])
 			x = con.MENURIGHT + 0.7 * con.MENUBORDER
 			screen.blit(img, (x,0))
-			pygame.display.flip()
+	group = button(con.GROUPCOORDS, con.GROUP)
+	group.rect = draw_button(group.img, group.coords)
+	pygame.display.flip()
+	log.log_open_file(file_path)
 			
 
 # setup buttons for animation
@@ -399,6 +409,7 @@ def setup_animation():
 	setup_animation_buttons()
 	pygame.display.flip()
 	animating = True
+	log.log_animation()
 	return screen
 
 # return to drawing mode
@@ -406,3 +417,4 @@ def setup_drawing():
 	global screen, animating
 	screen = initialise_app(False)
 	animating = False
+	log.log_drawing()

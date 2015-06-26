@@ -14,22 +14,12 @@ def append_line(filename, line):
 def get_lines(filename):
 	with open(filename) as f:
 		return f.readlines()
-
-# update the filename for a deleted picture in the move folder reference
-def update_picture_filename(filename, pfilename):
-	lines = get_lines(filename)
-	os.remove(filename)
-	for line in lines:
-		if line.split(",")[1] == pfilename:
-			append_line(con.MOVEFOLDER + filename, line.strip())
-		else:
-			append_line(filename, line.strip())
 			
 # get the correctly formatted timestamp for the local time	
 def get_cur_timestamp():
 	return time.strftime("%Y-%m-%d %H:%M:%S")
 
-# returns the correctlz formatted timestamp for the day
+# returns the correctly formatted timestamp for the day
 def get_date_timestamp():
 	return time.strftime("%Y-%m-%d")
 	
@@ -40,35 +30,67 @@ def get_line(info, detail=""):
 	line.append(info)
 	line.append(detail)
 	return ",".join(line)
+	
+# default logging because I'm getting lazy
+def log(msg, detail=""):
+	append_line(con.LOG, get_line(msg, detail))
 
 # logging station starting
-def log_start_station():
-	append_line(con.STATIONLOG, get_line("starting application"))
-		
-# logs the deletion of a picture
-def log_picture_deletion(pfilename):
-	if con.SWEEPMODE == con.DELETE:
-		append_line(con.STATIONLOG, get_line("deleted picture", pfilename))
-	elif con.SWEEPMODE == con.MOVE:
-		append_line(con.STATIONLOG, get_line("archived picture", pfilename))	
-	elif con.SWEEPMODE == con.PRINT:
-		append_line(con.STATIONLOG, get_line("would delete picture", pfilename))
-	else:
-		append_line(con.STATIONLOG, get_line("error: procedure unspecified"))
+def log_start_application():
+	log("starting application")
 	
-# logs the initiation of data transfer
-def log_data_transfer_start():
-	append_line(con.STATIONLOG, get_line("initiated data transfer"))
+# logging new file
+def log_new_file():
+	log("starting new drawing")
+	
+# opening a file
+def log_open_file(filepath):
+	log("opening file", filepath)
+	
+# undo
+def log_undo():
+	log("undo")
+	
+# redo
+def log_redo():
+	log("redo")
+	
+# eraser
+def log_erasing(): 
+	log("started erasing")
+	
+# stopping to erase
+def log_stopped_erasing():
+	log("finished erasing")
+	
+# line width
+def log_linewidth(lineWidth):
+	log("changed lineWidth", str(lineWidth))
+	
+# colour change
+def log_colour(rgb):
+	log("changed colour", str(rgb))
+	
+# changing to animation mode
+def log_animation():
+	log("started animation")
 
-# logs finishing the data transfer
-def log_data_transfer_finish():
-	append_line(con.STATIONLOG, get_line("data transfer finished"))
+# changing to drawing mode
+def log_drawing():
+	log("started drawing")
 
-# logs new cycle of showing pictures
-def log_picture_cycle():
-	append_line(con.STATIONLOG, get_line("showing all pictures"))
+# log opening a new folder in animation
+def log_new_animation(folder): 
+	log("started new animation", folder)
+	
+# log accelerator data and waittime
+def log_waittime(acc, waittime):
+	log("acceleration at", str(acc))
+	log("waittime at", str(waittime))
+	
+# saving an image
+def log_save_image(where):
+	log("saved image", where)
 
-# logs the case that there are no pictures to be found, if that is the case
-def log_no_pictures():
-    append_line(con.STATIONLOG, get_line("no pictures to be found"))
+
 

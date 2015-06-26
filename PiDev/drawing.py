@@ -6,6 +6,7 @@ import constants as con
 import menuHandler as menu
 from pygame.locals import *
 import animate as anim 
+import logging as log
 
 
 # put it all in a function, so that it is callable for later
@@ -74,6 +75,8 @@ def draw_mode():
 							if erasing:
 								linewidth = prevLineWidth
 								erasing = False
+								log.log_stopped_erasing()
+							log.log_colour(c.rgb)
 							break
 					x, y = event.pos
 					if x > con.MENURIGHT + .5 * (lineWidth + con.MENUBORDER):
@@ -98,11 +101,13 @@ def draw_mode():
 									menu.update_colour(colour, con.WHITE)
 									colour = con.WHITE
 									erasing = True
+									log.log_erasing()
 								else:
 									lineWidth = prevLineWidth
 									menu.update_colour(colour, prevColour)
 									colour = prevColour
 									erasing = False
+									log.log_stopped_erasing()
 							#saving
 							if button == menu.save:
 								menu.save_image()
@@ -114,6 +119,7 @@ def draw_mode():
 								menu.redo_action()
 							#load file
 							if button == menu.group:
+								print "trying to open file"
 								menu.open_file()
 							#animation mode
 							if button == menu.animate:
@@ -130,6 +136,7 @@ def draw_mode():
 						x = con.LINESLIDELEFT[0]
 					y = con.LINESLIDELEFT[1]
 					lineWidth = menu.update_lineslide(x, y, colour)
+					log.log_linewidth(lineWidth)
 					lineProcess = False	
 				# for toggling opacity
 				#if opacProcess:

@@ -1,0 +1,75 @@
+2015-06-26 17:45:02,starting application,
+2015-06-26 17:45:06,undo,
+2015-06-26 17:45:07,redo,
+2015-06-26 17:45:08,started animation,
+2015-06-26 17:46:01,starting application,
+2015-06-26 17:46:05,saved image,./pics/4/2015-06-26_17:46:05.png
+2015-06-26 17:46:05,starting new drawing,
+2015-06-26 17:46:20,starting application,
+2015-06-26 17:46:22,saved image,./pics/5/2015-06-26_17:46:22.png
+2015-06-26 17:46:22,starting new drawing,
+2015-06-26 17:46:30,starting application,
+2015-06-26 17:46:34,starting application,
+2015-06-26 17:46:34,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/Pfoten2.png
+2015-06-26 17:47:48,starting application,
+2015-06-26 17:47:51,starting application,
+2015-06-26 17:47:51,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-26_17:46:05.png
+2015-06-26 17:48:20,starting application,
+2015-06-26 17:48:26,starting application,
+2015-06-26 17:48:26,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/pfoten.png
+2015-06-26 17:49:44,starting application,
+2015-06-26 17:49:49,starting application,
+2015-06-26 17:49:49,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-26_17:46:05.png
+2015-06-26 17:50:26,starting application,
+2015-06-26 17:50:27,changed colour,(229, 0, 125)
+2015-06-26 17:50:28,changed colour,(48, 38, 131)
+2015-06-26 17:50:30,changed colour,(229, 0, 125)
+2015-06-26 17:50:32,changed lineWidth,3
+2015-06-26 17:50:35,undo,
+2015-06-26 17:50:36,undo,
+2015-06-26 17:50:36,undo,
+2015-06-26 17:50:39,starting application,
+2015-06-26 17:50:39,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/Pfoten2.png
+2015-06-26 17:50:42,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/3/2015-06-26_17:50:42.png
+2015-06-26 17:50:42,starting new drawing,
+2015-06-26 17:52:54,starting application,
+2015-06-26 17:52:57,starting application,
+2015-06-26 17:52:57,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/pfoten.png
+2015-06-26 17:53:03,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/3/2015-06-26_17:53:02.png
+2015-06-26 17:53:03,starting new drawing,
+2015-06-26 17:53:03,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/3/2015-06-26_17:53:03.png
+2015-06-26 17:53:03,starting new drawing,
+2015-06-26 17:54:07,starting application,
+2015-06-26 17:54:11,started animation,
+2015-06-26 17:54:20,acceleration at,(108, 123, 143)
+2015-06-26 17:54:20,waittime at,382
+2015-06-26 17:54:20,acceleration at,(108, 123, 143)
+2015-06-26 17:54:20,waittime at,382
+2015-06-26 17:54:20,acceleration at,(108, 123, 143)
+2015-06-26 17:54:20,waittime at,382
+2015-06-26 17:54:21,acceleration at,(109, 125, 154)
+2015-06-26 17:54:21,waittime at,284
+2015-06-26 17:54:21,acceleration at,(107, 107, 107)
+2015-06-26 17:54:21,waittime at,753
+2015-06-26 17:54:22,acceleration at,(97, 139, 141)
+2015-06-26 17:54:22,waittime at,361
+2015-06-26 17:54:23,acceleration at,(115, 153, 136)
+2015-06-26 17:54:23,waittime at,172
+2015-06-26 17:54:23,acceleration at,(96, 135, 140)
+2015-06-26 17:54:23,waittime at,403
+2015-06-26 17:54:23,acceleration at,(114, 152, 136)
+2015-06-26 17:54:23,waittime at,186
+2015-06-26 17:54:24,acceleration at,(131, 151, 126)
+2015-06-26 17:54:24,waittime at,144
+2015-06-26 17:54:24,acceleration at,(139, 119, 145)
+2015-06-26 17:54:24,waittime at,179
+2015-06-26 17:54:24,acceleration at,(98, 136, 156)
+2015-06-26 17:54:24,waittime at,270
+2015-06-26 17:54:24,acceleration at,(124, 118, 123)
+2015-06-26 17:54:24,waittime at,445
+2015-06-26 17:54:25,acceleration at,(99, 160, 105)
+2015-06-26 17:54:25,waittime at,452
+2015-06-26 17:54:25,acceleration at,(96, 143, 79)
+2015-06-26 17:54:25,waittime at,774
+2015-06-26 17:54:26,acceleration at,(129, 136, 156)
+2015-06-26 17:54:26,waittime at,53

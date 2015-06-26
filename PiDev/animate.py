@@ -3,6 +3,7 @@ import constants as con
 import easygui
 import pygame
 import cwiid
+import logging as log
 
 pictures = []
 currentIndex = -1
@@ -51,6 +52,7 @@ def update_waittime():
 				break
 			fullacc = fullacc + element
 		waittime = con.BASEWAIT - fullacc*7
+		log.log_waittime(wm.state['acc'], waittime)
 
 # choosing the next picture
 def next_pic():
@@ -68,3 +70,4 @@ def set_pictures():
 	picDir = "/".join(file_path.split("/")[:-1]) + "/"
 	pictures = get_pictures_from_dir(picDir)
 	menu.setup_animation()
+	log.log_new_animation(picDir)
