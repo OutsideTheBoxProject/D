@@ -6,10 +6,12 @@ SCREENHEIGHT = 592
 MENURIGHT = 290
 MENUBORDER = 6
 
+HOME = "/home/pi/OutsideTheBox/D/PiDev/"
+
 # graphics
-GRAPHICS = "./graphics/test/"
+GRAPHICS = HOME + "graphics/test/"
 # for tests
-TESTGRAPHICS = "./graphics/test/"
+TESTGRAPHICS = HOME + "graphics/test/"
 # functionalities
 NEW = GRAPHICS + "New.png"
 GROUP = GRAPHICS + "Group.png"
@@ -121,15 +123,15 @@ BEIGECOORDS = (225,520)
 ANIMLOADCOORDS = (80,350)
 ANIMDRAWCOORDS = (80,80)
 
-PICS = "./pics/"
-STACK = "./stack/"
+PICS = HOME + "pics/"
+STACK = HOME + "stack/"
 UNDO = STACK + "undo/"
 REDO = STACK + "redo/"
 
 MAXUNDO = 10
 BASEWAIT = 3000
 
-LOG = "./log.txt"
-STDOUT = "./console.txt"
+LOG = HOME + "log.txt"
+STDOUT = HOME + "console.txt"
 
 
