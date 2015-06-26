@@ -62,6 +62,8 @@ def draw_mode():
 				if menu.animating:
 					if menu.animdraw.rect.collidepoint(event.pos):
 						menu.setup_drawing()
+					if menu.animload.rect.collidepoint(event.pos):
+						anim.set_pictures()
 				else: 
 					#colours
 					for c in colours:

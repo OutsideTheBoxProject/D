@@ -1,10 +1,20 @@
 import menuHandler as menu
 import constants as con
+import easygui
+import pygame
 
 pictures = []
 currentIndex = -1
 running = 0
 waittime = 3000
+
+# just get the array of pictures according to path for a directory
+def get_pictures_from_dir(directory): 
+	pics = menu.get_dir_content(directory)
+	returnpics = []
+	for pic in pics:
+		returnpics.append(directory + pic)
+	return returnpics
 
 # default starting setup for pictures - always show the most recent folder
 def initialise_pictures(): 
@@ -12,9 +22,7 @@ def initialise_pictures():
 	menu.setup_animation()
 	picDirs = menu.get_sorted_number_dir_contents(con.PICS)
 	picDir = picDirs[-1]
-	pics = menu.get_dir_content(con.PICS + picDir)
-	for pic in pics:
-		pictures.append(con.PICS + picDir + "/" + pic)
+	pictures = get_pictures_from_dir(con.PICS + picDir + "/")
 
 # choosing the next picture
 def next_pic():
@@ -23,3 +31,12 @@ def next_pic():
 	if currentIndex > (len(pictures) - 1):
 		currentIndex = 0
 	return pictures[currentIndex]
+	
+# reset picture folder for animation
+def set_pictures():
+	global pictures
+	pygame.display.set_mode((con.SCREENWIDTH, con.SCREENHEIGHT))
+	file_path = easygui.fileopenbox(default=con.PICS)
+	picDir = "/".join(file_path.split("/")[:-1]) + "/"
+	pictures = get_pictures_from_dir(picDir)
+	menu.setup_animation()
