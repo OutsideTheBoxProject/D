@@ -12,6 +12,7 @@ undo = None
 redo = None
 eraser = None
 save = None
+animate = None
 #opacity = None
 #opacitySlide = None
 line = None
@@ -66,7 +67,7 @@ def setup_colours():
 	
 # setup non colour related buttons
 def setup_buttons():
-	global buttons, new, group, undo, redo, eraser, save, opacity, opacitySlide, line, lineSlide
+	global buttons, new, group, undo, redo, eraser, save, opacity, opacitySlide, line, lineSlide, animate
 	new = button(con.NEWCOORDS, con.NEW)
 	buttons.append(new)
 	group = button(con.GROUPCOORDS, con.GROUP)
@@ -87,6 +88,9 @@ def setup_buttons():
 	buttons.append(line)
 	lineSlide = button(con.LINESLIDEMIDDLE, con.WHITEOFF)
 	buttons.append(lineSlide)
+	animate = button(con.ANIMCOORDS, con.ANIMATE)
+	buttons.append(animate)
+	
 	
 # just the procedure encapsulated
 def delete_files_in_folder(folder):
