@@ -13,6 +13,8 @@ redo = None
 eraser = None
 save = None
 animate = None
+animload = None
+animdraw = None
 #opacity = None
 #opacitySlide = None
 line = None
@@ -20,6 +22,7 @@ lineSlide = None
 firstSave = True
 foldername = ""
 templatefolder = None
+animating = False
 
 class colour:
 	def __init__(self, irgb, icoords, ioff, ion):
@@ -379,4 +382,27 @@ def open_file():
 			x = con.MENURIGHT + 0.7 * con.MENUBORDER
 			screen.blit(img, (x,0))
 			pygame.display.flip()
+			
 
+# setup buttons for animation
+def setup_animation_buttons(): 
+	global animload, animdraw
+	animload = button(con.ANIMLOADCOORDS, con.ANIMATELOAD)
+	animload.rect = draw_button(animload.img, animload.coords)
+	animdraw = button(con.ANIMDRAWCOORDS, con.ANIMATEDRAW)
+	animdraw.rect = draw_button(animdraw.img, animdraw.coords)
+
+# setup animation mode
+def setup_animation():
+	global screen, animating
+	screen = draw_screen()
+	setup_animation_buttons()
+	pygame.display.flip()
+	animating = True
+	return screen
+
+# return to drawing mode
+def setup_drawing():
+	global screen, animating
+	screen = initialise_app(False)
+	animating = False
