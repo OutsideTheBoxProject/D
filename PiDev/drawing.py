@@ -39,6 +39,7 @@ def draw_mode():
 			screen.blit(pygame.image.load(anim.next_pic()), (con.MENURIGHT + 0.8 * con.MENUBORDER, 0))
 			pygame.display.flip()
 			anim.running = pygame.time.get_ticks()
+			anim.update_waittime()
 		
 		for event in pygame.event.get():
 			#drawing

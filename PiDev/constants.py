@@ -127,5 +127,6 @@ UNDO = STACK + "undo/"
 REDO = STACK + "redo/"
 
 MAXUNDO = 10
+BASEWAIT = 3000
 
 
