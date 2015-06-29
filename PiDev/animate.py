@@ -33,7 +33,7 @@ def check_for_wiimote():
 	try: 
 		wm = cwiid.Wiimote()
 	except RuntimeError: 
-		print "Error opening wiimote connection"
+		log.log("Error opening wiimote connection")
 	if not wm == None:
 		wm.rpt_mode = cwiid.RPT_ACC
 		wm.led = 1
@@ -65,9 +65,11 @@ def next_pic():
 # reset picture folder for animation
 def set_pictures():
 	global pictures
-	pygame.display.set_mode((con.SCREENWIDTH, con.SCREENHEIGHT))
+	pygame.display.toggle_fullscreen()
 	file_path = easygui.fileopenbox(default=con.PICS)
-	picDir = "/".join(file_path.split("/")[:-1]) + "/"
-	pictures = get_pictures_from_dir(picDir)
+	if file_path:
+		picDir = "/".join(file_path.split("/")[:-1]) + "/"
+		pictures = get_pictures_from_dir(picDir)
+		log.log_new_animation(picDir)
 	menu.setup_animation()
-	log.log_new_animation(picDir)
+	pygame.display.toggle_fullscreen()

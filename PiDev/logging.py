@@ -35,6 +35,16 @@ def get_line(info, detail=""):
 def log(msg, detail=""):
 	append_line(con.LOG, get_line(msg, detail))
 
+# log pictures from a folder into the daily folder
+def log_pictures(pics):
+	today = get_date_timestamp()
+	logfolder = con.PICLOGS + today
+	if not os.path.exists(logfolder):
+		os.makedirs(logfolder)
+	for pic in pics:
+		os.rename(pic, logfolder + "/" + pic.split("/")[-1])
+
+
 # logging station starting
 def log_start_application():
 	log("starting application")
