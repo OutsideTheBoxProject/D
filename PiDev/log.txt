@@ -1,76 +1,3063 @@
-2015-06-26 17:45:02,starting application,
-2015-06-26 17:45:06,undo,
-2015-06-26 17:45:07,redo,
-2015-06-26 17:45:08,started animation,
-2015-06-26 17:46:01,starting application,
-2015-06-26 17:46:05,saved image,./pics/4/2015-06-26_17:46:05.png
-2015-06-26 17:46:05,starting new drawing,
-2015-06-26 17:46:20,starting application,
-2015-06-26 17:46:22,saved image,./pics/5/2015-06-26_17:46:22.png
-2015-06-26 17:46:22,starting new drawing,
-2015-06-26 17:46:30,starting application,
-2015-06-26 17:46:34,starting application,
-2015-06-26 17:46:34,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/Pfoten2.png
-2015-06-26 17:47:48,starting application,
-2015-06-26 17:47:51,starting application,
-2015-06-26 17:47:51,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-26_17:46:05.png
-2015-06-26 17:48:20,starting application,
-2015-06-26 17:48:26,starting application,
-2015-06-26 17:48:26,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/pfoten.png
-2015-06-26 17:49:44,starting application,
-2015-06-26 17:49:49,starting application,
-2015-06-26 17:49:49,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-26_17:46:05.png
-2015-06-26 17:50:26,starting application,
-2015-06-26 17:50:27,changed colour,(229, 0, 125)
-2015-06-26 17:50:28,changed colour,(48, 38, 131)
-2015-06-26 17:50:30,changed colour,(229, 0, 125)
-2015-06-26 17:50:32,changed lineWidth,3
-2015-06-26 17:50:35,undo,
-2015-06-26 17:50:36,undo,
-2015-06-26 17:50:36,undo,
-2015-06-26 17:50:39,starting application,
-2015-06-26 17:50:39,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/Pfoten2.png
-2015-06-26 17:50:42,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/3/2015-06-26_17:50:42.png
-2015-06-26 17:50:42,starting new drawing,
-2015-06-26 17:52:54,starting application,
-2015-06-26 17:52:57,starting application,
-2015-06-26 17:52:57,opening file,/home/pi/OutsideTheBox/D/PiDev/pics/3/pfoten.png
-2015-06-26 17:53:03,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/3/2015-06-26_17:53:02.png
-2015-06-26 17:53:03,starting new drawing,
-2015-06-26 17:53:03,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/3/2015-06-26_17:53:03.png
-2015-06-26 17:53:03,starting new drawing,
-2015-06-26 17:54:07,starting application,
-2015-06-26 17:54:11,started animation,
-2015-06-26 17:54:20,acceleration at,(108, 123, 143)
-2015-06-26 17:54:20,waittime at,382
-2015-06-26 17:54:20,acceleration at,(108, 123, 143)
-2015-06-26 17:54:20,waittime at,382
-2015-06-26 17:54:20,acceleration at,(108, 123, 143)
-2015-06-26 17:54:20,waittime at,382
-2015-06-26 17:54:21,acceleration at,(109, 125, 154)
-2015-06-26 17:54:21,waittime at,284
-2015-06-26 17:54:21,acceleration at,(107, 107, 107)
-2015-06-26 17:54:21,waittime at,753
-2015-06-26 17:54:22,acceleration at,(97, 139, 141)
-2015-06-26 17:54:22,waittime at,361
-2015-06-26 17:54:23,acceleration at,(115, 153, 136)
-2015-06-26 17:54:23,waittime at,172
-2015-06-26 17:54:23,acceleration at,(96, 135, 140)
-2015-06-26 17:54:23,waittime at,403
-2015-06-26 17:54:23,acceleration at,(114, 152, 136)
-2015-06-26 17:54:23,waittime at,186
-2015-06-26 17:54:24,acceleration at,(131, 151, 126)
-2015-06-26 17:54:24,waittime at,144
-2015-06-26 17:54:24,acceleration at,(139, 119, 145)
-2015-06-26 17:54:24,waittime at,179
-2015-06-26 17:54:24,acceleration at,(98, 136, 156)
-2015-06-26 17:54:24,waittime at,270
-2015-06-26 17:54:24,acceleration at,(124, 118, 123)
-2015-06-26 17:54:24,waittime at,445
-2015-06-26 17:54:25,acceleration at,(99, 160, 105)
-2015-06-26 17:54:25,waittime at,452
-2015-06-26 17:54:25,acceleration at,(96, 143, 79)
-2015-06-26 17:54:25,waittime at,774
-2015-06-26 17:54:26,acceleration at,(129, 136, 156)
-2015-06-26 17:54:26,waittime at,53
-2015-06-26 18:11:08,starting application,
+2015-06-29 16:46:46,starting application,
+2015-06-29 16:48:26,started animation,
+2015-06-29 16:48:33,Error opening wiimote connection,
+2015-06-29 16:48:41,acceleration at,(117, 134, 150)
+2015-06-29 16:48:41,waittime at,193
+2015-06-29 16:48:42,acceleration at,(132, 127, 141)
+2015-06-29 16:48:42,waittime at,200
+2015-06-29 16:48:42,acceleration at,(111, 126, 138)
+2015-06-29 16:48:42,waittime at,375
+2015-06-29 16:48:42,acceleration at,(143, 128, 134)
+2015-06-29 16:48:42,waittime at,165
+2015-06-29 16:48:43,acceleration at,(65, 165, 147)
+2015-06-29 16:48:43,waittime at,361
+2015-06-29 16:48:43,acceleration at,(76, 209, 165)
+2015-06-29 16:48:43,waittime at,-150
+2015-06-29 16:48:43,acceleration at,(0, 122, 184)
+2015-06-29 16:48:43,waittime at,858
+2015-06-29 16:48:44,acceleration at,(96, 191, 128)
+2015-06-29 16:48:44,waittime at,95
+2015-06-29 16:48:44,acceleration at,(129, 242, 246)
+2015-06-29 16:48:44,waittime at,-18000
+2015-06-29 16:48:44,acceleration at,(166, 206, 170)
+2015-06-29 16:48:44,waittime at,-794
+2015-06-29 16:48:44,acceleration at,(117, 238, 116)
+2015-06-29 16:48:44,waittime at,-18000
+2015-06-29 16:48:44,acceleration at,(86, 198, 114)
+2015-06-29 16:48:44,waittime at,214
+2015-06-29 16:48:45,acceleration at,(175, 246, 18)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:45,acceleration at,(74, 246, 185)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:45,acceleration at,(136, 174, 246)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:45,acceleration at,(171, 246, 79)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:45,acceleration at,(90, 246, 115)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:45,acceleration at,(148, 177, 245)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:45,acceleration at,(111, 242, 234)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:45,acceleration at,(242, 247, 0)
+2015-06-29 16:48:45,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(27, 242, 240)
+2015-06-29 16:48:46,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(53, 237, 217)
+2015-06-29 16:48:46,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(202, 246, 0)
+2015-06-29 16:48:46,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(4, 209, 238)
+2015-06-29 16:48:46,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(57, 194, 214)
+2015-06-29 16:48:46,waittime at,-255
+2015-06-29 16:48:46,acceleration at,(165, 245, 45)
+2015-06-29 16:48:46,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(18, 246, 143)
+2015-06-29 16:48:46,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(154, 173, 246)
+2015-06-29 16:48:46,waittime at,-18000
+2015-06-29 16:48:46,acceleration at,(127, 219, 81)
+2015-06-29 16:48:46,waittime at,11
+2015-06-29 16:48:46,acceleration at,(163, 168, 95)
+2015-06-29 16:48:46,waittime at,18
+2015-06-29 16:48:46,acceleration at,(36, 164, 167)
+2015-06-29 16:48:46,waittime at,431
+2015-06-29 16:48:47,acceleration at,(115, 137, 138)
+2015-06-29 16:48:47,waittime at,270
+2015-06-29 16:48:47,acceleration at,(108, 133, 141)
+2015-06-29 16:48:47,waittime at,326
+2015-06-29 16:48:48,acceleration at,(115, 134, 143)
+2015-06-29 16:48:48,waittime at,256
+2015-06-29 16:48:48,acceleration at,(123, 137, 148)
+2015-06-29 16:48:48,waittime at,144
+2015-06-29 16:48:48,acceleration at,(119, 132, 140)
+2015-06-29 16:48:48,waittime at,263
+2015-06-29 16:48:49,acceleration at,(117, 127, 149)
+2015-06-29 16:48:49,waittime at,249
+2015-06-29 16:48:49,acceleration at,(112, 130, 140)
+2015-06-29 16:48:49,waittime at,326
+2015-06-29 16:48:49,acceleration at,(109, 173, 246)
+2015-06-29 16:48:49,waittime at,-18000
+2015-06-29 16:48:50,acceleration at,(105, 167, 130)
+2015-06-29 16:48:50,waittime at,186
+2015-06-29 16:48:50,acceleration at,(88, 159, 245)
+2015-06-29 16:48:50,waittime at,-18000
+2015-06-29 16:48:50,acceleration at,(116, 195, 122)
+2015-06-29 16:48:50,waittime at,-31
+2015-06-29 16:48:50,acceleration at,(192, 190, 85)
+2015-06-29 16:48:50,waittime at,-269
+2015-06-29 16:48:50,acceleration at,(77, 178, 243)
+2015-06-29 16:48:50,waittime at,-18000
+2015-06-29 16:48:50,acceleration at,(82, 144, 172)
+2015-06-29 16:48:50,waittime at,214
+2015-06-29 16:48:51,acceleration at,(105, 176, 117)
+2015-06-29 16:48:51,waittime at,214
+2015-06-29 16:48:51,acceleration at,(154, 168, 38)
+2015-06-29 16:48:51,waittime at,480
+2015-06-29 16:48:51,acceleration at,(116, 119, 140)
+2015-06-29 16:48:51,waittime at,375
+2015-06-29 16:48:52,acceleration at,(119, 127, 137)
+2015-06-29 16:48:52,waittime at,319
+2015-06-29 16:48:52,acceleration at,(123, 128, 149)
+2015-06-29 16:48:52,waittime at,200
+2015-06-29 16:48:53,acceleration at,(121, 130, 152)
+2015-06-29 16:48:53,waittime at,179
+2015-06-29 16:48:53,acceleration at,(122, 123, 145)
+2015-06-29 16:48:53,waittime at,270
+2015-06-29 16:48:53,acceleration at,(125, 119, 139)
+2015-06-29 16:48:53,waittime at,319
+2015-06-29 16:48:54,acceleration at,(118, 129, 132)
+2015-06-29 16:48:54,waittime at,347
+2015-06-29 16:48:54,acceleration at,(117, 134, 129)
+2015-06-29 16:48:54,waittime at,340
+2015-06-29 16:48:54,acceleration at,(115, 130, 140)
+2015-06-29 16:48:55,waittime at,305
+2015-06-29 16:48:55,acceleration at,(109, 121, 134)
+2015-06-29 16:48:55,waittime at,452
+2015-06-29 16:48:55,acceleration at,(122, 122, 114)
+2015-06-29 16:48:55,waittime at,494
+2015-06-29 16:48:56,acceleration at,(141, 155, 215)
+2015-06-29 16:48:56,waittime at,-577
+2015-06-29 16:48:56,acceleration at,(120, 118, 137)
+2015-06-29 16:48:56,waittime at,375
+2015-06-29 16:48:57,acceleration at,(121, 111, 109)
+2015-06-29 16:48:57,waittime at,613
+2015-06-29 16:48:57,acceleration at,(121, 124, 150)
+2015-06-29 16:48:57,waittime at,235
+2015-06-29 16:48:58,acceleration at,(122, 124, 149)
+2015-06-29 16:48:58,waittime at,235
+2015-06-29 16:48:58,acceleration at,(124, 121, 145)
+2015-06-29 16:48:58,waittime at,270
+2015-06-29 16:48:58,acceleration at,(127, 121, 148)
+2015-06-29 16:48:58,waittime at,228
+2015-06-29 16:48:59,acceleration at,(118, 115, 149)
+2015-06-29 16:48:59,waittime at,326
+2015-06-29 16:48:59,acceleration at,(115, 123, 154)
+2015-06-29 16:48:59,waittime at,256
+2015-06-29 16:48:59,acceleration at,(135, 123, 148)
+2015-06-29 16:48:59,waittime at,158
+2015-06-29 16:49:00,acceleration at,(125, 116, 145)
+2015-06-29 16:49:00,waittime at,298
+2015-06-29 16:49:00,acceleration at,(125, 116, 146)
+2015-06-29 16:49:00,waittime at,291
+2015-06-29 16:49:00,acceleration at,(131, 125, 147)
+2015-06-29 16:49:00,waittime at,179
+2015-06-29 16:49:01,acceleration at,(126, 122, 147)
+2015-06-29 16:49:01,waittime at,235
+2015-06-29 16:49:01,acceleration at,(130, 123, 145)
+2015-06-29 16:49:01,waittime at,214
+2015-06-29 16:49:01,acceleration at,(133, 125, 146)
+2015-06-29 16:49:01,waittime at,172
+2015-06-29 16:49:02,acceleration at,(131, 125, 145)
+2015-06-29 16:49:02,waittime at,193
+2015-06-29 16:49:02,acceleration at,(131, 124, 146)
+2015-06-29 16:49:02,waittime at,193
+2015-06-29 16:49:02,acceleration at,(130, 123, 146)
+2015-06-29 16:49:02,waittime at,207
+2015-06-29 16:49:02,acceleration at,(130, 123, 146)
+2015-06-29 16:49:02,waittime at,207
+2015-06-29 16:49:03,acceleration at,(131, 121, 146)
+2015-06-29 16:49:03,waittime at,214
+2015-06-29 16:49:03,acceleration at,(126, 124, 149)
+2015-06-29 16:49:03,waittime at,207
+2015-06-29 16:49:03,acceleration at,(125, 121, 146)
+2015-06-29 16:49:03,waittime at,256
+2015-06-29 16:49:04,acceleration at,(126, 121, 148)
+2015-06-29 16:49:04,waittime at,235
+2015-06-29 16:49:04,acceleration at,(124, 119, 147)
+2015-06-29 16:49:04,waittime at,270
+2015-06-29 16:49:04,acceleration at,(132, 120, 146)
+2015-06-29 16:49:04,waittime at,214
+2015-06-29 16:49:05,acceleration at,(163, 130, 136)
+2015-06-29 16:49:05,waittime at,-3
+2015-06-29 16:49:05,acceleration at,(141, 116, 125)
+2015-06-29 16:49:05,waittime at,326
+2015-06-29 16:49:05,acceleration at,(146, 117, 128)
+2015-06-29 16:49:05,waittime at,263
+2015-06-29 16:49:06,acceleration at,(120, 108, 140)
+2015-06-29 16:49:06,waittime at,424
+2015-06-29 16:49:06,acceleration at,(122, 110, 142)
+2015-06-29 16:49:06,waittime at,382
+2015-06-29 16:49:06,acceleration at,(121, 116, 150)
+2015-06-29 16:49:06,waittime at,291
+2015-06-29 16:49:07,acceleration at,(120, 115, 146)
+2015-06-29 16:49:07,waittime at,333
+2015-06-29 16:49:07,acceleration at,(112, 114, 144)
+2015-06-29 16:49:07,waittime at,410
+2015-06-29 16:49:08,acceleration at,(105, 117, 139)
+2015-06-29 16:49:08,waittime at,473
+2015-06-29 16:49:08,acceleration at,(118, 119, 146)
+2015-06-29 16:49:08,waittime at,319
+2015-06-29 16:49:09,acceleration at,(121, 123, 147)
+2015-06-29 16:49:09,waittime at,263
+2015-06-29 16:49:09,acceleration at,(121, 126, 147)
+2015-06-29 16:49:09,waittime at,242
+2015-06-29 16:49:09,acceleration at,(121, 127, 149)
+2015-06-29 16:49:09,waittime at,221
+2015-06-29 16:49:10,acceleration at,(127, 124, 148)
+2015-06-29 16:49:10,waittime at,207
+2015-06-29 16:49:10,acceleration at,(122, 122, 148)
+2015-06-29 16:49:10,waittime at,256
+2015-06-29 16:49:10,acceleration at,(122, 121, 147)
+2015-06-29 16:49:10,waittime at,270
+2015-06-29 16:49:11,acceleration at,(121, 121, 147)
+2015-06-29 16:49:11,waittime at,277
+2015-06-29 16:49:11,acceleration at,(119, 121, 147)
+2015-06-29 16:49:11,waittime at,291
+2015-06-29 16:49:12,acceleration at,(118, 121, 149)
+2015-06-29 16:49:12,waittime at,284
+2015-06-29 16:49:12,acceleration at,(121, 120, 146)
+2015-06-29 16:49:12,waittime at,291
+2015-06-29 16:49:12,acceleration at,(120, 122, 148)
+2015-06-29 16:49:12,waittime at,270
+2015-06-29 16:49:13,acceleration at,(121, 122, 147)
+2015-06-29 16:49:13,waittime at,270
+2015-06-29 16:49:13,acceleration at,(121, 122, 147)
+2015-06-29 16:49:13,waittime at,270
+2015-06-29 16:49:13,started drawing,
+2015-06-29 16:49:51,starting application,
+2015-06-29 16:49:58,changed colour,(229, 0, 125)
+2015-06-29 16:50:34,starting application,
+2015-06-29 16:50:44,started animation,
+2015-06-29 16:50:51,Error opening wiimote connection,
+2015-06-29 16:50:59,acceleration at,(122, 120, 148)
+2015-06-29 16:50:59,waittime at,270
+2015-06-29 16:50:59,acceleration at,(122, 119, 148)
+2015-06-29 16:50:59,waittime at,277
+2015-06-29 16:51:00,acceleration at,(142, 137, 137)
+2015-06-29 16:51:00,waittime at,88
+2015-06-29 16:51:00,acceleration at,(92, 138, 100)
+2015-06-29 16:51:00,waittime at,690
+2015-06-29 16:51:01,acceleration at,(91, 169, 198)
+2015-06-29 16:51:01,waittime at,-206
+2015-06-29 16:51:01,acceleration at,(153, 145, 228)
+2015-06-29 16:51:01,waittime at,-18000
+2015-06-29 16:51:01,acceleration at,(95, 137, 93)
+2015-06-29 16:51:01,waittime at,725
+2015-06-29 16:51:02,acceleration at,(110, 115, 106)
+2015-06-29 16:51:02,waittime at,683
+2015-06-29 16:51:02,acceleration at,(119, 111, 146)
+2015-06-29 16:51:02,waittime at,368
+2015-06-29 16:51:03,acceleration at,(119, 116, 162)
+2015-06-29 16:51:03,waittime at,221
+2015-06-29 16:51:03,acceleration at,(119, 117, 131)
+2015-06-29 16:51:03,waittime at,431
+2015-06-29 16:51:04,acceleration at,(116, 125, 154)
+2015-06-29 16:51:04,waittime at,235
+2015-06-29 16:51:04,acceleration at,(116, 123, 146)
+2015-06-29 16:51:04,waittime at,305
+2015-06-29 16:51:04,acceleration at,(116, 123, 147)
+2015-06-29 16:51:04,waittime at,298
+2015-06-29 16:51:05,acceleration at,(117, 123, 147)
+2015-06-29 16:51:05,waittime at,291
+2015-06-29 16:51:05,acceleration at,(117, 123, 147)
+2015-06-29 16:51:05,waittime at,291
+2015-06-29 16:51:06,acceleration at,(117, 123, 147)
+2015-06-29 16:51:06,waittime at,291
+2015-06-29 16:51:06,acceleration at,(117, 123, 147)
+2015-06-29 16:51:06,waittime at,291
+2015-06-29 16:51:06,acceleration at,(117, 123, 147)
+2015-06-29 16:51:06,waittime at,291
+2015-06-29 16:51:07,acceleration at,(119, 126, 153)
+2015-06-29 16:51:07,waittime at,214
+2015-06-29 16:51:07,acceleration at,(131, 125, 143)
+2015-06-29 16:51:07,waittime at,207
+2015-06-29 16:51:07,acceleration at,(130, 126, 143)
+2015-06-29 16:51:07,waittime at,207
+2015-06-29 16:51:08,acceleration at,(135, 128, 143)
+2015-06-29 16:51:08,waittime at,158
+2015-06-29 16:51:08,acceleration at,(135, 128, 144)
+2015-06-29 16:51:08,waittime at,151
+2015-06-29 16:51:08,acceleration at,(134, 128, 144)
+2015-06-29 16:51:08,waittime at,158
+2015-06-29 16:51:08,acceleration at,(134, 128, 144)
+2015-06-29 16:51:08,waittime at,158
+2015-06-29 16:51:09,acceleration at,(134, 128, 143)
+2015-06-29 16:51:09,waittime at,165
+2015-06-29 16:51:09,acceleration at,(135, 128, 143)
+2015-06-29 16:51:09,waittime at,158
+2015-06-29 16:51:09,acceleration at,(134, 127, 143)
+2015-06-29 16:51:09,waittime at,172
+2015-06-29 16:51:09,acceleration at,(132, 126, 144)
+2015-06-29 16:51:09,waittime at,186
+2015-06-29 16:51:10,acceleration at,(132, 127, 145)
+2015-06-29 16:51:10,waittime at,172
+2015-06-29 16:51:10,acceleration at,(131, 127, 144)
+2015-06-29 16:51:10,waittime at,186
+2015-06-29 16:51:10,acceleration at,(132, 127, 145)
+2015-06-29 16:51:10,waittime at,172
+2015-06-29 16:51:10,acceleration at,(131, 128, 145)
+2015-06-29 16:51:10,waittime at,172
+2015-06-29 16:51:11,acceleration at,(132, 128, 145)
+2015-06-29 16:51:11,waittime at,165
+2015-06-29 16:51:11,acceleration at,(131, 127, 145)
+2015-06-29 16:51:11,waittime at,179
+2015-06-29 16:51:11,acceleration at,(130, 126, 146)
+2015-06-29 16:51:11,waittime at,186
+2015-06-29 16:51:11,acceleration at,(130, 126, 146)
+2015-06-29 16:51:11,waittime at,186
+2015-06-29 16:51:12,acceleration at,(130, 126, 146)
+2015-06-29 16:51:12,waittime at,186
+2015-06-29 16:51:12,acceleration at,(130, 126, 146)
+2015-06-29 16:51:12,waittime at,186
+2015-06-29 16:51:12,acceleration at,(130, 127, 145)
+2015-06-29 16:51:12,waittime at,186
+2015-06-29 16:51:13,acceleration at,(135, 127, 138)
+2015-06-29 16:51:13,waittime at,200
+2015-06-29 16:51:13,acceleration at,(168, 185, 28)
+2015-06-29 16:51:13,waittime at,333
+2015-06-29 16:51:13,acceleration at,(131, 175, 37)
+2015-06-29 16:51:13,waittime at,599
+2015-06-29 16:51:14,acceleration at,(98, 133, 28)
+2015-06-29 16:51:14,waittime at,1187
+2015-06-29 16:51:15,acceleration at,(114, 148, 98)
+2015-06-29 16:51:15,waittime at,480
+2015-06-29 16:51:16,acceleration at,(131, 143, 234)
+2015-06-29 16:51:16,waittime at,-18000
+2015-06-29 16:51:16,acceleration at,(109, 133, 131)
+2015-06-29 16:51:16,waittime at,389
+2015-06-29 16:51:16,acceleration at,(108, 137, 55)
+2015-06-29 16:51:16,waittime at,900
+2015-06-29 16:51:17,acceleration at,(175, 164, 246)
+2015-06-29 16:51:17,waittime at,-18000
+2015-06-29 16:51:17,acceleration at,(120, 130, 139)
+2015-06-29 16:51:17,waittime at,277
+2015-06-29 16:51:18,acceleration at,(109, 134, 148)
+2015-06-29 16:51:18,waittime at,263
+2015-06-29 16:51:18,acceleration at,(108, 143, 167)
+2015-06-29 16:51:18,waittime at,74
+2015-06-29 16:51:18,acceleration at,(122, 136, 62)
+2015-06-29 16:51:18,waittime at,760
+2015-06-29 16:51:19,acceleration at,(116, 176, 117)
+2015-06-29 16:51:19,waittime at,137
+2015-06-29 16:51:19,acceleration at,(117, 118, 125)
+2015-06-29 16:51:19,waittime at,480
+2015-06-29 16:51:20,acceleration at,(177, 183, 147)
+2015-06-29 16:51:20,waittime at,-549
+2015-06-29 16:51:20,acceleration at,(53, 126, 155)
+2015-06-29 16:51:20,waittime at,662
+2015-06-29 16:51:21,acceleration at,(127, 133, 175)
+2015-06-29 16:51:21,waittime at,-45
+2015-06-29 16:51:21,acceleration at,(132, 117, 135)
+2015-06-29 16:51:21,waittime at,312
+2015-06-29 16:51:21,acceleration at,(130, 126, 145)
+2015-06-29 16:51:21,waittime at,193
+2015-06-29 16:51:22,acceleration at,(129, 123, 143)
+2015-06-29 16:51:22,waittime at,235
+2015-06-29 16:51:22,acceleration at,(129, 121, 145)
+2015-06-29 16:51:22,waittime at,235
+2015-06-29 16:51:22,acceleration at,(126, 122, 147)
+2015-06-29 16:51:22,waittime at,235
+2015-06-29 16:51:23,acceleration at,(119, 117, 147)
+2015-06-29 16:51:23,waittime at,319
+2015-06-29 16:51:23,acceleration at,(124, 120, 146)
+2015-06-29 16:51:23,waittime at,270
+2015-06-29 16:51:23,acceleration at,(124, 124, 149)
+2015-06-29 16:51:23,waittime at,221
+2015-06-29 16:51:24,acceleration at,(128, 127, 147)
+2015-06-29 16:51:24,waittime at,186
+2015-06-29 16:51:24,acceleration at,(130, 123, 149)
+2015-06-29 16:51:24,waittime at,186
+2015-06-29 16:51:24,acceleration at,(125, 120, 143)
+2015-06-29 16:51:24,waittime at,284
+2015-06-29 16:51:25,acceleration at,(121, 119, 145)
+2015-06-29 16:51:25,waittime at,305
+2015-06-29 16:51:25,acceleration at,(122, 119, 147)
+2015-06-29 16:51:25,waittime at,284
+2015-06-29 16:51:25,acceleration at,(126, 120, 149)
+2015-06-29 16:51:25,waittime at,235
+2015-06-29 16:51:26,acceleration at,(113, 107, 170)
+2015-06-29 16:51:26,waittime at,270
+2015-06-29 16:51:26,acceleration at,(162, 173, 245)
+2015-06-29 16:51:26,waittime at,-18000
+2015-06-29 16:51:26,acceleration at,(109, 156, 161)
+2015-06-29 16:51:26,waittime at,18
+2015-06-29 16:51:26,acceleration at,(147, 184, 39)
+2015-06-29 16:51:26,waittime at,410
+2015-06-29 16:51:27,acceleration at,(155, 163, 246)
+2015-06-29 16:51:27,waittime at,-18000
+2015-06-29 16:51:27,acceleration at,(104, 176, 99)
+2015-06-29 16:51:27,waittime at,347
+2015-06-29 16:51:27,acceleration at,(151, 198, 43)
+2015-06-29 16:51:27,waittime at,256
+2015-06-29 16:51:28,acceleration at,(80, 234, 180)
+2015-06-29 16:51:28,waittime at,-18000
+2015-06-29 16:51:28,acceleration at,(130, 150, 213)
+2015-06-29 16:51:28,waittime at,-451
+2015-06-29 16:51:28,acceleration at,(105, 136, 105)
+2015-06-29 16:51:28,waittime at,578
+2015-06-29 16:51:28,acceleration at,(104, 138, 93)
+2015-06-29 16:51:28,waittime at,655
+2015-06-29 16:51:29,acceleration at,(108, 132, 66)
+2015-06-29 16:51:29,waittime at,858
+2015-06-29 16:51:30,acceleration at,(124, 114, 143)
+2015-06-29 16:51:30,waittime at,333
+2015-06-29 16:51:31,acceleration at,(130, 116, 142)
+2015-06-29 16:51:31,waittime at,284
+2015-06-29 16:51:31,acceleration at,(129, 115, 144)
+2015-06-29 16:51:31,waittime at,284
+2015-06-29 16:51:31,acceleration at,(132, 120, 145)
+2015-06-29 16:51:31,waittime at,221
+2015-06-29 16:51:32,acceleration at,(127, 123, 143)
+2015-06-29 16:51:32,waittime at,249
+2015-06-29 16:51:32,acceleration at,(125, 115, 128)
+2015-06-29 16:51:32,waittime at,424
+2015-06-29 16:51:33,acceleration at,(116, 110, 118)
+2015-06-29 16:51:33,waittime at,592
+2015-06-29 16:51:33,acceleration at,(125, 125, 149)
+2015-06-29 16:51:33,waittime at,207
+2015-06-29 16:51:34,acceleration at,(122, 125, 148)
+2015-06-29 16:51:34,waittime at,235
+2015-06-29 16:51:34,started drawing,
+2015-06-29 16:52:00,starting application,
+2015-06-29 16:52:25,undo,
+2015-06-29 16:52:26,undo,
+2015-06-29 16:52:26,undo,
+2015-06-29 16:52:27,undo,
+2015-06-29 16:52:27,undo,
+2015-06-29 16:52:27,undo,
+2015-06-29 16:52:28,undo,
+2015-06-29 16:52:28,undo,
+2015-06-29 16:52:28,undo,
+2015-06-29 16:52:28,undo,
+2015-06-29 16:52:28,undo,
+2015-06-29 16:52:28,undo,
+2015-06-29 16:52:29,undo,
+2015-06-29 16:52:29,undo,
+2015-06-29 16:52:29,undo,
+2015-06-29 16:52:29,undo,
+2015-06-29 16:52:29,undo,
+2015-06-29 16:52:30,undo,
+2015-06-29 16:52:30,undo,
+2015-06-29 16:52:44,changed colour,(229, 0, 125)
+2015-06-29 16:52:50,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-29_16:52:49.png
+2015-06-29 16:52:50,starting new drawing,
+2015-06-29 16:53:10,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-29_16:53:10.png
+2015-06-29 16:53:10,starting new drawing,
+2015-06-29 16:53:27,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-29_16:53:26.png
+2015-06-29 16:53:27,starting new drawing,
+2015-06-29 16:53:29,changed colour,(48, 38, 131)
+2015-06-29 16:53:32,changed colour,(149, 193, 30)
+2015-06-29 16:53:42,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/4/2015-06-29_16:53:42.png
+2015-06-29 16:53:42,starting new drawing,
+2015-06-29 16:54:03,changed colour,(243, 146, 0)
+2015-06-29 16:54:31,changed colour,(0, 158, 227)
+2015-06-29 16:55:25,starting application,
+2015-06-29 16:55:30,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/5/2015-06-29_16:55:30.png
+2015-06-29 16:55:30,starting new drawing,
+2015-06-29 16:55:31,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/5/2015-06-29_16:55:31.png
+2015-06-29 16:55:31,starting new drawing,
+2015-06-29 16:55:35,changed colour,(227, 5, 19)
+2015-06-29 16:55:39,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/5/2015-06-29_16:55:39.png
+2015-06-29 16:55:39,starting new drawing,
+2015-06-29 16:55:44,changed colour,(28, 28, 27)
+2015-06-29 16:56:30,changed colour,(0, 150, 64)
+2015-06-29 16:56:47,changed colour,(28, 28, 27)
+2015-06-29 16:56:59,changed colour,(227, 5, 19)
+2015-06-29 16:57:12,changed colour,(28, 28, 27)
+2015-06-29 16:59:12,changed colour,(255, 255, 255)
+2015-06-29 16:59:33,changed colour,(149, 193, 30)
+2015-06-29 16:59:42,changed colour,(255, 255, 255)
+2015-06-29 17:00:34,starting application,
+2015-06-29 17:00:38,changed lineWidth,3
+2015-06-29 17:00:40,changed lineWidth,31
+2015-06-29 17:00:43,changed lineWidth,5
+2015-06-29 17:00:46,changed colour,(28, 28, 27)
+2015-06-29 17:00:51,changed colour,(0, 158, 227)
+2015-06-29 17:00:54,changed lineWidth,28
+2015-06-29 17:01:22,changed colour,(255, 255, 255)
+2015-06-29 17:01:23,changed colour,(28, 28, 27)
+2015-06-29 17:01:28,changed lineWidth,49
+2015-06-29 17:01:35,started erasing,
+2015-06-29 17:01:50,finished erasing,
+2015-06-29 17:01:50,changed colour,(28, 28, 27)
+2015-06-29 17:02:01,changed colour,(255, 255, 255)
+2015-06-29 17:02:02,changed lineWidth,6
+2015-06-29 17:02:03,changed lineWidth,11
+2015-06-29 17:02:36,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/6/2015-06-29_17:02:36.png
+2015-06-29 17:02:36,starting new drawing,
+2015-06-29 17:03:17,changed colour,(28, 28, 27)
+2015-06-29 17:03:34,changed colour,(28, 28, 27)
+2015-06-29 17:03:34,changed colour,(157, 156, 156)
+2015-06-29 17:03:35,changed colour,(149, 193, 30)
+2015-06-29 17:03:36,changed colour,(28, 28, 27)
+2015-06-29 17:04:08,changed colour,(149, 27, 129)
+2015-06-29 17:04:08,changed colour,(227, 5, 19)
+2015-06-29 17:04:17,changed colour,(28, 28, 27)
+2015-06-29 17:04:21,changed colour,(255, 255, 255)
+2015-06-29 17:04:54,starting application,
+2015-06-29 17:04:59,changed lineWidth,42
+2015-06-29 17:05:01,changed lineWidth,14
+2015-06-29 17:05:04,changed lineWidth,42
+2015-06-29 17:05:04,changed colour,(28, 28, 27)
+2015-06-29 17:05:12,changed lineWidth,51
+2015-06-29 17:05:35,changed colour,(255, 255, 255)
+2015-06-29 17:05:37,changed lineWidth,9
+2015-06-29 17:05:38,changed lineWidth,11
+2015-06-29 17:05:39,changed lineWidth,14
+2015-06-29 17:06:10,changed colour,(0, 150, 64)
+2015-06-29 17:06:20,changed colour,(243, 146, 0)
+2015-06-29 17:06:49,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/7/2015-06-29_17:06:49.png
+2015-06-29 17:07:24,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/7/2015-06-29_17:07:24.png
+2015-06-29 17:07:24,starting new drawing,
+2015-06-29 17:07:26,changed colour,(28, 28, 27)
+2015-06-29 17:08:16,changed colour,(243, 146, 0)
+2015-06-29 17:08:24,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/7/2015-06-29_17:08:24.png
+2015-06-29 17:08:24,starting new drawing,
+2015-06-29 17:08:37,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/7/2015-06-29_17:08:37.png
+2015-06-29 17:08:37,starting new drawing,
+2015-06-29 17:08:38,changed colour,(0, 158, 227)
+2015-06-29 17:08:45,changed colour,(243, 146, 0)
+2015-06-29 17:08:50,changed colour,(0, 150, 64)
+2015-06-29 17:09:02,changed colour,(255, 255, 255)
+2015-06-29 17:09:15,changed colour,(0, 158, 227)
+2015-06-29 17:09:28,changed colour,(255, 255, 255)
+2015-06-29 17:09:36,changed colour,(0, 150, 64)
+2015-06-29 17:10:11,changed colour,(157, 156, 156)
+2015-06-29 17:10:23,changed colour,(255, 255, 255)
+2015-06-29 17:10:29,changed colour,(157, 156, 156)
+2015-06-29 17:12:27,starting application,
+2015-06-29 17:12:39,started animation,
+2015-06-29 17:12:45,Error opening wiimote connection,
+2015-06-29 17:12:54,acceleration at,(118, 147, 117)
+2015-06-29 17:12:54,waittime at,326
+2015-06-29 17:12:54,acceleration at,(121, 147, 120)
+2015-06-29 17:12:54,waittime at,284
+2015-06-29 17:12:55,acceleration at,(120, 143, 118)
+2015-06-29 17:12:55,waittime at,333
+2015-06-29 17:12:55,acceleration at,(123, 147, 119)
+2015-06-29 17:12:55,waittime at,277
+2015-06-29 17:12:55,acceleration at,(123, 145, 120)
+2015-06-29 17:12:55,waittime at,284
+2015-06-29 17:12:56,acceleration at,(124, 146, 119)
+2015-06-29 17:12:56,waittime at,277
+2015-06-29 17:12:56,acceleration at,(123, 145, 119)
+2015-06-29 17:12:56,waittime at,291
+2015-06-29 17:12:57,acceleration at,(124, 147, 119)
+2015-06-29 17:12:57,waittime at,270
+2015-06-29 17:12:57,acceleration at,(123, 145, 120)
+2015-06-29 17:12:57,waittime at,284
+2015-06-29 17:12:57,acceleration at,(123, 145, 119)
+2015-06-29 17:12:57,waittime at,291
+2015-06-29 17:12:58,acceleration at,(123, 146, 120)
+2015-06-29 17:12:58,waittime at,277
+2015-06-29 17:12:58,acceleration at,(123, 145, 119)
+2015-06-29 17:12:58,waittime at,291
+2015-06-29 17:12:58,acceleration at,(123, 145, 119)
+2015-06-29 17:12:58,waittime at,291
+2015-06-29 17:12:59,acceleration at,(123, 146, 120)
+2015-06-29 17:12:59,waittime at,277
+2015-06-29 17:12:59,acceleration at,(116, 138, 138)
+2015-06-29 17:12:59,waittime at,256
+2015-06-29 17:13:00,acceleration at,(106, 144, 140)
+2015-06-29 17:13:00,waittime at,270
+2015-06-29 17:13:00,acceleration at,(125, 124, 147)
+2015-06-29 17:13:00,waittime at,228
+2015-06-29 17:13:00,acceleration at,(122, 128, 151)
+2015-06-29 17:13:00,waittime at,193
+2015-06-29 17:13:01,acceleration at,(121, 135, 148)
+2015-06-29 17:13:01,waittime at,172
+2015-06-29 17:13:01,acceleration at,(139, 111, 154)
+2015-06-29 17:13:01,waittime at,172
+2015-06-29 17:13:01,acceleration at,(122, 144, 156)
+2015-06-29 17:13:01,waittime at,46
+2015-06-29 17:13:01,acceleration at,(110, 138, 142)
+2015-06-29 17:13:01,waittime at,270
+2015-06-29 17:13:02,acceleration at,(123, 151, 149)
+2015-06-29 17:13:02,waittime at,39
+2015-06-29 17:13:02,acceleration at,(128, 119, 122)
+2015-06-29 17:13:02,waittime at,417
+2015-06-29 17:13:02,acceleration at,(126, 131, 154)
+2015-06-29 17:13:02,waittime at,123
+2015-06-29 17:13:03,acceleration at,(118, 138, 149)
+2015-06-29 17:13:03,waittime at,165
+2015-06-29 17:13:03,acceleration at,(129, 119, 107)
+2015-06-29 17:13:03,waittime at,515
+2015-06-29 17:13:03,acceleration at,(121, 142, 159)
+2015-06-29 17:13:03,waittime at,46
+2015-06-29 17:13:04,acceleration at,(119, 146, 142)
+2015-06-29 17:13:04,waittime at,151
+2015-06-29 17:13:04,acceleration at,(125, 132, 125)
+2015-06-29 17:13:04,waittime at,326
+2015-06-29 17:13:04,acceleration at,(120, 131, 148)
+2015-06-29 17:13:04,waittime at,207
+2015-06-29 17:13:05,acceleration at,(120, 134, 145)
+2015-06-29 17:13:05,waittime at,207
+2015-06-29 17:13:05,acceleration at,(122, 132, 145)
+2015-06-29 17:13:05,waittime at,207
+2015-06-29 17:13:05,acceleration at,(121, 134, 142)
+2015-06-29 17:13:05,waittime at,221
+2015-06-29 17:13:06,acceleration at,(116, 132, 141)
+2015-06-29 17:13:06,waittime at,277
+2015-06-29 17:13:06,acceleration at,(119, 139, 140)
+2015-06-29 17:13:06,waittime at,214
+2015-06-29 17:13:06,acceleration at,(112, 135, 139)
+2015-06-29 17:13:06,waittime at,298
+2015-06-29 17:13:07,acceleration at,(111, 136, 140)
+2015-06-29 17:13:07,waittime at,291
+2015-06-29 17:13:07,acceleration at,(111, 135, 140)
+2015-06-29 17:13:07,waittime at,298
+2015-06-29 17:13:08,acceleration at,(111, 136, 140)
+2015-06-29 17:13:08,waittime at,291
+2015-06-29 17:13:08,acceleration at,(111, 136, 140)
+2015-06-29 17:13:08,waittime at,291
+2015-06-29 17:13:08,acceleration at,(111, 136, 140)
+2015-06-29 17:13:08,waittime at,291
+2015-06-29 17:13:09,acceleration at,(112, 135, 139)
+2015-06-29 17:13:09,waittime at,298
+2015-06-29 17:13:09,acceleration at,(112, 135, 141)
+2015-06-29 17:13:09,waittime at,284
+2015-06-29 17:13:10,acceleration at,(104, 129, 134)
+2015-06-29 17:13:10,waittime at,431
+2015-06-29 17:13:10,acceleration at,(111, 129, 133)
+2015-06-29 17:13:10,waittime at,389
+2015-06-29 17:13:11,acceleration at,(129, 135, 141)
+2015-06-29 17:13:11,waittime at,165
+2015-06-29 17:13:11,acceleration at,(130, 135, 142)
+2015-06-29 17:13:11,waittime at,151
+2015-06-29 17:13:11,acceleration at,(129, 136, 142)
+2015-06-29 17:13:11,waittime at,151
+2015-06-29 17:13:11,acceleration at,(130, 136, 141)
+2015-06-29 17:13:11,waittime at,151
+2015-06-29 17:13:12,acceleration at,(130, 136, 141)
+2015-06-29 17:13:12,waittime at,151
+2015-06-29 17:13:12,acceleration at,(129, 136, 141)
+2015-06-29 17:13:12,waittime at,158
+2015-06-29 17:13:12,acceleration at,(130, 136, 141)
+2015-06-29 17:13:12,waittime at,151
+2015-06-29 17:13:12,acceleration at,(130, 136, 141)
+2015-06-29 17:13:12,waittime at,151
+2015-06-29 17:13:13,acceleration at,(130, 137, 142)
+2015-06-29 17:13:13,waittime at,137
+2015-06-29 17:13:13,acceleration at,(130, 137, 142)
+2015-06-29 17:13:13,waittime at,137
+2015-06-29 17:13:13,acceleration at,(127, 134, 142)
+2015-06-29 17:13:13,waittime at,179
+2015-06-29 17:13:13,acceleration at,(134, 136, 141)
+2015-06-29 17:13:13,waittime at,123
+2015-06-29 17:13:14,acceleration at,(114, 131, 148)
+2015-06-29 17:13:14,waittime at,249
+2015-06-29 17:13:14,acceleration at,(117, 138, 143)
+2015-06-29 17:13:14,waittime at,214
+2015-06-29 17:13:14,acceleration at,(115, 135, 143)
+2015-06-29 17:13:14,waittime at,249
+2015-06-29 17:13:15,acceleration at,(114, 134, 142)
+2015-06-29 17:13:15,waittime at,270
+2015-06-29 17:13:15,acceleration at,(116, 135, 144)
+2015-06-29 17:13:15,waittime at,235
+2015-06-29 17:13:15,acceleration at,(113, 135, 141)
+2015-06-29 17:13:15,waittime at,277
+2015-06-29 17:13:16,acceleration at,(112, 136, 141)
+2015-06-29 17:13:16,waittime at,277
+2015-06-29 17:13:16,acceleration at,(112, 135, 140)
+2015-06-29 17:13:16,waittime at,291
+2015-06-29 17:13:17,acceleration at,(112, 136, 140)
+2015-06-29 17:13:17,waittime at,284
+2015-06-29 17:13:17,acceleration at,(112, 135, 140)
+2015-06-29 17:13:17,waittime at,291
+2015-06-29 17:13:17,acceleration at,(112, 135, 140)
+2015-06-29 17:13:17,waittime at,291
+2015-06-29 17:13:18,acceleration at,(112, 135, 140)
+2015-06-29 17:13:18,waittime at,291
+2015-06-29 17:13:18,acceleration at,(111, 135, 140)
+2015-06-29 17:13:18,waittime at,298
+2015-06-29 17:13:19,acceleration at,(112, 135, 140)
+2015-06-29 17:13:19,waittime at,291
+2015-06-29 17:13:19,acceleration at,(112, 135, 140)
+2015-06-29 17:13:19,waittime at,291
+2015-06-29 17:13:19,acceleration at,(111, 135, 140)
+2015-06-29 17:13:19,waittime at,298
+2015-06-29 17:13:20,acceleration at,(111, 135, 140)
+2015-06-29 17:13:20,waittime at,298
+2015-06-29 17:13:20,acceleration at,(111, 135, 140)
+2015-06-29 17:13:20,waittime at,298
+2015-06-29 17:13:20,acceleration at,(112, 137, 138)
+2015-06-29 17:13:20,waittime at,291
+2015-06-29 17:13:21,acceleration at,(109, 136, 138)
+2015-06-29 17:13:21,waittime at,319
+2015-06-29 17:13:21,acceleration at,(110, 136, 138)
+2015-06-29 17:13:21,waittime at,312
+2015-06-29 17:13:22,acceleration at,(110, 136, 139)
+2015-06-29 17:13:22,waittime at,305
+2015-06-29 17:13:22,acceleration at,(110, 136, 138)
+2015-06-29 17:13:22,waittime at,312
+2015-06-29 17:13:23,acceleration at,(110, 136, 138)
+2015-06-29 17:13:23,waittime at,312
+2015-06-29 17:13:23,acceleration at,(110, 136, 138)
+2015-06-29 17:13:23,waittime at,312
+2015-06-29 17:13:23,acceleration at,(110, 136, 138)
+2015-06-29 17:13:23,waittime at,312
+2015-06-29 17:13:24,acceleration at,(110, 136, 138)
+2015-06-29 17:13:24,waittime at,312
+2015-06-29 17:13:24,acceleration at,(110, 136, 138)
+2015-06-29 17:13:24,waittime at,312
+2015-06-29 17:13:25,acceleration at,(110, 136, 138)
+2015-06-29 17:13:25,waittime at,312
+2015-06-29 17:13:25,acceleration at,(110, 136, 138)
+2015-06-29 17:13:25,waittime at,312
+2015-06-29 17:13:25,acceleration at,(110, 136, 138)
+2015-06-29 17:13:25,waittime at,312
+2015-06-29 17:13:26,acceleration at,(110, 136, 138)
+2015-06-29 17:13:26,waittime at,312
+2015-06-29 17:13:26,acceleration at,(110, 136, 138)
+2015-06-29 17:13:26,waittime at,312
+2015-06-29 17:13:27,acceleration at,(110, 135, 138)
+2015-06-29 17:13:27,waittime at,319
+2015-06-29 17:13:27,acceleration at,(110, 135, 138)
+2015-06-29 17:13:27,waittime at,319
+2015-06-29 17:13:28,acceleration at,(111, 134, 138)
+2015-06-29 17:13:28,waittime at,319
+2015-06-29 17:13:28,acceleration at,(110, 135, 138)
+2015-06-29 17:13:28,waittime at,319
+2015-06-29 17:13:28,acceleration at,(110, 137, 139)
+2015-06-29 17:13:28,waittime at,298
+2015-06-29 17:13:29,acceleration at,(111, 138, 139)
+2015-06-29 17:13:29,waittime at,284
+2015-06-29 17:13:29,acceleration at,(110, 139, 137)
+2015-06-29 17:13:29,waittime at,298
+2015-06-29 17:13:30,acceleration at,(112, 139, 135)
+2015-06-29 17:13:30,waittime at,298
+2015-06-29 17:13:30,acceleration at,(112, 138, 136)
+2015-06-29 17:13:30,waittime at,298
+2015-06-29 17:13:30,acceleration at,(118, 138, 141)
+2015-06-29 17:13:30,waittime at,221
+2015-06-29 17:13:31,acceleration at,(116, 134, 142)
+2015-06-29 17:13:31,waittime at,256
+2015-06-29 17:13:31,acceleration at,(113, 134, 141)
+2015-06-29 17:13:31,waittime at,284
+2015-06-29 17:13:31,acceleration at,(112, 135, 141)
+2015-06-29 17:13:31,waittime at,284
+2015-06-29 17:13:32,acceleration at,(114, 135, 141)
+2015-06-29 17:13:32,waittime at,270
+2015-06-29 17:13:32,acceleration at,(112, 132, 142)
+2015-06-29 17:13:32,waittime at,298
+2015-06-29 17:13:33,acceleration at,(112, 134, 141)
+2015-06-29 17:13:33,waittime at,291
+2015-06-29 17:13:33,acceleration at,(112, 135, 141)
+2015-06-29 17:13:33,waittime at,284
+2015-06-29 17:13:33,acceleration at,(113, 134, 141)
+2015-06-29 17:13:33,waittime at,284
+2015-06-29 17:13:34,acceleration at,(113, 134, 142)
+2015-06-29 17:13:34,waittime at,277
+2015-06-29 17:13:34,acceleration at,(113, 135, 142)
+2015-06-29 17:13:34,waittime at,270
+2015-06-29 17:13:35,acceleration at,(113, 135, 141)
+2015-06-29 17:13:35,waittime at,277
+2015-06-29 17:13:35,acceleration at,(113, 134, 142)
+2015-06-29 17:13:35,waittime at,277
+2015-06-29 17:13:35,acceleration at,(114, 135, 141)
+2015-06-29 17:13:35,waittime at,270
+2015-06-29 17:13:35,started drawing,
+2015-06-29 17:13:54,changed colour,(28, 28, 27)
+2015-06-29 17:13:55,changed colour,(28, 28, 27)
+2015-06-29 17:14:25,changed colour,(0, 158, 227)
+2015-06-29 17:14:27,changed colour,(0, 150, 64)
+2015-06-29 17:14:28,changed colour,(149, 193, 30)
+2015-06-29 17:14:43,changed colour,(255, 255, 255)
+2015-06-29 17:14:49,changed colour,(149, 193, 30)
+2015-06-29 17:14:53,changed colour,(255, 255, 255)
+2015-06-29 17:14:58,changed colour,(28, 28, 27)
+2015-06-29 17:15:04,changed colour,(255, 255, 255)
+2015-06-29 17:15:09,changed colour,(28, 28, 27)
+2015-06-29 17:15:13,changed colour,(255, 255, 255)
+2015-06-29 17:15:36,changed colour,(28, 28, 27)
+2015-06-29 17:16:02,changed colour,(212, 168, 63)
+2015-06-29 17:16:03,changed colour,(243, 146, 0)
+2015-06-29 17:16:21,changed colour,(255, 255, 255)
+2015-06-29 17:16:25,changed colour,(28, 28, 27)
+2015-06-29 17:16:29,changed colour,(255, 255, 255)
+2015-06-29 17:16:33,changed colour,(28, 28, 27)
+2015-06-29 17:16:49,changed colour,(255, 255, 255)
+2015-06-29 17:16:54,changed colour,(227, 5, 19)
+2015-06-29 17:17:03,changed colour,(255, 255, 255)
+2015-06-29 17:17:08,changed colour,(28, 28, 27)
+2015-06-29 17:17:18,changed colour,(255, 255, 255)
+2015-06-29 17:17:38,changed colour,(28, 28, 27)
+2015-06-29 17:17:44,changed colour,(255, 255, 255)
+2015-06-29 17:17:47,changed colour,(28, 28, 27)
+2015-06-29 17:17:50,changed colour,(255, 255, 255)
+2015-06-29 17:17:53,changed colour,(28, 28, 27)
+2015-06-29 17:17:56,changed colour,(255, 255, 255)
+2015-06-29 17:17:58,changed colour,(28, 28, 27)
+2015-06-29 17:18:02,changed colour,(255, 255, 255)
+2015-06-29 17:18:06,changed colour,(28, 28, 27)
+2015-06-29 17:18:11,changed colour,(255, 255, 255)
+2015-06-29 17:18:15,changed colour,(28, 28, 27)
+2015-06-29 17:18:19,changed colour,(28, 28, 27)
+2015-06-29 17:18:20,changed colour,(157, 156, 156)
+2015-06-29 17:18:30,changed colour,(255, 255, 255)
+2015-06-29 17:18:39,changed colour,(157, 156, 156)
+2015-06-29 17:18:52,changed colour,(255, 255, 255)
+2015-06-29 17:19:07,changed colour,(28, 28, 27)
+2015-06-29 17:19:10,changed colour,(157, 156, 156)
+2015-06-29 17:19:24,changed colour,(28, 28, 27)
+2015-06-29 17:19:25,changed colour,(255, 255, 255)
+2015-06-29 17:19:31,changed colour,(28, 28, 27)
+2015-06-29 17:19:34,changed colour,(227, 5, 19)
+2015-06-29 17:19:35,changed colour,(0, 150, 64)
+2015-06-29 17:19:36,changed colour,(48, 38, 131)
+2015-06-29 17:19:45,changed colour,(255, 255, 255)
+2015-06-29 17:19:57,changed colour,(28, 28, 27)
+2015-06-29 17:20:13,changed colour,(227, 5, 19)
+2015-06-29 17:20:21,changed colour,(255, 255, 255)
+2015-06-29 17:20:31,changed colour,(28, 28, 27)
+2015-06-29 17:20:41,changed colour,(227, 5, 19)
+2015-06-29 17:21:12,changed colour,(28, 28, 27)
+2015-06-29 17:21:17,changed colour,(255, 255, 255)
+2015-06-29 17:21:25,changed colour,(227, 5, 19)
+2015-06-29 17:22:03,changed colour,(28, 28, 27)
+2015-06-29 17:22:12,changed colour,(227, 5, 19)
+2015-06-29 17:22:25,changed colour,(28, 28, 27)
+2015-06-29 17:22:28,changed colour,(227, 5, 19)
+2015-06-29 17:22:44,changed colour,(157, 156, 156)
+2015-06-29 17:22:50,changed colour,(28, 28, 27)
+2015-06-29 17:22:59,changed colour,(28, 28, 27)
+2015-06-29 17:23:03,changed colour,(227, 5, 19)
+2015-06-29 17:23:11,changed colour,(28, 28, 27)
+2015-06-29 17:23:25,changed colour,(28, 28, 27)
+2015-06-29 17:23:33,changed colour,(255, 255, 255)
+2015-06-29 17:23:36,changed colour,(28, 28, 27)
+2015-06-29 17:23:45,changed colour,(255, 255, 255)
+2015-06-29 17:23:48,changed colour,(28, 28, 27)
+2015-06-29 17:24:33,starting application,
+2015-06-29 17:24:37,started animation,
+2015-06-29 17:24:43,Error opening wiimote connection,
+2015-06-29 17:24:52,started animation,
+2015-06-29 17:24:59,Error opening wiimote connection,
+2015-06-29 17:25:18,started animation,
+2015-06-29 17:25:25,Error opening wiimote connection,
+2015-06-29 17:25:25,started drawing,
+2015-06-29 17:25:33,changed colour,(227, 5, 19)
+2015-06-29 17:25:35,changed colour,(28, 28, 27)
+2015-06-29 17:25:57,changed colour,(255, 255, 255)
+2015-06-29 17:26:02,changed colour,(28, 28, 27)
+2015-06-29 17:26:06,changed colour,(255, 255, 255)
+2015-06-29 17:26:27,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/8/2015-06-29_17:26:27.png
+2015-06-29 17:26:27,starting new drawing,
+2015-06-29 17:26:50,starting application,
+2015-06-29 17:27:02,changed colour,(229, 0, 125)
+2015-06-29 17:27:07,changed colour,(157, 156, 156)
+2015-06-29 17:27:11,changed colour,(229, 0, 125)
+2015-06-29 17:27:15,changed colour,(28, 28, 27)
+2015-06-29 17:27:35,changed colour,(149, 27, 129)
+2015-06-29 17:27:42,started erasing,
+2015-06-29 17:27:46,finished erasing,
+2015-06-29 17:27:46,changed colour,(149, 27, 129)
+2015-06-29 17:27:51,changed lineWidth,35
+2015-06-29 17:27:51,changed lineWidth,28
+2015-06-29 17:27:51,changed lineWidth,23
+2015-06-29 17:27:51,changed lineWidth,19
+2015-06-29 17:27:51,changed lineWidth,15
+2015-06-29 17:27:52,changed lineWidth,5
+2015-06-29 17:27:53,changed lineWidth,8
+2015-06-29 17:27:54,changed lineWidth,13
+2015-06-29 17:27:56,started erasing,
+2015-06-29 17:28:01,finished erasing,
+2015-06-29 17:28:01,changed colour,(229, 0, 125)
+2015-06-29 17:28:02,changed colour,(48, 38, 131)
+2015-06-29 17:28:09,changed lineWidth,9
+2015-06-29 17:26:53,starting application,
+2015-06-29 17:27:02,started animation,
+2015-06-29 17:27:09,Error opening wiimote connection,
+2015-06-29 17:27:22,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/2/
+2015-06-29 17:27:22,started animation,
+2015-06-29 17:27:34,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/1/
+2015-06-29 17:27:34,started animation,
+2015-06-29 17:27:40,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/2/
+2015-06-29 17:27:40,started animation,
+2015-06-29 17:27:45,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/1/
+2015-06-29 17:27:45,started animation,
+2015-06-29 17:27:49,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/3/
+2015-06-29 17:27:49,started animation,
+2015-06-29 17:27:57,acceleration at,(134, 135, 140)
+2015-06-29 17:27:57,waittime at,137
+2015-06-29 17:27:57,acceleration at,(133, 134, 140)
+2015-06-29 17:27:57,waittime at,151
+2015-06-29 17:27:58,acceleration at,(133, 132, 140)
+2015-06-29 17:27:58,waittime at,165
+2015-06-29 17:27:58,acceleration at,(133, 133, 142)
+2015-06-29 17:27:58,waittime at,144
+2015-06-29 17:27:58,acceleration at,(133, 133, 142)
+2015-06-29 17:27:58,waittime at,144
+2015-06-29 17:27:58,acceleration at,(126, 136, 148)
+2015-06-29 17:27:58,waittime at,130
+2015-06-29 17:27:59,acceleration at,(126, 114, 134)
+2015-06-29 17:27:59,waittime at,382
+2015-06-29 17:27:59,acceleration at,(122, 113, 144)
+2015-06-29 17:27:59,waittime at,347
+2015-06-29 17:28:00,acceleration at,(117, 110, 144)
+2015-06-29 17:28:00,waittime at,403
+2015-06-29 17:28:00,acceleration at,(124, 110, 145)
+2015-06-29 17:28:00,waittime at,347
+2015-06-29 17:28:00,acceleration at,(120, 111, 146)
+2015-06-29 17:28:00,waittime at,361
+2015-06-29 17:28:01,acceleration at,(115, 108, 143)
+2015-06-29 17:28:01,waittime at,438
+2015-06-29 17:28:01,acceleration at,(117, 112, 147)
+2015-06-29 17:28:01,waittime at,368
+2015-06-29 17:28:02,acceleration at,(122, 115, 150)
+2015-06-29 17:28:02,waittime at,291
+2015-06-29 17:28:02,acceleration at,(121, 119, 145)
+2015-06-29 17:28:02,waittime at,305
+2015-06-29 17:28:03,acceleration at,(119, 123, 148)
+2015-06-29 17:28:03,waittime at,270
+2015-06-29 17:28:03,acceleration at,(125, 120, 148)
+2015-06-29 17:28:03,waittime at,249
+2015-06-29 17:28:03,acceleration at,(126, 117, 146)
+2015-06-29 17:28:03,waittime at,277
+2015-06-29 17:28:04,acceleration at,(128, 118, 145)
+2015-06-29 17:28:04,waittime at,263
+2015-06-29 17:28:04,acceleration at,(130, 120, 149)
+2015-06-29 17:28:04,waittime at,207
+2015-06-29 17:28:04,acceleration at,(132, 117, 146)
+2015-06-29 17:28:04,waittime at,235
+2015-06-29 17:28:05,acceleration at,(131, 116, 147)
+2015-06-29 17:28:05,waittime at,242
+2015-06-29 17:28:05,acceleration at,(129, 116, 146)
+2015-06-29 17:28:05,waittime at,263
+2015-06-29 17:28:05,acceleration at,(129, 114, 146)
+2015-06-29 17:28:05,waittime at,277
+2015-06-29 17:28:06,acceleration at,(124, 126, 152)
+2015-06-29 17:28:06,waittime at,186
+2015-06-29 17:28:06,acceleration at,(126, 131, 92)
+2015-06-29 17:28:06,waittime at,557
+2015-06-29 17:28:07,acceleration at,(133, 169, 113)
+2015-06-29 17:28:07,waittime at,95
+2015-06-29 17:28:07,acceleration at,(150, 85, 154)
+2015-06-29 17:28:07,waittime at,277
+2015-06-29 17:28:07,acceleration at,(120, 113, 110)
+2015-06-29 17:28:07,waittime at,599
+2015-06-29 17:28:08,acceleration at,(140, 141, 139)
+2015-06-29 17:28:08,waittime at,60
+2015-06-29 17:28:08,acceleration at,(136, 127, 139)
+2015-06-29 17:28:08,waittime at,186
+2015-06-29 17:28:08,acceleration at,(133, 115, 137)
+2015-06-29 17:28:08,waittime at,305
+2015-06-29 17:28:09,acceleration at,(130, 120, 150)
+2015-06-29 17:28:09,waittime at,200
+2015-06-29 17:28:09,acceleration at,(118, 95, 127)
+2015-06-29 17:28:09,waittime at,620
+2015-06-29 17:28:10,acceleration at,(121, 125, 122)
+2015-06-29 17:28:10,waittime at,424
+2015-06-29 17:28:10,acceleration at,(98, 121, 123)
+2015-06-29 17:28:10,waittime at,606
+2015-06-29 17:28:11,acceleration at,(98, 121, 128)
+2015-06-29 17:28:11,waittime at,571
+2015-06-29 17:28:12,acceleration at,(137, 123, 141)
+2015-06-29 17:28:12,waittime at,193
+2015-06-29 17:28:12,acceleration at,(104, 122, 141)
+2015-06-29 17:28:12,waittime at,431
+2015-06-29 17:28:12,acceleration at,(94, 128, 221)
+2015-06-29 17:28:12,waittime at,-18000
+2015-06-29 17:28:13,acceleration at,(95, 171, 145)
+2015-06-29 17:28:13,waittime at,123
+2015-06-29 17:28:13,acceleration at,(124, 162, 115)
+2015-06-29 17:28:13,waittime at,193
+2015-06-29 17:28:13,acceleration at,(120, 101, 137)
+2015-06-29 17:28:13,waittime at,494
+2015-06-29 17:28:14,acceleration at,(109, 114, 107)
+2015-06-29 17:28:14,waittime at,690
+2015-06-29 17:28:14,acceleration at,(108, 112, 105)
+2015-06-29 17:28:14,waittime at,725
+2015-06-29 17:28:15,acceleration at,(106, 105, 158)
+2015-06-29 17:28:15,waittime at,417
+2015-06-29 17:28:16,acceleration at,(120, 131, 117)
+2015-06-29 17:28:16,waittime at,424
+2015-06-29 17:28:16,acceleration at,(119, 123, 149)
+2015-06-29 17:28:16,waittime at,263
+2015-06-29 17:28:17,acceleration at,(101, 121, 136)
+2015-06-29 17:28:17,waittime at,494
+2015-06-29 17:28:17,acceleration at,(139, 122, 139)
+2015-06-29 17:28:17,waittime at,200
+2015-06-29 17:28:18,acceleration at,(101, 121, 138)
+2015-06-29 17:28:18,waittime at,480
+2015-06-29 17:28:18,acceleration at,(106, 133, 138)
+2015-06-29 17:28:18,waittime at,361
+2015-06-29 17:28:19,acceleration at,(110, 118, 132)
+2015-06-29 17:28:19,waittime at,480
+2015-06-29 17:28:19,acceleration at,(105, 116, 138)
+2015-06-29 17:28:19,waittime at,487
+2015-06-29 17:28:20,acceleration at,(115, 116, 147)
+2015-06-29 17:28:20,waittime at,354
+2015-06-29 17:28:20,acceleration at,(121, 108, 143)
+2015-06-29 17:28:20,waittime at,396
+2015-06-29 17:28:21,acceleration at,(112, 115, 142)
+2015-06-29 17:28:21,waittime at,417
+2015-06-29 17:28:21,acceleration at,(120, 118, 147)
+2015-06-29 17:28:21,waittime at,305
+2015-06-29 17:28:22,acceleration at,(122, 116, 154)
+2015-06-29 17:28:22,waittime at,256
+2015-06-29 17:28:22,acceleration at,(123, 119, 142)
+2015-06-29 17:28:22,waittime at,312
+2015-06-29 17:28:22,acceleration at,(134, 116, 151)
+2015-06-29 17:28:22,waittime at,193
+2015-06-29 17:28:23,acceleration at,(131, 116, 145)
+2015-06-29 17:28:23,waittime at,256
+2015-06-29 17:28:23,acceleration at,(142, 121, 137)
+2015-06-29 17:28:23,waittime at,200
+2015-06-29 17:28:23,acceleration at,(140, 118, 139)
+2015-06-29 17:28:23,waittime at,221
+2015-06-29 17:28:24,acceleration at,(128, 108, 141)
+2015-06-29 17:28:24,waittime at,361
+2015-06-29 17:28:24,acceleration at,(133, 112, 144)
+2015-06-29 17:28:24,waittime at,277
+2015-06-29 17:28:24,acceleration at,(136, 116, 145)
+2015-06-29 17:28:24,waittime at,221
+2015-06-29 17:28:25,acceleration at,(135, 116, 147)
+2015-06-29 17:28:25,waittime at,214
+2015-06-29 17:28:25,acceleration at,(133, 112, 136)
+2015-06-29 17:28:25,waittime at,333
+2015-06-29 17:28:25,acceleration at,(143, 125, 139)
+2015-06-29 17:28:25,waittime at,151
+2015-06-29 17:28:26,acceleration at,(120, 113, 149)
+2015-06-29 17:28:26,waittime at,326
+2015-06-29 17:28:26,acceleration at,(143, 138, 138)
+2015-06-29 17:28:26,waittime at,67
+2015-06-29 17:28:26,acceleration at,(138, 130, 137)
+2015-06-29 17:28:26,waittime at,165
+2015-06-29 17:28:26,acceleration at,(138, 130, 140)
+2015-06-29 17:28:26,waittime at,144
+2015-06-29 17:28:27,acceleration at,(132, 122, 147)
+2015-06-29 17:28:27,waittime at,193
+2015-06-29 17:28:27,acceleration at,(122, 101, 134)
+2015-06-29 17:28:27,waittime at,501
+2015-06-29 17:28:28,acceleration at,(127, 100, 128)
+2015-06-29 17:28:28,waittime at,515
+2015-06-29 17:28:28,acceleration at,(133, 102, 132)
+2015-06-29 17:28:28,waittime at,431
+2015-06-29 17:28:29,acceleration at,(131, 102, 134)
+2015-06-29 17:28:29,waittime at,431
+2015-06-29 17:28:29,acceleration at,(130, 102, 132)
+2015-06-29 17:28:29,waittime at,452
+2015-06-29 17:28:30,acceleration at,(127, 102, 136)
+2015-06-29 17:28:30,waittime at,445
+2015-06-29 17:28:30,acceleration at,(130, 103, 136)
+2015-06-29 17:28:30,waittime at,417
+2015-06-29 17:28:31,acceleration at,(123, 106, 136)
+2015-06-29 17:28:31,waittime at,445
+2015-06-29 17:28:31,acceleration at,(111, 100, 136)
+2015-06-29 17:28:31,waittime at,571
+2015-06-29 17:28:32,acceleration at,(120, 103, 141)
+2015-06-29 17:28:32,waittime at,452
+2015-06-29 17:28:33,acceleration at,(123, 102, 137)
+2015-06-29 17:28:33,waittime at,466
+2015-06-29 17:28:33,acceleration at,(98, 100, 139)
+2015-06-29 17:28:33,waittime at,641
+2015-06-29 17:28:34,acceleration at,(115, 102, 132)
+2015-06-29 17:28:34,waittime at,557
+2015-06-29 17:28:35,acceleration at,(121, 99, 115)
+2015-06-29 17:28:35,waittime at,655
+2015-06-29 17:28:35,acceleration at,(117, 100, 133)
+2015-06-29 17:28:35,waittime at,550
+2015-06-29 17:28:36,acceleration at,(116, 102, 136)
+2015-06-29 17:28:36,waittime at,522
+2015-06-29 17:28:37,acceleration at,(116, 102, 137)
+2015-06-29 17:28:37,waittime at,515
+2015-06-29 17:28:37,acceleration at,(115, 102, 135)
+2015-06-29 17:28:37,waittime at,536
+2015-06-29 17:28:38,acceleration at,(120, 101, 140)
+2015-06-29 17:28:38,waittime at,473
+2015-06-29 17:28:38,acceleration at,(119, 105, 141)
+2015-06-29 17:28:38,waittime at,431
+2015-06-29 17:28:39,acceleration at,(119, 108, 142)
+2015-06-29 17:28:39,waittime at,417
+2015-06-29 17:28:39,acceleration at,(115, 110, 145)
+2015-06-29 17:28:39,waittime at,410
+2015-06-29 17:28:40,acceleration at,(129, 112, 153)
+2015-06-29 17:28:40,waittime at,242
+2015-06-29 17:28:40,acceleration at,(138, 106, 137)
+2015-06-29 17:28:40,waittime at,333
+2015-06-29 17:28:41,acceleration at,(134, 106, 137)
+2015-06-29 17:28:41,waittime at,361
+2015-06-29 17:28:41,acceleration at,(129, 106, 140)
+2015-06-29 17:28:41,waittime at,375
+2015-06-29 17:28:42,acceleration at,(128, 106, 134)
+2015-06-29 17:28:42,waittime at,424
+2015-06-29 17:28:42,acceleration at,(133, 101, 139)
+2015-06-29 17:28:42,waittime at,389
+2015-06-29 17:28:43,acceleration at,(129, 109, 142)
+2015-06-29 17:28:43,waittime at,340
+2015-06-29 17:28:43,acceleration at,(115, 111, 146)
+2015-06-29 17:28:43,waittime at,396
+2015-06-29 17:28:43,acceleration at,(137, 116, 135)
+2015-06-29 17:28:43,waittime at,284
+2015-06-29 17:28:44,acceleration at,(126, 110, 147)
+2015-06-29 17:28:44,waittime at,319
+2015-06-29 17:28:44,acceleration at,(118, 103, 132)
+2015-06-29 17:28:44,waittime at,529
+2015-06-29 17:28:45,acceleration at,(151, 133, 116)
+2015-06-29 17:28:45,waittime at,200
+2015-06-29 17:28:45,acceleration at,(160, 121, 134)
+2015-06-29 17:28:45,waittime at,95
+2015-06-29 17:28:45,acceleration at,(115, 130, 129)
+2015-06-29 17:28:45,waittime at,382
+2015-06-29 17:28:46,acceleration at,(132, 97, 112)
+2015-06-29 17:28:46,waittime at,613
+2015-06-29 17:28:47,acceleration at,(136, 82, 60)
+2015-06-29 17:28:47,waittime at,1054
+2015-06-29 17:28:48,acceleration at,(65, 53, 142)
+2015-06-29 17:28:48,waittime at,1180
+2015-06-29 17:28:49,acceleration at,(129, 150, 68)
+2015-06-29 17:28:49,waittime at,571
+2015-06-29 17:28:50,acceleration at,(130, 38, 145)
+2015-06-29 17:28:50,waittime at,809
+2015-06-29 17:28:50,acceleration at,(94, 61, 106)
+2015-06-29 17:28:50,waittime at,1173
+2015-06-29 17:28:52,acceleration at,(123, 93, 131)
+2015-06-29 17:28:52,waittime at,571
+2015-06-29 17:28:52,acceleration at,(117, 109, 145)
+2015-06-29 17:28:52,waittime at,403
+2015-06-29 17:28:53,acceleration at,(113, 105, 134)
+2015-06-29 17:28:53,waittime at,536
+2015-06-29 17:28:54,acceleration at,(104, 117, 137)
+2015-06-29 17:28:54,waittime at,494
+2015-06-29 17:28:54,acceleration at,(102, 125, 135)
+2015-06-29 17:28:54,waittime at,466
+2015-06-29 17:28:55,acceleration at,(121, 119, 107)
+2015-06-29 17:28:55,waittime at,571
+2015-06-29 17:28:55,acceleration at,(136, 121, 103)
+2015-06-29 17:28:55,waittime at,480
+2015-06-29 17:28:56,acceleration at,(131, 150, 137)
+2015-06-29 17:28:56,waittime at,74
+2015-06-29 17:28:56,acceleration at,(144, 156, 139)
+2015-06-29 17:28:56,waittime at,-73
+2015-06-29 17:28:56,acceleration at,(113, 75, 134)
+2015-06-29 17:28:56,waittime at,746
+2015-06-29 17:28:57,acceleration at,(165, 79, 146)
+2015-06-29 17:28:57,waittime at,270
+2015-06-29 17:28:57,acceleration at,(164, 245, 149)
+2015-06-29 17:28:57,waittime at,-18000
+2015-06-29 17:28:57,acceleration at,(147, 55, 117)
+2015-06-29 17:28:57,waittime at,767
+2015-06-29 17:28:58,acceleration at,(114, 10, 142)
+2015-06-29 17:28:58,waittime at,1138
+2015-06-29 17:29:00,acceleration at,(90, 1, 94)
+2015-06-29 17:29:00,waittime at,1705
+2015-06-29 17:29:01,acceleration at,(115, 125, 148)
+2015-06-29 17:29:01,waittime at,284
+2015-06-29 17:29:02,acceleration at,(108, 124, 138)
+2015-06-29 17:29:02,waittime at,410
+2015-06-29 17:29:02,acceleration at,(119, 128, 154)
+2015-06-29 17:29:02,waittime at,193
+2015-06-29 17:29:02,acceleration at,(122, 125, 146)
+2015-06-29 17:29:02,waittime at,249
+2015-06-29 17:29:03,acceleration at,(122, 124, 144)
+2015-06-29 17:29:03,waittime at,270
+2015-06-29 17:29:03,acceleration at,(123, 121, 147)
+2015-06-29 17:29:03,waittime at,263
+2015-06-29 17:29:04,acceleration at,(123, 122, 148)
+2015-06-29 17:29:04,waittime at,249
+2015-06-29 17:29:04,acceleration at,(115, 124, 151)
+2015-06-29 17:29:04,waittime at,270
+2015-06-29 17:29:04,acceleration at,(118, 127, 150)
+2015-06-29 17:29:04,waittime at,235
+2015-06-29 17:29:05,acceleration at,(115, 129, 143)
+2015-06-29 17:29:05,waittime at,291
+2015-06-29 17:29:05,acceleration at,(113, 122, 145)
+2015-06-29 17:29:05,waittime at,340
+2015-06-29 17:29:05,acceleration at,(114, 123, 146)
+2015-06-29 17:29:05,waittime at,319
+2015-06-29 17:29:06,acceleration at,(114, 122, 146)
+2015-06-29 17:29:06,waittime at,326
+2015-06-29 17:29:06,acceleration at,(114, 122, 146)
+2015-06-29 17:29:06,waittime at,326
+2015-06-29 17:29:07,acceleration at,(114, 122, 146)
+2015-06-29 17:29:07,waittime at,326
+2015-06-29 17:29:07,started drawing,
+2015-06-29 17:29:11,changed colour,(28, 28, 27)
+2015-06-29 17:29:22,changed colour,(157, 156, 156)
+2015-06-29 17:29:28,changed colour,(229, 0, 125)
+2015-06-29 17:29:44,changed colour,(157, 156, 156)
+2015-06-29 17:30:11,changed colour,(255, 255, 255)
+2015-06-29 17:30:13,changed colour,(243, 146, 0)
+2015-06-29 17:30:21,changed colour,(255, 255, 255)
+2015-06-29 17:31:21,starting application,
+2015-06-29 17:31:29,changed colour,(229, 0, 125)
+2015-06-29 17:31:33,changed lineWidth,23
+2015-06-29 17:31:34,changed lineWidth,11
+2015-06-29 17:31:43,changed colour,(0, 150, 64)
+2015-06-29 17:31:49,changed colour,(255, 255, 255)
+2015-06-29 17:31:54,started erasing,
+2015-06-29 17:31:58,finished erasing,
+2015-06-29 17:31:58,changed colour,(157, 156, 156)
+2015-06-29 17:32:03,changed lineWidth,34
+2015-06-29 17:32:12,changed colour,(229, 0, 125)
+2015-06-29 17:32:19,changed colour,(28, 28, 27)
+2015-06-29 17:32:26,changed colour,(0, 158, 227)
+2015-06-29 17:32:26,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/9/2015-06-29_17:32:26.png
+2015-06-29 17:32:32,changed colour,(229, 0, 125)
+2015-06-29 17:32:38,changed colour,(243, 146, 0)
+2015-06-29 17:32:39,changed colour,(243, 146, 0)
+2015-06-29 17:32:39,changed colour,(149, 27, 129)
+2015-06-29 17:33:05,changed colour,(255, 255, 255)
+2015-06-29 17:33:20,changed colour,(149, 27, 129)
+2015-06-29 17:31:21,starting application,
+2015-06-29 17:32:01,starting application,
+2015-06-29 17:32:06,changed colour,(229, 0, 125)
+2015-06-29 17:33:43,started erasing,
+2015-06-29 17:33:52,finished erasing,
+2015-06-29 17:33:52,changed colour,(157, 156, 156)
+2015-06-29 17:33:55,changed lineWidth,33
+2015-06-29 17:33:56,changed lineWidth,37
+2015-06-29 17:33:57,changed lineWidth,32
+2015-06-29 17:33:58,started erasing,
+2015-06-29 17:34:01,finished erasing,
+2015-06-29 17:34:01,changed colour,(255, 255, 255)
+2015-06-29 17:34:01,changed colour,(157, 156, 156)
+2015-06-29 17:34:04,changed lineWidth,43
+2015-06-29 17:34:06,changed colour,(255, 255, 255)
+2015-06-29 17:34:12,changed colour,(157, 156, 156)
+2015-06-29 17:34:12,changed colour,(157, 156, 156)
+2015-06-29 17:34:13,changed colour,(157, 156, 156)
+2015-06-29 17:34:21,changed colour,(28, 28, 27)
+2015-06-29 17:34:26,changed colour,(157, 156, 156)
+2015-06-29 17:34:31,changed colour,(157, 156, 156)
+2015-06-29 17:34:39,changed colour,(28, 28, 27)
+2015-06-29 17:34:48,changed colour,(157, 156, 156)
+2015-06-29 17:34:56,changed colour,(229, 0, 125)
+2015-06-29 17:35:02,changed colour,(157, 156, 156)
+2015-06-29 17:35:06,changed colour,(28, 28, 27)
+2015-06-29 17:35:14,changed colour,(157, 156, 156)
+2015-06-29 17:35:57,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/10/2015-06-29_17:35:57.png
+2015-06-29 17:36:03,saved image,/home/pi/OutsideTheBox/D/PiDev/pics/10/2015-06-29_17:36:03.png
+2015-06-29 17:36:03,starting new drawing,
+2015-06-29 17:36:34,starting application,
+2015-06-29 17:36:37,started animation,
+2015-06-29 17:36:43,Error opening wiimote connection,
+2015-06-29 17:36:54,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/2/
+2015-06-29 17:36:54,started animation,
+2015-06-29 17:37:09,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/3/
+2015-06-29 17:37:09,started animation,
+2015-06-29 17:37:15,Error opening wiimote connection,
+2015-06-29 17:37:26,acceleration at,(119, 125, 147)
+2015-06-29 17:37:26,waittime at,263
+2015-06-29 17:37:26,acceleration at,(119, 125, 147)
+2015-06-29 17:37:26,waittime at,263
+2015-06-29 17:37:27,acceleration at,(119, 124, 145)
+2015-06-29 17:37:27,waittime at,284
+2015-06-29 17:37:27,acceleration at,(118, 123, 147)
+2015-06-29 17:37:27,waittime at,284
+2015-06-29 17:37:28,acceleration at,(115, 121, 148)
+2015-06-29 17:37:28,waittime at,312
+2015-06-29 17:37:28,acceleration at,(118, 119, 150)
+2015-06-29 17:37:28,waittime at,291
+2015-06-29 17:37:28,acceleration at,(118, 121, 148)
+2015-06-29 17:37:28,waittime at,291
+2015-06-29 17:37:29,acceleration at,(117, 121, 148)
+2015-06-29 17:37:29,waittime at,298
+2015-06-29 17:37:29,acceleration at,(122, 124, 124)
+2015-06-29 17:37:29,waittime at,410
+2015-06-29 17:37:30,acceleration at,(114, 127, 231)
+2015-06-29 17:37:30,waittime at,-18000
+2015-06-29 17:37:30,acceleration at,(119, 115, 126)
+2015-06-29 17:37:30,waittime at,480
+2015-06-29 17:37:30,acceleration at,(121, 132, 112)
+2015-06-29 17:37:30,waittime at,445
+2015-06-29 17:37:31,acceleration at,(124, 131, 108)
+2015-06-29 17:37:31,waittime at,459
+2015-06-29 17:37:31,acceleration at,(130, 140, 81)
+2015-06-29 17:37:31,waittime at,543
+2015-06-29 17:37:32,acceleration at,(115, 108, 182)
+2015-06-29 17:37:32,waittime at,165
+2015-06-29 17:37:32,acceleration at,(115, 111, 181)
+2015-06-29 17:37:32,waittime at,151
+2015-06-29 17:37:32,acceleration at,(116, 107, 200)
+2015-06-29 17:37:32,waittime at,39
+2015-06-29 17:37:33,acceleration at,(120, 125, 105)
+2015-06-29 17:37:33,waittime at,550
+2015-06-29 17:37:33,acceleration at,(115, 99, 130)
+2015-06-29 17:37:33,waittime at,592
+2015-06-29 17:37:34,acceleration at,(107, 102, 180)
+2015-06-29 17:37:34,waittime at,277
+2015-06-29 17:37:34,acceleration at,(101, 101, 150)
+2015-06-29 17:37:34,waittime at,536
+2015-06-29 17:37:35,acceleration at,(50, 70, 110)
+2015-06-29 17:37:35,waittime at,1390
+2015-06-29 17:37:36,acceleration at,(100, 106, 126)
+2015-06-29 17:37:36,waittime at,676
+2015-06-29 17:37:37,acceleration at,(124, 121, 155)
+2015-06-29 17:37:37,waittime at,200
+2015-06-29 17:37:37,acceleration at,(131, 118, 150)
+2015-06-29 17:37:37,waittime at,207
+2015-06-29 17:37:38,acceleration at,(95, 121, 141)
+2015-06-29 17:37:38,waittime at,501
+2015-06-29 17:37:38,acceleration at,(117, 133, 153)
+2015-06-29 17:37:38,waittime at,179
+2015-06-29 17:37:39,acceleration at,(133, 131, 149)
+2015-06-29 17:37:39,waittime at,109
+2015-06-29 17:37:39,acceleration at,(92, 122, 142)
+2015-06-29 17:37:39,waittime at,508
+2015-06-29 17:37:39,acceleration at,(92, 124, 146)
+2015-06-29 17:37:39,waittime at,466
+2015-06-29 17:37:40,acceleration at,(88, 121, 143)
+2015-06-29 17:37:40,waittime at,536
+2015-06-29 17:37:41,acceleration at,(109, 123, 145)
+2015-06-29 17:37:41,waittime at,361
+2015-06-29 17:37:41,acceleration at,(89, 122, 140)
+2015-06-29 17:37:41,waittime at,543
+2015-06-29 17:37:42,acceleration at,(99, 124, 148)
+2015-06-29 17:37:42,waittime at,403
+2015-06-29 17:37:42,acceleration at,(110, 118, 148)
+2015-06-29 17:37:42,waittime at,368
+2015-06-29 17:37:43,acceleration at,(125, 112, 153)
+2015-06-29 17:37:43,waittime at,270
+2015-06-29 17:37:43,acceleration at,(121, 117, 131)
+2015-06-29 17:37:43,waittime at,417
+2015-06-29 17:37:43,acceleration at,(108, 124, 138)
+2015-06-29 17:37:43,waittime at,410
+2015-06-29 17:37:44,acceleration at,(121, 105, 144)
+2015-06-29 17:37:44,waittime at,410
+2015-06-29 17:37:44,acceleration at,(121, 108, 143)
+2015-06-29 17:37:44,waittime at,396
+2015-06-29 17:37:45,acceleration at,(123, 104, 139)
+2015-06-29 17:37:45,waittime at,438
+2015-06-29 17:37:45,acceleration at,(107, 90, 135)
+2015-06-29 17:37:45,waittime at,676
+2015-06-29 17:37:46,acceleration at,(125, 118, 147)
+2015-06-29 17:37:46,waittime at,270
+2015-06-29 17:37:47,acceleration at,(124, 117, 148)
+2015-06-29 17:37:47,waittime at,277
+2015-06-29 17:37:47,acceleration at,(119, 116, 140)
+2015-06-29 17:37:47,waittime at,375
+2015-06-29 17:37:47,acceleration at,(120, 113, 134)
+2015-06-29 17:37:47,waittime at,431
+2015-06-29 17:37:48,acceleration at,(113, 106, 138)
+2015-06-29 17:37:48,waittime at,501
+2015-06-29 17:37:49,acceleration at,(97, 115, 124)
+2015-06-29 17:37:49,waittime at,648
+2015-06-29 17:37:49,acceleration at,(81, 114, 129)
+2015-06-29 17:37:49,waittime at,732
+2015-06-29 17:37:50,acceleration at,(103, 107, 164)
+2015-06-29 17:37:50,waittime at,382
+2015-06-29 17:37:51,acceleration at,(136, 123, 147)
+2015-06-29 17:37:51,waittime at,158
+2015-06-29 17:37:51,acceleration at,(110, 123, 123)
+2015-06-29 17:37:51,waittime at,508
+2015-06-29 17:37:51,acceleration at,(93, 112, 146)
+2015-06-29 17:37:51,waittime at,543
+2015-06-29 17:37:52,acceleration at,(95, 113, 158)
+2015-06-29 17:37:52,waittime at,438
+2015-06-29 17:37:53,acceleration at,(84, 123, 108)
+2015-06-29 17:37:53,waittime at,795
+2015-06-29 17:37:53,acceleration at,(148, 97, 132)
+2015-06-29 17:37:53,waittime at,361
+2015-06-29 17:37:54,acceleration at,(112, 107, 128)
+2015-06-29 17:37:54,waittime at,571
+2015-06-29 17:37:55,acceleration at,(123, 103, 140)
+2015-06-29 17:37:55,waittime at,438
+2015-06-29 17:37:55,acceleration at,(122, 107, 140)
+2015-06-29 17:37:55,waittime at,417
+2015-06-29 17:37:56,acceleration at,(116, 101, 134)
+2015-06-29 17:37:56,waittime at,543
+2015-06-29 17:37:56,acceleration at,(130, 101, 121)
+2015-06-29 17:37:56,waittime at,536
+2015-06-29 17:37:57,acceleration at,(143, 134, 121)
+2015-06-29 17:37:57,waittime at,214
+2015-06-29 17:37:57,acceleration at,(146, 115, 119)
+2015-06-29 17:37:57,waittime at,340
+2015-06-29 17:37:58,acceleration at,(143, 131, 129)
+2015-06-29 17:37:58,waittime at,179
+2015-06-29 17:37:58,acceleration at,(147, 124, 131)
+2015-06-29 17:37:58,waittime at,186
+2015-06-29 17:37:58,acceleration at,(141, 138, 129)
+2015-06-29 17:37:58,waittime at,144
+2015-06-29 17:37:58,acceleration at,(146, 127, 129)
+2015-06-29 17:37:58,waittime at,186
+2015-06-29 17:37:59,acceleration at,(148, 124, 128)
+2015-06-29 17:37:59,waittime at,200
+2015-06-29 17:37:59,acceleration at,(143, 139, 131)
+2015-06-29 17:37:59,waittime at,109
+2015-06-29 17:37:59,acceleration at,(141, 125, 136)
+2015-06-29 17:37:59,waittime at,186
+2015-06-29 17:37:59,acceleration at,(147, 124, 135)
+2015-06-29 17:37:59,waittime at,158
+2015-06-29 17:38:00,acceleration at,(145, 130, 130)
+2015-06-29 17:38:00,waittime at,165
+2015-06-29 17:38:00,acceleration at,(141, 132, 134)
+2015-06-29 17:38:00,waittime at,151
+2015-06-29 17:38:00,acceleration at,(143, 116, 133)
+2015-06-29 17:38:00,waittime at,256
+2015-06-29 17:38:01,acceleration at,(143, 136, 135)
+2015-06-29 17:38:01,waittime at,102
+2015-06-29 17:38:01,acceleration at,(142, 130, 136)
+2015-06-29 17:38:01,waittime at,144
+2015-06-29 17:38:01,acceleration at,(143, 119, 136)
+2015-06-29 17:38:01,waittime at,214
+2015-06-29 17:38:01,acceleration at,(144, 128, 133)
+2015-06-29 17:38:01,waittime at,165
+2015-06-29 17:38:01,acceleration at,(147, 128, 134)
+2015-06-29 17:38:01,waittime at,137
+2015-06-29 17:38:02,acceleration at,(145, 119, 131)
+2015-06-29 17:38:02,waittime at,235
+2015-06-29 17:38:02,acceleration at,(145, 122, 132)
+2015-06-29 17:38:02,waittime at,207
+2015-06-29 17:38:02,acceleration at,(145, 122, 131)
+2015-06-29 17:38:02,waittime at,214
+2015-06-29 17:38:03,acceleration at,(145, 122, 132)
+2015-06-29 17:38:03,waittime at,207
+2015-06-29 17:38:03,acceleration at,(144, 122, 132)
+2015-06-29 17:38:03,waittime at,214
+2015-06-29 17:38:03,acceleration at,(144, 122, 133)
+2015-06-29 17:38:03,waittime at,207
+2015-06-29 17:38:04,acceleration at,(145, 122, 132)
+2015-06-29 17:38:04,waittime at,207
+2015-06-29 17:38:04,acceleration at,(155, 117, 125)
+2015-06-29 17:38:04,waittime at,221
+2015-06-29 17:38:04,acceleration at,(129, 104, 110)
+2015-06-29 17:38:04,waittime at,599
+2015-06-29 17:38:05,acceleration at,(125, 105, 105)
+2015-06-29 17:38:05,waittime at,655
+2015-06-29 17:38:06,acceleration at,(140, 106, 117)
+2015-06-29 17:38:06,waittime at,459
+2015-06-29 17:38:06,acceleration at,(146, 114, 119)
+2015-06-29 17:38:06,waittime at,347
+2015-06-29 17:38:07,acceleration at,(134, 106, 110)
+2015-06-29 17:38:07,waittime at,550
+2015-06-29 17:38:07,acceleration at,(11, 168, 88)
+2015-06-29 17:38:07,waittime at,1131
+2015-06-29 17:38:08,acceleration at,(195, 141, 98)
+2015-06-29 17:38:08,waittime at,-38
+2015-06-29 17:38:09,acceleration at,(83, 126, 96)
+2015-06-29 17:38:09,waittime at,865
+2015-06-29 17:38:09,acceleration at,(137, 129, 124)
+2015-06-29 17:38:09,waittime at,270
+2015-06-29 17:38:10,acceleration at,(136, 124, 106)
+2015-06-29 17:38:10,waittime at,438
+2015-06-29 17:38:10,acceleration at,(121, 122, 101)
+2015-06-29 17:38:10,waittime at,592
+2015-06-29 17:38:11,acceleration at,(132, 129, 101)
+2015-06-29 17:38:11,waittime at,466
+2015-06-29 17:38:12,acceleration at,(130, 133, 98)
+2015-06-29 17:38:12,waittime at,473
+2015-06-29 17:38:12,acceleration at,(129, 132, 100)
+2015-06-29 17:38:12,waittime at,473
+2015-06-29 17:38:13,acceleration at,(135, 132, 107)
+2015-06-29 17:38:13,waittime at,382
+2015-06-29 17:38:13,acceleration at,(124, 129, 101)
+2015-06-29 17:38:13,waittime at,522
+2015-06-29 17:38:14,acceleration at,(120, 129, 97)
+2015-06-29 17:38:14,waittime at,578
+2015-06-29 17:38:14,acceleration at,(127, 134, 99)
+2015-06-29 17:38:14,waittime at,480
+2015-06-29 17:38:15,acceleration at,(134, 139, 106)
+2015-06-29 17:38:15,waittime at,347
+2015-06-29 17:38:15,acceleration at,(123, 170, 103)
+2015-06-29 17:38:15,waittime at,228
+2015-06-29 17:38:16,acceleration at,(151, 211, 111)
+2015-06-29 17:38:16,waittime at,-311
+2015-06-29 17:38:16,acceleration at,(64, 137, 96)
+2015-06-29 17:38:16,waittime at,921
+2015-06-29 17:38:17,acceleration at,(118, 153, 92)
+2015-06-29 17:38:17,waittime at,459
+2015-06-29 17:38:17,acceleration at,(37, 138, 61)
+2015-06-29 17:38:17,waittime at,1348
+2015-06-29 17:38:19,acceleration at,(95, 164, 70)
+2015-06-29 17:38:19,waittime at,697
+2015-06-29 17:38:20,acceleration at,(163, 160, 105)
+2015-06-29 17:38:20,waittime at,4
+2015-06-29 17:38:20,acceleration at,(130, 139, 88)
+2015-06-29 17:38:20,waittime at,501
+2015-06-29 17:38:20,acceleration at,(118, 134, 117)
+2015-06-29 17:38:20,waittime at,417
+2015-06-29 17:38:21,acceleration at,(118, 132, 100)
+2015-06-29 17:38:21,waittime at,550
+2015-06-29 17:38:21,acceleration at,(123, 142, 109)
+2015-06-29 17:38:21,waittime at,382
+2015-06-29 17:38:22,acceleration at,(118, 145, 138)
+2015-06-29 17:38:22,waittime at,193
+2015-06-29 17:38:22,acceleration at,(99, 117, 131)
+2015-06-29 17:38:22,waittime at,571
+2015-06-29 17:38:23,acceleration at,(102, 119, 137)
+2015-06-29 17:38:23,waittime at,494
+2015-06-29 17:38:23,acceleration at,(121, 113, 136)
+2015-06-29 17:38:23,waittime at,410
+2015-06-29 17:38:24,acceleration at,(97, 105, 140)
+2015-06-29 17:38:24,waittime at,606
+2015-06-29 17:38:25,acceleration at,(119, 104, 139)
+2015-06-29 17:38:25,waittime at,466
+2015-06-29 17:38:25,acceleration at,(111, 110, 142)
+2015-06-29 17:38:25,waittime at,459
+2015-06-29 17:38:26,acceleration at,(138, 125, 148)
+2015-06-29 17:38:26,waittime at,123
+2015-06-29 17:38:26,acceleration at,(107, 124, 160)
+2015-06-29 17:38:26,waittime at,263
+2015-06-29 17:38:26,acceleration at,(75, 127, 164)
+2015-06-29 17:38:26,waittime at,438
+2015-06-29 17:38:27,acceleration at,(83, 135, 148)
+2015-06-29 17:38:27,waittime at,438
+2015-06-29 17:38:27,acceleration at,(140, 138, 128)
+2015-06-29 17:38:27,waittime at,158
+2015-06-29 17:38:28,acceleration at,(163, 141, 141)
+2015-06-29 17:38:28,waittime at,-115
+2015-06-29 17:38:28,acceleration at,(63, 122, 170)
+2015-06-29 17:38:28,waittime at,515
+2015-06-29 17:38:28,acceleration at,(110, 149, 152)
+2015-06-29 17:38:28,waittime at,123
+2015-06-29 17:38:29,acceleration at,(80, 121, 173)
+2015-06-29 17:38:29,waittime at,382
+2015-06-29 17:38:29,acceleration at,(87, 143, 151)
+2015-06-29 17:38:29,waittime at,333
+2015-06-29 17:38:29,acceleration at,(182, 154, 149)
+2015-06-29 17:38:29,waittime at,-395
+2015-06-29 17:38:30,acceleration at,(86, 134, 143)
+2015-06-29 17:38:30,waittime at,459
+2015-06-29 17:38:30,acceleration at,(120, 145, 133)
+2015-06-29 17:38:30,waittime at,214
+2015-06-29 17:38:30,acceleration at,(143, 127, 149)
+2015-06-29 17:38:30,waittime at,67
+2015-06-29 17:38:31,acceleration at,(138, 128, 151)
+2015-06-29 17:38:31,waittime at,81
+2015-06-29 17:38:31,acceleration at,(128, 120, 146)
+2015-06-29 17:38:31,waittime at,242
+2015-06-29 17:38:31,acceleration at,(117, 117, 147)
+2015-06-29 17:38:31,waittime at,333
+2015-06-29 17:38:31,acceleration at,(106, 128, 151)
+2015-06-29 17:38:31,waittime at,305
+2015-06-29 17:38:32,acceleration at,(118, 132, 146)
+2015-06-29 17:38:32,waittime at,228
+2015-06-29 17:38:32,acceleration at,(121, 131, 148)
+2015-06-29 17:38:32,waittime at,200
+2015-06-29 17:38:32,acceleration at,(120, 133, 145)
+2015-06-29 17:38:32,waittime at,214
+2015-06-29 17:38:33,acceleration at,(121, 132, 143)
+2015-06-29 17:38:33,waittime at,235
+2015-06-29 17:38:33,acceleration at,(119, 125, 147)
+2015-06-29 17:38:33,waittime at,263
+2015-06-29 17:38:33,acceleration at,(118, 124, 146)
+2015-06-29 17:38:33,waittime at,277
+2015-06-29 17:38:34,acceleration at,(119, 122, 145)
+2015-06-29 17:38:34,waittime at,298
+2015-06-29 17:38:34,acceleration at,(144, 158, 143)
+2015-06-29 17:38:34,waittime at,-115
+2015-06-29 17:38:34,acceleration at,(119, 147, 143)
+2015-06-29 17:38:34,waittime at,137
+2015-06-29 17:38:34,acceleration at,(138, 138, 136)
+2015-06-29 17:38:35,waittime at,116
+2015-06-29 17:38:35,acceleration at,(126, 151, 128)
+2015-06-29 17:38:35,waittime at,165
+2015-06-29 17:38:35,acceleration at,(103, 156, 128)
+2015-06-29 17:38:35,waittime at,291
+2015-06-29 17:38:35,acceleration at,(127, 151, 126)
+2015-06-29 17:38:35,waittime at,172
+2015-06-29 17:38:36,acceleration at,(69, 152, 132)
+2015-06-29 17:38:36,waittime at,529
+2015-06-29 17:38:36,acceleration at,(111, 152, 128)
+2015-06-29 17:38:36,waittime at,263
+2015-06-29 17:38:37,acceleration at,(101, 160, 132)
+2015-06-29 17:38:37,waittime at,249
+2015-06-29 17:38:37,acceleration at,(149, 146, 127)
+2015-06-29 17:38:37,waittime at,46
+2015-06-29 17:38:37,acceleration at,(122, 150, 122)
+2015-06-29 17:38:37,waittime at,242
+2015-06-29 17:38:37,acceleration at,(95, 158, 100)
+2015-06-29 17:38:37,waittime at,529
+2015-06-29 17:38:38,acceleration at,(147, 147, 71)
+2015-06-29 17:38:38,waittime at,445
+2015-06-29 17:38:39,acceleration at,(93, 152, 127)
+2015-06-29 17:38:39,waittime at,396
+2015-06-29 17:38:39,acceleration at,(127, 148, 158)
+2015-06-29 17:38:39,waittime at,-31
+2015-06-29 17:38:39,acceleration at,(111, 136, 138)
+2015-06-29 17:38:39,waittime at,305
+2015-06-29 17:38:40,acceleration at,(107, 135, 141)
+2015-06-29 17:38:40,waittime at,319
+2015-06-29 17:38:40,acceleration at,(108, 130, 138)
+2015-06-29 17:38:40,waittime at,368
+2015-06-29 17:38:40,acceleration at,(114, 108, 141)
+2015-06-29 17:38:40,waittime at,459
+2015-06-29 17:38:41,acceleration at,(114, 102, 140)
+2015-06-29 17:38:41,waittime at,508
+2015-06-29 17:38:42,acceleration at,(113, 99, 125)
+2015-06-29 17:38:42,waittime at,641
+2015-06-29 17:38:42,acceleration at,(102, 106, 129)
+2015-06-29 17:38:42,waittime at,641
+2015-06-29 17:38:43,acceleration at,(108, 105, 113)
+2015-06-29 17:38:43,waittime at,718
+2015-06-29 17:38:44,acceleration at,(105, 106, 123)
+2015-06-29 17:38:44,waittime at,662
+2015-06-29 17:38:45,acceleration at,(104, 104, 122)
+2015-06-29 17:38:45,waittime at,690
+2015-06-29 17:38:45,acceleration at,(105, 103, 116)
+2015-06-29 17:38:45,waittime at,732
+2015-06-29 17:38:46,acceleration at,(105, 105, 116)
+2015-06-29 17:38:46,waittime at,718
+2015-06-29 17:38:47,acceleration at,(105, 104, 118)
+2015-06-29 17:38:47,waittime at,711
+2015-06-29 17:38:48,acceleration at,(103, 105, 119)
+2015-06-29 17:38:48,waittime at,711
+2015-06-29 17:38:49,acceleration at,(105, 105, 119)
+2015-06-29 17:38:49,waittime at,697
+2015-06-29 17:38:49,acceleration at,(105, 105, 117)
+2015-06-29 17:38:49,waittime at,711
+2015-06-29 17:38:50,acceleration at,(105, 105, 116)
+2015-06-29 17:38:50,waittime at,718
+2015-06-29 17:38:51,acceleration at,(104, 106, 117)
+2015-06-29 17:38:51,waittime at,711
+2015-06-29 17:38:52,acceleration at,(104, 106, 117)
+2015-06-29 17:38:52,waittime at,711
+2015-06-29 17:38:53,acceleration at,(104, 106, 117)
+2015-06-29 17:38:53,waittime at,711
+2015-06-29 17:38:53,acceleration at,(104, 106, 117)
+2015-06-29 17:38:53,waittime at,711
+2015-06-29 17:38:54,acceleration at,(104, 106, 117)
+2015-06-29 17:38:54,waittime at,711
+2015-06-29 17:38:55,acceleration at,(104, 105, 118)
+2015-06-29 17:38:55,waittime at,711
+2015-06-29 17:38:56,acceleration at,(104, 105, 117)
+2015-06-29 17:38:56,waittime at,718
+2015-06-29 17:38:57,acceleration at,(104, 105, 117)
+2015-06-29 17:38:57,waittime at,718
+2015-06-29 17:38:57,acceleration at,(104, 106, 117)
+2015-06-29 17:38:57,waittime at,711
+2015-06-29 17:38:58,acceleration at,(104, 106, 117)
+2015-06-29 17:38:58,waittime at,711
+2015-06-29 17:38:59,acceleration at,(104, 105, 118)
+2015-06-29 17:38:59,waittime at,711
+2015-06-29 17:39:00,acceleration at,(104, 106, 118)
+2015-06-29 17:39:00,waittime at,704
+2015-06-29 17:39:01,acceleration at,(102, 106, 119)
+2015-06-29 17:39:01,waittime at,711
+2015-06-29 17:39:01,acceleration at,(102, 105, 118)
+2015-06-29 17:39:01,waittime at,725
+2015-06-29 17:39:02,acceleration at,(104, 106, 119)
+2015-06-29 17:39:02,waittime at,697
+2015-06-29 17:39:03,acceleration at,(106, 104, 112)
+2015-06-29 17:39:03,waittime at,746
+2015-06-29 17:39:04,acceleration at,(101, 108, 122)
+2015-06-29 17:39:04,waittime at,683
+2015-06-29 17:39:05,acceleration at,(100, 115, 127)
+2015-06-29 17:39:05,waittime at,606
+2015-06-29 17:39:05,acceleration at,(102, 108, 126)
+2015-06-29 17:39:05,waittime at,648
+2015-06-29 17:39:06,acceleration at,(105, 109, 119)
+2015-06-29 17:39:06,waittime at,669
+2015-06-29 17:39:07,acceleration at,(104, 99, 106)
+2015-06-29 17:39:07,waittime at,837
+2015-06-29 17:39:08,acceleration at,(102, 107, 119)
+2015-06-29 17:39:08,waittime at,704
+2015-06-29 17:39:08,acceleration at,(101, 110, 123)
+2015-06-29 17:39:08,waittime at,662
+2015-06-29 17:39:09,acceleration at,(101, 109, 124)
+2015-06-29 17:39:09,waittime at,662
+2015-06-29 17:39:10,acceleration at,(106, 103, 125)
+2015-06-29 17:39:10,waittime at,662
+2015-06-29 17:39:11,acceleration at,(104, 105, 125)
+2015-06-29 17:39:11,waittime at,662
+2015-06-29 17:39:11,acceleration at,(100, 112, 124)
+2015-06-29 17:39:11,waittime at,648
+2015-06-29 17:39:12,acceleration at,(100, 116, 134)
+2015-06-29 17:39:12,waittime at,550
+2015-06-29 17:39:13,acceleration at,(106, 129, 138)
+2015-06-29 17:39:13,waittime at,389
+2015-06-29 17:39:13,acceleration at,(108, 129, 141)
+2015-06-29 17:39:13,waittime at,354
+2015-06-29 17:39:14,acceleration at,(111, 124, 147)
+2015-06-29 17:39:14,waittime at,326
+2015-06-29 17:39:14,acceleration at,(110, 122, 146)
+2015-06-29 17:39:14,waittime at,354
+2015-06-29 17:39:15,acceleration at,(124, 122, 146)
+2015-06-29 17:39:15,waittime at,256
+2015-06-29 17:39:15,acceleration at,(118, 117, 139)
+2015-06-29 17:39:15,waittime at,382
+2015-06-29 17:39:15,acceleration at,(170, 160, 124)
+2015-06-29 17:39:15,waittime at,-178
+2015-06-29 17:39:15,acceleration at,(99, 124, 162)
+2015-06-29 17:39:15,waittime at,305
+2015-06-29 17:39:16,acceleration at,(89, 101, 143)
+2015-06-29 17:39:16,waittime at,669
+2015-06-29 17:39:17,acceleration at,(107, 101, 134)
+2015-06-29 17:39:17,waittime at,606
+2015-06-29 17:39:17,acceleration at,(120, 105, 141)
+2015-06-29 17:39:17,waittime at,438
+2015-06-29 17:39:18,acceleration at,(120, 103, 139)
+2015-06-29 17:39:18,waittime at,466
+2015-06-29 17:39:18,acceleration at,(121, 106, 141)
+2015-06-29 17:39:18,waittime at,424
+2015-06-29 17:39:19,acceleration at,(117, 109, 148)
+2015-06-29 17:39:19,waittime at,382
+2015-06-29 17:39:19,acceleration at,(121, 108, 142)
+2015-06-29 17:39:19,waittime at,403
+2015-06-29 17:39:20,acceleration at,(132, 122, 141)
+2015-06-29 17:39:20,waittime at,235
+2015-06-29 17:39:20,acceleration at,(90, 93, 145)
+2015-06-29 17:39:20,waittime at,704
+2015-06-29 17:39:21,acceleration at,(163, 143, 139)
+2015-06-29 17:39:21,waittime at,-115
+2015-06-29 17:39:21,acceleration at,(152, 146, 136)
+2015-06-29 17:39:21,waittime at,-38
+2015-06-29 17:39:21,acceleration at,(101, 125, 160)
+2015-06-29 17:39:21,waittime at,298
+2015-06-29 17:39:22,acceleration at,(100, 105, 156)
+2015-06-29 17:39:22,waittime at,473
+2015-06-29 17:39:22,acceleration at,(74, 78, 144)
+2015-06-29 17:39:22,waittime at,928
+2015-06-29 17:39:23,acceleration at,(119, 97, 123)
+2015-06-29 17:39:23,waittime at,627
+2015-06-29 17:39:24,acceleration at,(110, 108, 148)
+2015-06-29 17:39:24,waittime at,438
+2015-06-29 17:39:24,acceleration at,(41, 119, 133)
+2015-06-29 17:39:24,waittime at,949
+2015-06-29 17:39:25,acceleration at,(142, 149, 167)
+2015-06-29 17:39:25,waittime at,-206
+2015-06-29 17:39:26,acceleration at,(161, 138, 128)
+2015-06-29 17:39:26,waittime at,11
+2015-06-29 17:39:26,acceleration at,(70, 113, 158)
+2015-06-29 17:39:26,waittime at,613
+2015-06-29 17:39:26,acceleration at,(36, 133, 166)
+2015-06-29 17:39:26,waittime at,655
+2015-06-29 17:39:27,acceleration at,(140, 113, 128)
+2015-06-29 17:39:27,waittime at,333
+2015-06-29 17:39:27,acceleration at,(141, 123, 163)
+2015-06-29 17:39:27,waittime at,11
+2015-06-29 17:39:28,acceleration at,(135, 106, 147)
+2015-06-29 17:39:28,waittime at,284
+2015-06-29 17:39:28,acceleration at,(62, 171, 160)
+2015-06-29 17:39:28,waittime at,249
+2015-06-29 17:39:28,acceleration at,(245, 104, 146)
+2015-06-29 17:39:28,waittime at,-18000
+2015-06-29 17:39:28,acceleration at,(61, 179, 173)
+2015-06-29 17:39:28,waittime at,109
+2015-06-29 17:39:29,acceleration at,(168, 141, 143)
+2015-06-29 17:39:29,waittime at,-164
+2015-06-29 17:39:29,acceleration at,(77, 153, 138)
+2015-06-29 17:39:29,waittime at,424
+2015-06-29 17:39:29,acceleration at,(175, 105, 152)
+2015-06-29 17:39:29,waittime at,39
+2015-06-29 17:39:29,acceleration at,(49, 164, 158)
+2015-06-29 17:39:29,waittime at,403
+2015-06-29 17:39:30,acceleration at,(112, 145, 142)
+2015-06-29 17:39:30,waittime at,207
+2015-06-29 17:39:30,acceleration at,(147, 105, 175)
+2015-06-29 17:39:30,waittime at,11
+2015-06-29 17:39:30,acceleration at,(120, 149, 121)
+2015-06-29 17:39:30,waittime at,270
+2015-06-29 17:39:31,acceleration at,(103, 136, 140)
+2015-06-29 17:39:31,waittime at,347
+2015-06-29 17:39:31,acceleration at,(112, 125, 145)
+2015-06-29 17:39:31,waittime at,326
+2015-06-29 17:39:31,acceleration at,(113, 123, 145)
+2015-06-29 17:39:31,waittime at,333
+2015-06-29 17:39:32,acceleration at,(113, 123, 146)
+2015-06-29 17:39:32,waittime at,326
+2015-06-29 17:39:32,acceleration at,(97, 134, 142)
+2015-06-29 17:39:32,waittime at,389
+2015-06-29 17:39:33,acceleration at,(83, 137, 124)
+2015-06-29 17:39:33,waittime at,592
+2015-06-29 17:39:33,acceleration at,(115, 121, 147)
+2015-06-29 17:39:33,waittime at,319
+2015-06-29 17:39:34,acceleration at,(116, 103, 139)
+2015-06-29 17:39:34,waittime at,494
+2015-06-29 17:39:34,acceleration at,(192, 147, 158)
+2015-06-29 17:39:34,waittime at,-479
+2015-06-29 17:39:34,acceleration at,(117, 138, 131)
+2015-06-29 17:39:34,waittime at,298
+2015-06-29 17:39:35,acceleration at,(61, 119, 124)
+2015-06-29 17:39:35,waittime at,872
+2015-06-29 17:39:36,acceleration at,(244, 196, 191)
+2015-06-29 17:39:36,waittime at,-18000
+2015-06-29 17:39:36,acceleration at,(86, 146, 145)
+2015-06-29 17:39:36,waittime at,361
+2015-06-29 17:39:36,acceleration at,(184, 177, 161)
+2015-06-29 17:39:36,waittime at,-654
+2015-06-29 17:39:36,acceleration at,(151, 150, 135)
+2015-06-29 17:39:36,waittime at,-52
+2015-06-29 17:39:37,acceleration at,(27, 97, 170)
+2015-06-29 17:39:37,waittime at,942
+2015-06-29 17:39:38,acceleration at,(216, 164, 155)
+2015-06-29 17:39:38,waittime at,-745
+2015-06-29 17:39:38,acceleration at,(104, 132, 141)
+2015-06-29 17:39:38,waittime at,361
+2015-06-29 17:39:38,acceleration at,(110, 143, 140)
+2015-06-29 17:39:38,waittime at,249
+2015-06-29 17:39:38,acceleration at,(112, 147, 146)
+2015-06-29 17:39:38,waittime at,165
+2015-06-29 17:39:39,acceleration at,(51, 122, 121)
+2015-06-29 17:39:39,waittime at,942
+2015-06-29 17:39:40,acceleration at,(135, 111, 137)
+2015-06-29 17:39:40,waittime at,319
+2015-06-29 17:39:40,acceleration at,(141, 109, 138)
+2015-06-29 17:39:40,waittime at,284
+2015-06-29 17:39:41,acceleration at,(135, 110, 145)
+2015-06-29 17:39:41,waittime at,270
+2015-06-29 17:39:41,acceleration at,(120, 107, 139)
+2015-06-29 17:39:41,waittime at,438
+2015-06-29 17:39:41,acceleration at,(125, 107, 143)
+2015-06-29 17:39:41,waittime at,375
+2015-06-29 17:39:42,acceleration at,(131, 119, 146)
+2015-06-29 17:39:42,waittime at,228
+2015-06-29 17:39:42,acceleration at,(129, 110, 143)
+2015-06-29 17:39:42,waittime at,326
+2015-06-29 17:39:43,acceleration at,(133, 117, 142)
+2015-06-29 17:39:43,waittime at,256
+2015-06-29 17:39:43,acceleration at,(127, 120, 142)
+2015-06-29 17:39:43,waittime at,277
+2015-06-29 17:39:43,acceleration at,(120, 124, 145)
+2015-06-29 17:39:43,waittime at,277
+2015-06-29 17:39:44,acceleration at,(125, 127, 146)
+2015-06-29 17:39:44,waittime at,214
+2015-06-29 17:39:44,acceleration at,(123, 125, 147)
+2015-06-29 17:39:44,waittime at,235
+2015-06-29 17:39:44,acceleration at,(123, 119, 148)
+2015-06-29 17:39:44,waittime at,270
+2015-06-29 17:39:45,acceleration at,(115, 124, 149)
+2015-06-29 17:39:45,waittime at,284
+2015-06-29 17:39:45,acceleration at,(116, 124, 145)
+2015-06-29 17:39:45,waittime at,305
+2015-06-29 17:39:45,acceleration at,(119, 122, 154)
+2015-06-29 17:39:45,waittime at,235
+2015-06-29 17:39:46,acceleration at,(112, 118, 155)
+2015-06-29 17:39:46,waittime at,305
+2015-06-29 17:39:46,acceleration at,(122, 115, 147)
+2015-06-29 17:39:46,waittime at,312
+2015-06-29 17:39:47,acceleration at,(122, 113, 148)
+2015-06-29 17:39:47,waittime at,319
+2015-06-29 17:39:47,started drawing,
+2015-06-29 17:40:43,starting application,
+2015-06-29 17:41:26,changed colour,(28, 28, 27)
+2015-06-29 17:41:26,changed colour,(28, 28, 27)
+2015-06-29 17:41:27,changed colour,(28, 28, 27)
+2015-06-29 17:41:29,changed lineWidth,27
+2015-06-29 17:41:30,changed lineWidth,9
+2015-06-29 17:41:31,changed lineWidth,5
+2015-06-29 17:41:35,started erasing,
+2015-06-29 17:41:39,changed lineWidth,19
+2015-06-29 17:41:40,finished erasing,
+2015-06-29 17:41:40,changed colour,(28, 28, 27)
+2015-06-29 17:41:45,changed colour,(157, 156, 156)
+2015-06-29 17:42:04,changed lineWidth,36
+2015-06-29 17:42:05,changed lineWidth,17
+2015-06-29 17:42:06,changed lineWidth,25
+2015-06-29 17:42:14,changed colour,(229, 0, 125)
+2015-06-29 17:42:20,changed colour,(28, 28, 27)
+2015-06-29 17:42:32,changed colour,(48, 38, 131)
+2015-06-29 17:42:43,started erasing,
+2015-06-29 17:42:47,finished erasing,
+2015-06-29 17:42:47,changed colour,(48, 38, 131)
+2015-06-29 17:42:50,changed lineWidth,7
+2015-06-29 17:42:52,changed lineWidth,17
+2015-06-29 17:42:53,changed lineWidth,19
+2015-06-29 17:42:54,changed colour,(255, 255, 255)
+2015-06-29 17:42:56,started erasing,
+2015-06-29 17:42:57,finished erasing,
+2015-06-29 17:42:57,started erasing,
+2015-06-29 17:42:58,finished erasing,
+2015-06-29 17:43:16,changed colour,(48, 38, 131)
+2015-06-29 17:43:48,changed colour,(255, 255, 255)
+2015-06-29 17:43:50,started erasing,
+2015-06-29 17:43:54,changed lineWidth,19
+2015-06-29 17:43:55,changed lineWidth,19
+2015-06-29 17:43:56,changed lineWidth,29
+2015-06-29 17:43:57,finished erasing,
+2015-06-29 17:43:57,changed colour,(149, 27, 129)
+2015-06-29 17:44:24,changed colour,(0, 158, 227)
+2015-06-29 17:44:30,changed colour,(255, 255, 255)
+2015-06-29 17:44:32,started erasing,
+2015-06-29 17:44:32,finished erasing,
+2015-06-29 17:44:46,changed colour,(149, 27, 129)
+2015-06-29 17:44:59,changed colour,(227, 5, 19)
+2015-06-29 17:45:08,changed colour,(28, 28, 27)
+2015-06-29 17:45:15,changed colour,(227, 5, 19)
+2015-06-29 17:45:22,changed colour,(28, 28, 27)
+2015-06-29 17:45:53,started erasing,
+2015-06-29 17:45:54,finished erasing,
+2015-06-29 17:45:54,started erasing,
+2015-06-29 17:46:02,finished erasing,
+2015-06-29 17:46:02,changed colour,(229, 0, 125)
+2015-06-29 17:46:03,changed colour,(149, 27, 129)
+2015-06-29 17:46:06,changed lineWidth,15
+2015-06-29 17:46:08,started erasing,
+2015-06-29 17:46:11,finished erasing,
+2015-06-29 17:46:11,changed colour,(149, 27, 129)
+2015-06-29 17:46:14,changed lineWidth,28
+2015-06-29 17:46:15,changed lineWidth,37
+2015-06-29 17:46:18,started erasing,
+2015-06-29 17:46:22,finished erasing,
+2015-06-29 17:46:22,changed colour,(149, 27, 129)
+2015-06-29 17:46:25,changed colour,(149, 27, 129)
+2015-06-29 17:46:26,changed colour,(149, 27, 129)
+2015-06-29 17:46:29,changed lineWidth,32
+2015-06-29 17:46:29,changed lineWidth,24
+2015-06-29 17:46:29,changed lineWidth,17
+2015-06-29 17:46:32,started erasing,
+2015-06-29 17:46:34,finished erasing,
+2015-06-29 17:46:34,changed colour,(229, 0, 125)
+2015-06-29 17:46:36,changed colour,(149, 27, 129)
+2015-06-29 17:46:37,changed lineWidth,27
+2015-06-29 17:40:43,starting application,
+2015-06-29 17:40:59,changed lineWidth,38
+2015-06-29 17:40:59,changed lineWidth,27
+2015-06-29 17:41:00,changed lineWidth,38
+2015-06-29 17:41:03,changed lineWidth,5
+2015-06-29 17:41:07,changed lineWidth,19
+2015-06-29 17:41:09,changed lineWidth,43
+2015-06-29 17:41:12,changed lineWidth,51
+2015-06-29 17:41:15,changed colour,(229, 0, 125)
+2015-06-29 17:41:22,changed colour,(149, 27, 129)
+2015-06-29 17:41:28,changed colour,(0, 158, 227)
+2015-06-29 17:41:38,changed colour,(243, 146, 0)
+2015-06-29 17:41:43,changed colour,(149, 27, 129)
+2015-06-29 17:41:47,changed colour,(229, 0, 125)
+2015-06-29 17:41:53,changed colour,(0, 158, 227)
+2015-06-29 17:41:53,changed colour,(48, 38, 131)
+2015-06-29 17:42:02,changed colour,(243, 146, 0)
+2015-06-29 17:42:03,changed colour,(149, 193, 30)
+2015-06-29 17:42:18,changed colour,(157, 156, 156)
+2015-06-29 17:42:19,changed colour,(157, 156, 156)
+2015-06-29 17:42:27,changed colour,(149, 27, 129)
+2015-06-29 17:42:31,changed colour,(229, 0, 125)
+2015-06-29 17:42:36,changed colour,(243, 146, 0)
+2015-06-29 17:42:36,changed colour,(243, 146, 0)
+2015-06-29 17:42:36,changed colour,(243, 146, 0)
+2015-06-29 17:42:37,changed colour,(149, 27, 129)
+2015-06-29 17:42:48,changed colour,(229, 0, 125)
+2015-06-29 17:42:49,changed colour,(48, 38, 131)
+2015-06-29 17:42:58,changed colour,(48, 38, 131)
+2015-06-29 17:42:59,changed colour,(157, 156, 156)
+2015-06-29 17:43:04,changed colour,(227, 5, 19)
+2015-06-29 17:43:07,changed colour,(243, 146, 0)
+2015-06-29 17:43:10,changed colour,(0, 158, 227)
+2015-06-29 17:43:26,changed colour,(0, 158, 227)
+2015-06-29 17:43:27,changed colour,(149, 193, 30)
+2015-06-29 17:43:30,changed colour,(28, 28, 27)
+2015-06-29 17:43:33,changed colour,(48, 38, 131)
+2015-06-29 17:43:36,changed colour,(255, 255, 255)
+2015-06-29 17:44:09,changed colour,(229, 0, 125)
+2015-06-29 17:44:13,changed colour,(0, 158, 227)
+2015-06-29 17:44:21,changed colour,(149, 193, 30)
+2015-06-29 17:44:33,changed colour,(149, 27, 129)
+2015-06-29 17:44:33,changed colour,(149, 27, 129)
+2015-06-29 17:44:39,changed colour,(149, 27, 129)
+2015-06-29 17:44:39,changed colour,(243, 146, 0)
+                                                 2015-06-29 17:40:44,starting application,
+2015-06-29 17:42:42,changed colour,(0, 158, 227)
+2015-06-29 17:42:44,changed lineWidth,41
+2015-06-29 17:43:58,changed colour,(229, 0, 125)
+2015-06-29 17:44:01,changed colour,(149, 27, 129)
+2015-06-29 17:44:05,changed colour,(0, 158, 227)
+2015-06-29 17:44:06,changed colour,(48, 38, 131)
+2015-06-29 17:44:10,changed colour,(28, 28, 27)
+2015-06-29 17:44:25,changed colour,(229, 0, 125)
+2015-06-29 17:44:36,changed colour,(255, 255, 255)
+2015-06-29 17:44:39,changed colour,(149, 27, 129)
+2015-06-29 17:44:46,changed colour,(28, 28, 27)
+2015-06-29 17:44:53,changed colour,(255, 255, 255)
+2015-06-29 17:44:57,changed colour,(229, 0, 125)
+2015-06-29 17:45:03,changed colour,(243, 146, 0)
+2015-06-29 17:45:07,changed colour,(0, 158, 227)
+2015-06-29 17:45:09,changed colour,(243, 146, 0)
+2015-06-29 17:45:14,changed colour,(48, 38, 131)
+2015-06-29 17:45:22,changed colour,(255, 255, 255)
+2015-06-29 17:45:24,started erasing,
+2015-06-29 17:45:57,finished erasing,
+2015-06-29 17:45:57,changed colour,(157, 156, 156)
+2015-06-29 17:46:02,changed lineWidth,25
+2015-06-29 17:46:04,changed colour,(255, 255, 255)
+2015-06-29 17:46:06,started erasing,
+2015-06-29 17:46:06,finished erasing,
+2015-06-29 17:46:08,started erasing,
+2015-06-29 17:46:10,finished erasing,
+2015-06-29 17:46:10,changed colour,(157, 156, 156)
+2015-06-29 17:46:11,changed lineWidth,11
+2015-06-29 17:46:14,changed lineWidth,13
+2015-06-29 17:46:15,changed lineWidth,19
+2015-06-29 17:46:16,changed lineWidth,24
+2015-06-29 17:46:19,changed colour,(28, 28, 27)
+2015-06-29 17:46:26,changed lineWidth,3
+2015-06-29 17:46:27,changed lineWidth,13
+2015-06-29 17:46:28,changed lineWidth,24
+2015-06-29 17:46:37,changed colour,(149, 193, 30)
+2015-06-29 17:46:47,changed colour,(28, 28, 27)
+2015-06-29 17:47:00,started erasing,
+2015-06-29 17:48:46,starting application,
+2015-06-29 17:48:51,started erasing,
+2015-06-29 17:48:51,finished erasing,
+2015-06-29 17:48:52,started erasing,
+2015-06-29 17:48:55,changed lineWidth,14
+2015-06-29 17:48:56,changed lineWidth,11
+2015-06-29 17:48:56,changed lineWidth,16
+2015-06-29 17:48:58,changed lineWidth,17
+2015-06-29 17:48:59,finished erasing,
+2015-06-29 17:48:59,changed colour,(229, 0, 125)
+2015-06-29 17:49:03,changed lineWidth,19
+2015-06-29 17:49:04,changed lineWidth,12
+2015-06-29 17:49:05,changed lineWidth,8
+2015-06-29 17:49:07,changed lineWidth,3
+2015-06-29 17:49:07,changed lineWidth,3
+2015-06-29 17:49:07,changed lineWidth,15
+2015-06-29 17:49:08,changed lineWidth,8
+2015-06-29 17:49:09,changed lineWidth,16
+2015-06-29 17:49:09,changed lineWidth,10
+2015-06-29 17:49:10,changed lineWidth,9
+2015-06-29 17:49:10,changed lineWidth,6
+2015-06-29 17:49:11,changed lineWidth,3
+2015-06-29 17:49:12,changed lineWidth,3
+2015-06-29 17:49:12,changed lineWidth,3
+2015-06-29 17:49:12,changed lineWidth,24
+2015-06-29 17:49:18,changed colour,(157, 156, 156)
+2015-06-29 17:49:21,changed lineWidth,24
+2015-06-29 17:49:23,changed lineWidth,37
+2015-06-29 17:49:26,changed colour,(229, 0, 125)
+2015-06-29 17:49:30,changed colour,(149, 27, 129)
+2015-06-29 17:49:36,changed colour,(28, 28, 27)
+2015-06-29 17:49:44,changed colour,(229, 0, 125)
+2015-06-29 17:49:48,changed colour,(255, 255, 255)
+2015-06-29 17:49:50,changed colour,(157, 156, 156)
+2015-06-29 17:49:53,changed colour,(229, 0, 125)
+2015-06-29 17:49:57,changed colour,(28, 28, 27)
+2015-06-29 17:50:05,changed colour,(0, 158, 227)
+2015-06-29 17:50:08,changed colour,(28, 28, 27)
+2015-06-29 17:50:12,changed colour,(229, 0, 125)
+2015-06-29 17:50:24,changed colour,(28, 28, 27)
+2015-06-29 17:50:35,redo,
+2015-06-29 17:51:26,starting application,
+2015-06-29 17:53:17,starting application,
+2015-06-29 17:53:36,changed colour,(243, 146, 0)
+2015-06-29 17:53:39,changed lineWidth,24
+2015-06-29 17:53:41,changed lineWidth,17
+2015-06-29 17:53:41,changed lineWidth,11
+2015-06-29 17:53:42,changed lineWidth,6
+2015-06-29 17:53:43,changed lineWidth,4
+2015-06-29 17:53:45,changed lineWidth,3
+2015-06-29 17:53:46,changed lineWidth,37
+2015-06-29 17:54:07,redo,
+1970-01-01 00:00:27,starting application,
+1970-01-01 00:00:30,changed colour,(0, 158, 227)
+1970-01-01 00:00:45,started erasing,
+1970-01-01 00:00:46,finished erasing,
+1970-01-01 00:00:24,starting application,
+1970-01-01 00:00:28,changed colour,(229, 0, 125)
+1970-01-01 00:00:23,starting application,
+1970-01-01 00:00:32,changed colour,(149, 27, 129)
+1970-01-01 00:00:24,starting application,
+1970-01-01 00:00:24,starting application,
+1970-01-01 00:00:38,changed colour,(229, 0, 125)
+1970-01-01 00:00:43,changed colour,(243, 146, 0)
+1970-01-01 00:00:47,changed colour,(48, 38, 131)
+1970-01-01 00:00:49,changed colour,(212, 168, 63)
+1970-01-01 00:00:52,changed lineWidth,24
+1970-01-01 00:00:55,changed colour,(48, 38, 131)
+1970-01-01 00:00:59,changed colour,(229, 0, 125)
+1970-01-01 00:04:21,starting application,
+1970-01-01 00:05:16,starting application,
+1970-01-01 00:06:35,starting application,
+1970-01-01 00:19:54,changed colour,(229, 0, 125)
+1970-01-01 00:19:58,changed colour,(243, 146, 0)
+1970-01-01 00:20:01,changed colour,(48, 38, 131)
+1970-01-01 00:20:04,changed colour,(227, 5, 19)
+1970-01-01 00:23:10,starting application,
+1970-01-01 00:23:34,changed lineWidth,47
+1970-01-01 00:23:35,changed lineWidth,51
+1970-01-01 00:24:27,changed lineWidth,51
+1970-01-01 00:24:28,changed lineWidth,51
+1970-01-01 00:24:28,changed lineWidth,45
+1970-01-01 00:24:28,changed lineWidth,41
+1970-01-01 00:24:39,changed lineWidth,46
+1970-01-01 00:24:40,changed lineWidth,50
+1970-01-01 00:24:40,changed lineWidth,44
+1970-01-01 00:24:41,changed lineWidth,45
+1970-01-01 00:24:42,changed lineWidth,42
+1970-01-01 00:24:42,changed lineWidth,49
+1970-01-01 00:24:43,changed colour,(227, 5, 19)
+1970-01-01 00:25:34,changed colour,(0, 158, 227)
+1970-01-01 00:26:35,changed colour,(255, 255, 255)
+1970-01-01 00:26:37,changed colour,(227, 5, 19)
+1970-01-01 00:26:50,changed colour,(0, 158, 227)
+1970-01-01 00:26:58,changed colour,(227, 5, 19)
+1970-01-01 00:27:02,changed colour,(255, 255, 255)
+1970-01-01 00:27:34,starting application,
+1970-01-01 00:27:36,changed lineWidth,51
+1970-01-01 00:27:41,changed colour,(28, 28, 27)
+1970-01-01 00:27:53,changed colour,(149, 193, 30)
+1970-01-01 00:27:57,changed colour,(212, 168, 63)
+1970-01-01 00:27:58,changed colour,(243, 146, 0)
+1970-01-01 00:27:59,changed colour,(157, 156, 156)
+1970-01-01 00:27:59,changed colour,(157, 156, 156)
+1970-01-01 00:27:59,changed colour,(28, 28, 27)
+1970-01-01 00:28:07,changed colour,(227, 5, 19)
+1970-01-01 00:28:13,changed colour,(255, 255, 255)
+1970-01-01 00:28:23,changed colour,(28, 28, 27)
+1970-01-01 00:29:28,changed colour,(255, 255, 255)
+1970-01-01 00:29:55,changed colour,(28, 28, 27)
+1970-01-01 00:30:32,changed colour,(255, 255, 255)
+1970-01-01 00:30:47,changed colour,(28, 28, 27)
+1970-01-01 00:31:21,changed colour,(255, 255, 255)
+1970-01-01 00:31:47,changed colour,(243, 146, 0)
+1970-01-01 00:31:57,changed colour,(255, 255, 255)
+1970-01-01 00:32:04,changed colour,(243, 146, 0)
+1970-01-01 00:32:16,changed colour,(255, 255, 255)
+1970-01-01 00:32:23,changed colour,(243, 146, 0)
+1970-01-01 00:32:26,changed colour,(255, 255, 255)
+1970-01-01 00:32:28,changed colour,(28, 28, 27)
+1970-01-01 00:32:35,changed colour,(48, 38, 131)
+1970-01-01 00:32:38,undo,
+1970-01-01 00:32:43,undo,
+1970-01-01 00:32:44,undo,
+1970-01-01 00:32:44,undo,
+1970-01-01 00:33:05,changed colour,(255, 255, 255)
+1970-01-01 00:33:13,changed colour,(229, 0, 125)
+1970-01-01 00:33:19,changed colour,(255, 255, 255)
+1970-01-01 00:34:02,changed colour,(157, 156, 156)
+1970-01-01 00:34:03,changed colour,(28, 28, 27)
+1970-01-01 00:35:00,changed lineWidth,10
+1970-01-01 00:35:01,changed colour,(255, 255, 255)
+1970-01-01 00:35:04,changed lineWidth,51
+1970-01-01 00:35:23,changed lineWidth,3
+1970-01-01 00:35:28,changed colour,(227, 5, 19)
+1970-01-01 00:35:34,changed lineWidth,16
+1970-01-01 00:36:10,changed colour,(255, 255, 255)
+1970-01-01 00:36:30,changed lineWidth,23
+1970-01-01 00:36:31,changed lineWidth,45
+1970-01-01 00:36:32,changed lineWidth,51
+1970-01-01 00:36:38,changed colour,(227, 5, 19)
+1970-01-01 00:36:42,changed lineWidth,26
+1970-01-01 00:37:11,changed colour,(255, 255, 255)
+1970-01-01 00:38:29,changed lineWidth,46
+1970-01-01 00:38:30,changed colour,(28, 28, 27)
+1970-01-01 00:39:04,changed colour,(255, 255, 255)
+1970-01-01 00:39:05,changed lineWidth,51
+1970-01-01 00:39:25,changed colour,(28, 28, 27)
+1970-01-01 00:39:28,changed lineWidth,21
+1970-01-01 00:44:58,changed colour,(157, 156, 156)
+1970-01-01 00:44:59,changed lineWidth,51
+1970-01-01 00:45:00,changed colour,(255, 255, 255)
+1970-01-01 00:48:37,changed colour,(149, 193, 30)
+1970-01-01 00:48:41,changed colour,(255, 255, 255)
+1970-01-01 00:49:08,starting application,
+1970-01-01 01:12:57,changed colour,(229, 0, 125)
+1970-01-01 01:13:02,started erasing,
+1970-01-01 01:13:03,finished erasing,
+1970-01-01 01:13:03,started erasing,
+1970-01-01 01:17:26,starting application,
+1970-01-01 01:19:46,started animation,
+1970-01-01 01:19:52,Error opening wiimote connection,
+1970-01-01 01:20:01,acceleration at,(117, 135, 153)
+1970-01-01 01:20:01,waittime at,165
+1970-01-01 01:20:01,acceleration at,(120, 138, 140)
+1970-01-01 01:20:01,waittime at,214
+1970-01-01 01:20:01,acceleration at,(115, 149, 136)
+1970-01-01 01:20:01,waittime at,200
+1970-01-01 01:20:02,acceleration at,(117, 119, 138)
+1970-01-01 01:20:02,waittime at,382
+1970-01-01 01:20:02,acceleration at,(126, 119, 128)
+1970-01-01 01:20:02,waittime at,389
+1970-01-01 01:20:03,acceleration at,(122, 122, 127)
+1970-01-01 01:20:03,waittime at,403
+1970-01-01 01:20:03,acceleration at,(144, 126, 119)
+1970-01-01 01:20:03,waittime at,277
+1970-01-01 01:20:03,acceleration at,(143, 133, 107)
+1970-01-01 01:20:03,waittime at,319
+1970-01-01 01:20:04,acceleration at,(146, 127, 124)
+1970-01-01 01:20:04,waittime at,221
+1970-01-01 01:20:04,acceleration at,(146, 128, 124)
+1970-01-01 01:20:04,waittime at,214
+1970-01-01 01:20:04,acceleration at,(146, 115, 132)
+1970-01-01 01:20:04,waittime at,249
+1970-01-01 01:20:05,acceleration at,(139, 120, 128)
+1970-01-01 01:20:05,waittime at,291
+1970-01-01 01:20:05,acceleration at,(146, 125, 121)
+1970-01-01 01:20:05,waittime at,256
+1970-01-01 01:20:06,acceleration at,(136, 132, 130)
+1970-01-01 01:20:06,waittime at,214
+1970-01-01 01:20:06,acceleration at,(143, 125, 123)
+1970-01-01 01:20:06,waittime at,263
+1970-01-01 01:20:06,acceleration at,(155, 122, 138)
+1970-01-01 01:20:06,waittime at,95
+1970-01-01 01:20:06,acceleration at,(130, 137, 125)
+1970-01-01 01:20:06,waittime at,256
+1970-01-01 01:20:07,acceleration at,(147, 124, 125)
+1970-01-01 01:20:07,waittime at,228
+1970-01-01 01:20:07,acceleration at,(144, 130, 135)
+1970-01-01 01:20:07,waittime at,137
+1970-01-01 01:20:07,acceleration at,(154, 106, 140)
+1970-01-01 01:20:07,waittime at,200
+1970-01-01 01:20:08,acceleration at,(147, 114, 130)
+1970-01-01 01:20:08,waittime at,263
+1970-01-01 01:20:08,acceleration at,(149, 117, 122)
+1970-01-01 01:20:08,waittime at,284
+1970-01-01 01:20:08,acceleration at,(136, 129, 129)
+1970-01-01 01:20:08,waittime at,242
+1970-01-01 01:20:09,acceleration at,(149, 117, 129)
+1970-01-01 01:20:09,waittime at,235
+1970-01-01 01:20:09,acceleration at,(145, 116, 130)
+1970-01-01 01:20:09,waittime at,263
+1970-01-01 01:20:10,acceleration at,(145, 118, 128)
+1970-01-01 01:20:10,waittime at,263
+1970-01-01 01:20:10,acceleration at,(147, 116, 140)
+1970-01-01 01:20:10,waittime at,179
+1970-01-01 01:20:10,acceleration at,(146, 114, 125)
+1970-01-01 01:20:10,waittime at,305
+1970-01-01 01:20:11,acceleration at,(141, 119, 127)
+1970-01-01 01:20:11,waittime at,291
+1970-01-01 01:20:11,acceleration at,(141, 106, 134)
+1970-01-01 01:20:11,waittime at,333
+1970-01-01 01:20:11,acceleration at,(138, 132, 130)
+1970-01-01 01:20:11,waittime at,200
+1970-01-01 01:20:12,acceleration at,(120, 127, 150)
+1970-01-01 01:20:12,waittime at,221
+1970-01-01 01:20:12,acceleration at,(121, 99, 153)
+1970-01-01 01:20:12,waittime at,389
+1970-01-01 01:20:13,acceleration at,(102, 118, 138)
+1970-01-01 01:20:13,waittime at,494
+1970-01-01 01:20:13,acceleration at,(101, 116, 137)
+1970-01-01 01:20:13,waittime at,522
+1970-01-01 01:20:14,acceleration at,(100, 121, 136)
+1970-01-01 01:20:14,waittime at,501
+1970-01-01 01:20:14,acceleration at,(130, 122, 143)
+1970-01-01 01:20:14,waittime at,235
+1970-01-01 01:20:15,acceleration at,(136, 108, 132)
+1970-01-01 01:20:15,waittime at,368
+1970-01-01 01:20:15,acceleration at,(129, 115, 153)
+1970-01-01 01:20:15,waittime at,221
+1970-01-01 01:20:16,acceleration at,(125, 131, 145)
+1970-01-01 01:20:16,waittime at,193
+1970-01-01 01:20:16,acceleration at,(136, 111, 145)
+1970-01-01 01:20:16,waittime at,256
+1970-01-01 01:20:16,acceleration at,(138, 114, 139)
+1970-01-01 01:20:16,waittime at,263
+1970-01-01 01:20:17,acceleration at,(118, 138, 131)
+1970-01-01 01:20:17,waittime at,291
+1970-01-01 01:20:17,acceleration at,(118, 137, 143)
+1970-01-01 01:20:17,waittime at,214
+1970-01-01 01:20:17,acceleration at,(119, 106, 169)
+1970-01-01 01:20:17,waittime at,242
+1970-01-01 01:20:18,acceleration at,(112, 135, 125)
+1970-01-01 01:20:18,waittime at,396
+1970-01-01 01:20:18,acceleration at,(112, 130, 131)
+1970-01-01 01:20:18,waittime at,389
+1970-01-01 01:22:18,starting application,
+1970-01-01 01:48:10,started animation,
+1970-01-01 01:48:16,Error opening wiimote connection,
+1970-01-01 01:48:23,Error opening wiimote connection,
+1970-01-01 01:48:29,Error opening wiimote connection,
+1970-01-01 01:48:30,started drawing,
+1970-01-01 02:04:22,starting application,
+1970-01-01 02:05:52,changed colour,(229, 0, 125)
+1970-01-01 02:06:00,changed colour,(229, 0, 125)
+1970-01-01 02:06:08,changed colour,(227, 5, 19)
+1970-01-01 02:06:17,changed colour,(157, 156, 156)
+1970-01-01 02:06:23,changed colour,(157, 156, 156)
+1970-01-01 02:06:27,changed colour,(212, 168, 63)
+1970-01-01 02:06:39,changed colour,(0, 150, 64)
+1970-01-01 02:04:22,starting application,
+1970-01-01 02:04:19,starting application,
+1970-01-01 02:08:18,starting application,
+1970-01-01 02:08:20,started animation,
+1970-01-01 02:08:27,Error opening wiimote connection,
+1970-01-01 02:09:36,starting application,
+1970-01-01 02:09:49,started animation,
+1970-01-01 02:09:56,Error opening wiimote connection,
+1970-01-01 02:10:13,started animation,
+1970-01-01 02:10:15,started animation,
+1970-01-01 02:10:17,started animation,
+1970-01-01 02:10:47,starting application,
+1970-01-01 02:10:50,started animation,
+1970-01-01 02:10:56,Error opening wiimote connection,
+1970-01-01 02:11:49,starting application,
+1970-01-01 02:51:33,changed colour,(28, 28, 27)
+1970-01-01 02:51:36,changed colour,(149, 193, 30)
+1970-01-01 03:17:20,starting application,
+1970-01-01 03:52:43,starting new drawing,
+1970-01-01 03:52:43,undo,
+1970-01-01 03:52:45,changed colour,(48, 38, 131)
+1970-01-01 03:52:47,undo,
+1970-01-01 03:52:49,starting new drawing,
+1970-01-01 03:52:49,undo,
+1970-01-01 03:52:50,changed colour,(229, 0, 125)
+1970-01-01 03:52:54,changed colour,(243, 146, 0)
+1970-01-01 03:52:58,changed colour,(48, 38, 131)
+1970-01-01 03:53:42,starting application,
+1970-01-01 04:05:28,changed colour,(227, 5, 19)
+1970-01-01 04:06:10,changed colour,(0, 150, 64)
+1970-01-01 04:06:25,changed colour,(229, 0, 125)
+1970-01-01 04:06:25,changed colour,(229, 0, 125)
+1970-01-01 04:06:25,changed colour,(229, 0, 125)
+1970-01-01 04:12:03,changed colour,(149, 27, 129)
+1970-01-01 04:12:03,changed colour,(149, 27, 129)
+1970-01-01 04:12:03,changed colour,(149, 27, 129)
+1970-01-01 04:12:08,changed colour,(255, 255, 255)
+1970-01-01 04:12:12,changed colour,(255, 255, 255)
+1970-01-01 04:12:23,changed colour,(28, 28, 27)
+1970-01-01 04:12:32,changed colour,(0, 150, 64)
+1970-01-01 04:12:52,changed colour,(227, 5, 19)
+1970-01-01 04:12:52,changed colour,(227, 5, 19)
+1970-01-01 05:09:08,starting application,
+1970-01-01 05:10:28,starting application,
+1970-01-01 05:10:39,changed colour,(149, 27, 129)
+1970-01-01 05:10:44,changed colour,(48, 38, 131)
+1970-01-01 05:10:46,changed lineWidth,6
+1970-01-01 05:10:48,changed lineWidth,15
+1970-01-01 05:11:03,changed colour,(0, 150, 64)
+1970-01-01 05:11:13,changed colour,(28, 28, 27)
+1970-01-01 05:11:22,changed colour,(227, 5, 19)
+1970-01-01 05:11:33,changed colour,(48, 38, 131)
+1970-01-01 05:11:35,changed colour,(0, 158, 227)
+1970-01-01 05:17:25,starting application,
+1970-01-01 05:46:30,changed colour,(229, 0, 125)
+1970-01-01 05:46:47,changed colour,(149, 27, 129)
+1970-01-01 05:47:02,changed colour,(0, 150, 64)
+1970-01-01 05:47:23,changed colour,(149, 193, 30)
+1970-01-01 05:47:32,changed colour,(243, 146, 0)
+1970-01-01 05:47:32,changed colour,(243, 146, 0)
+1970-01-01 05:47:47,started erasing,
+1970-01-01 05:47:58,changed lineWidth,24
+1970-01-01 05:47:59,finished erasing,
+1970-01-01 05:47:59,changed colour,(0, 150, 64)
+1970-01-01 05:48:04,changed colour,(229, 0, 125)
+1970-01-01 05:48:14,changed colour,(149, 27, 129)
+1970-01-01 05:48:55,starting application,
+1970-01-01 06:04:59,changed colour,(227, 5, 19)
+1970-01-01 06:05:18,starting application,
+1970-01-01 06:05:30,changed colour,(227, 5, 19)
+1970-01-01 06:05:36,changed colour,(229, 0, 125)
+1970-01-01 06:05:43,changed colour,(0, 158, 227)
+1970-01-01 08:17:24,starting application,
+1970-01-01 08:31:26,changed colour,(157, 156, 156)
+1970-01-01 08:31:30,started erasing,
+1970-01-01 08:31:37,finished erasing,
+1970-01-01 08:31:37,changed colour,(243, 146, 0)
+1970-01-01 08:17:20,starting application,
+1970-01-01 08:17:25,redo,
+1970-01-01 08:17:28,redo,
+1970-01-01 08:17:30,changed colour,(243, 146, 0)
+1970-01-01 08:17:40,changed colour,(0, 150, 64)
+1970-01-01 08:17:49,changed colour,(149, 27, 129)
+1970-01-01 08:17:53,changed colour,(229, 0, 125)
+1970-01-01 08:17:57,changed colour,(255, 255, 255)
+1970-01-01 08:19:01,changed colour,(48, 38, 131)
+1970-01-01 08:19:03,changed colour,(243, 146, 0)
+1970-01-01 08:51:37,starting application,
+1970-01-01 09:03:35,changed colour,(229, 0, 125)
+1970-01-01 09:03:40,changed colour,(149, 193, 30)
+1970-01-01 09:03:55,changed colour,(0, 158, 227)
+1970-01-01 09:03:55,changed colour,(0, 158, 227)
+1970-01-01 09:03:55,changed colour,(0, 158, 227)
+1970-01-01 09:04:04,changed colour,(229, 0, 125)
+1970-01-01 09:12:46,changed colour,(229, 0, 125)
+1970-01-01 09:12:50,started erasing,
+1970-01-01 09:12:57,finished erasing,
+1970-01-01 09:12:57,changed colour,(0, 158, 227)
+1970-01-01 09:13:03,changed lineWidth,24
+1970-01-01 09:13:05,changed lineWidth,21
+1970-01-01 09:13:06,changed lineWidth,18
+1970-01-01 09:13:07,changed lineWidth,3
+1970-01-01 09:13:11,started erasing,
+1970-01-01 09:13:14,changed lineWidth,51
+1970-01-01 09:13:18,redo,
+1970-01-01 09:13:21,changed lineWidth,39
+1970-01-01 09:13:21,changed lineWidth,37
+1970-01-01 09:13:55,changed lineWidth,33
+1970-01-01 09:13:55,changed lineWidth,17
+1970-01-01 09:13:56,changed lineWidth,31
+1970-01-01 09:13:57,finished erasing,
+1970-01-01 09:14:13,changed colour,(212, 168, 63)
+1970-01-01 09:14:18,changed lineWidth,25
+1970-01-01 09:14:21,changed lineWidth,24
+1970-01-01 09:14:33,changed colour,(255, 255, 255)
+1970-01-01 09:14:34,changed lineWidth,51
+1970-01-01 09:14:39,started erasing,
+1970-01-01 09:14:47,finished erasing,
+1970-01-01 09:14:47,changed colour,(229, 0, 125)
+1970-01-01 09:14:49,started erasing,
+1970-01-01 09:14:55,finished erasing,
+1970-01-01 09:14:55,changed colour,(149, 193, 30)
+1970-01-01 09:14:56,changed colour,(212, 168, 63)
+1970-01-01 09:14:57,changed colour,(28, 28, 27)
+1970-01-01 09:15:04,started erasing,
+1970-01-01 09:15:11,changed lineWidth,10
+1970-01-01 09:15:12,finished erasing,
+1970-01-01 09:15:12,changed colour,(28, 28, 27)
+1970-01-01 09:15:31,changed colour,(212, 168, 63)
+1970-01-01 09:15:42,changed colour,(48, 38, 131)
+1970-01-01 09:15:45,changed colour,(28, 28, 27)
+1970-01-01 09:15:48,changed colour,(227, 5, 19)
+1970-01-01 09:15:57,started erasing,
+1970-01-01 09:16:10,finished erasing,
+1970-01-01 09:16:10,changed colour,(28, 28, 27)
+1970-01-01 09:16:11,changed lineWidth,3
+1970-01-01 09:16:14,changed lineWidth,14
+1970-01-01 09:16:20,changed lineWidth,5
+1970-01-01 09:16:21,started erasing,
+1970-01-01 09:16:26,finished erasing,
+1970-01-01 09:16:26,changed colour,(28, 28, 27)
+1970-01-01 09:16:35,changed lineWidth,3
+1970-01-01 09:16:35,changed lineWidth,3
+1970-01-01 09:16:36,changed lineWidth,32
+1970-01-01 09:16:40,started erasing,
+1970-01-01 09:16:48,finished erasing,
+1970-01-01 09:16:48,changed colour,(229, 0, 125)
+1970-01-01 09:16:48,changed colour,(229, 0, 125)
+1970-01-01 09:16:52,changed lineWidth,29
+1970-01-01 09:16:53,changed lineWidth,25
+1970-01-01 09:16:53,changed lineWidth,24
+1970-01-01 09:16:54,changed lineWidth,12
+1970-01-01 09:16:54,changed lineWidth,3
+1970-01-01 09:16:56,started erasing,
+1970-01-01 09:17:36,starting application,
+1970-01-01 09:17:40,changed lineWidth,3
+1970-01-01 09:17:42,started erasing,
+1970-01-01 09:17:46,finished erasing,
+1970-01-01 09:17:46,changed colour,(28, 28, 27)
+1970-01-01 09:17:50,started erasing,
+1970-01-01 09:17:52,changed lineWidth,3
+1970-01-01 09:17:57,changed lineWidth,29
+1970-01-01 09:17:58,changed lineWidth,51
+1970-01-01 09:17:59,finished erasing,
+1970-01-01 09:17:59,changed colour,(28, 28, 27)
+1970-01-01 09:18:05,changed lineWidth,3
+1970-01-01 09:18:08,started erasing,
+1970-01-01 09:18:09,finished erasing,
+1970-01-01 09:18:12,started erasing,
+1970-01-01 09:18:12,finished erasing,
+1970-01-01 09:18:13,started erasing,
+1970-01-01 09:18:18,changed lineWidth,23
+1970-01-01 09:18:19,changed lineWidth,23
+1970-01-01 09:18:21,changed lineWidth,19
+1970-01-01 09:18:23,changed lineWidth,17
+1970-01-01 09:18:24,changed lineWidth,11
+1970-01-01 09:18:25,changed lineWidth,6
+1970-01-01 09:18:26,changed lineWidth,8
+1970-01-01 09:18:26,changed lineWidth,3
+1970-01-01 09:18:29,finished erasing,
+1970-01-01 09:18:29,changed colour,(28, 28, 27)
+1970-01-01 09:18:44,changed lineWidth,3
+1970-01-01 09:18:45,changed lineWidth,9
+1970-01-01 09:18:47,changed colour,(28, 28, 27)
+1970-01-01 09:18:50,changed lineWidth,8
+1970-01-01 09:18:53,changed lineWidth,6
+1970-01-01 09:18:54,changed lineWidth,3
+1970-01-01 09:18:55,changed lineWidth,3
+1970-01-01 09:18:59,changed lineWidth,11
+1970-01-01 09:19:02,changed lineWidth,5
+1970-01-01 09:19:04,changed lineWidth,4
+1970-01-01 09:19:05,changed lineWidth,11
+1970-01-01 09:19:05,changed lineWidth,3
+1970-01-01 09:19:06,changed lineWidth,16
+1970-01-01 09:19:15,changed colour,(0, 158, 227)
+1970-01-01 09:19:17,changed lineWidth,3
+1970-01-01 09:19:27,started erasing,
+1970-01-01 09:19:34,changed lineWidth,21
+1970-01-01 09:19:38,finished erasing,
+1970-01-01 09:19:39,started erasing,
+1970-01-01 09:19:54,finished erasing,
+1970-01-01 09:19:54,changed colour,(229, 0, 125)
+1970-01-01 09:20:07,changed lineWidth,13
+1970-01-01 09:20:08,changed lineWidth,50
+1970-01-01 09:20:14,changed colour,(157, 156, 156)
+1970-01-01 09:20:14,changed colour,(149, 193, 30)
+1970-01-01 09:20:35,changed colour,(212, 168, 63)
+1970-01-01 09:21:14,changed colour,(243, 146, 0)
+1970-01-01 09:21:34,changed lineWidth,40
+1970-01-01 09:21:34,changed lineWidth,33
+1970-01-01 09:21:34,changed lineWidth,28
+1970-01-01 09:22:26,starting application,
+1970-01-01 09:22:32,changed colour,(229, 0, 125)
+1970-01-01 09:22:32,changed colour,(229, 0, 125)
+1970-01-01 09:27:22,changed colour,(149, 193, 30)
+1970-01-01 09:32:31,undo,
+1970-01-01 09:32:32,undo,
+1970-01-01 09:32:33,undo,
+1970-01-01 09:32:33,undo,
+1970-01-01 09:32:33,undo,
+1970-01-01 09:32:33,undo,
+1970-01-01 09:32:33,undo,
+1970-01-01 09:32:34,undo,
+1970-01-01 09:32:34,undo,
+1970-01-01 09:32:34,undo,
+1970-01-01 09:32:34,undo,
+1970-01-01 09:32:34,undo,
+1970-01-01 09:32:35,undo,
+1970-01-01 09:32:35,undo,
+1970-01-01 09:32:35,undo,
+1970-01-01 09:32:35,undo,
+1970-01-01 09:32:35,undo,
+1970-01-01 09:32:38,started erasing,
+1970-01-01 09:32:40,changed lineWidth,50
+1970-01-01 09:33:06,finished erasing,
+1970-01-01 09:33:06,changed colour,(28, 28, 27)
+1970-01-01 09:33:10,changed lineWidth,9
+1970-01-01 09:33:17,changed colour,(48, 38, 131)
+1970-01-01 09:34:34,changed colour,(243, 146, 0)
+1970-01-01 09:35:02,changed colour,(157, 156, 156)
+1970-01-01 09:35:39,changed colour,(243, 146, 0)
+1970-01-01 09:35:42,changed colour,(28, 28, 27)
+1970-01-01 09:36:03,changed colour,(0, 150, 64)
+1970-01-01 09:36:11,changed colour,(28, 28, 27)
+1970-01-01 09:36:20,changed colour,(243, 146, 0)
+1970-01-01 09:36:33,changed colour,(227, 5, 19)
+1970-01-01 09:36:50,changed colour,(28, 28, 27)
+1970-01-01 09:37:09,changed colour,(255, 255, 255)
+1970-01-01 09:37:10,changed colour,(48, 38, 131)
+1970-01-01 09:37:11,changed colour,(149, 27, 129)
+1970-01-01 09:37:12,changed colour,(48, 38, 131)
+1970-01-01 09:37:27,changed colour,(255, 255, 255)
+1970-01-01 09:37:35,changed colour,(48, 38, 131)
+1970-01-01 09:37:42,changed colour,(227, 5, 19)
+1970-01-01 09:37:54,changed colour,(212, 168, 63)
+1970-01-01 09:38:33,starting application,
+1970-01-01 09:38:39,changed colour,(28, 28, 27)
+1970-01-01 09:39:15,started erasing,
+1970-01-01 09:39:16,finished erasing,
+1970-01-01 09:39:18,started erasing,
+1970-01-01 09:39:18,finished erasing,
+1970-01-01 09:39:19,started erasing,
+1970-01-01 09:39:38,finished erasing,
+1970-01-01 09:39:49,started erasing,
+1970-01-01 09:38:33,starting application,
+1970-01-01 09:38:43,changed colour,(0, 158, 227)
+1970-01-01 09:39:08,started erasing,
+1970-01-01 09:39:17,finished erasing,
+1970-01-01 09:39:17,changed colour,(0, 158, 227)
+1970-01-01 09:39:28,started erasing,
+1970-01-01 09:39:53,finished erasing,
+1970-01-01 09:39:53,changed colour,(0, 158, 227)
+1970-01-01 09:40:04,changed colour,(149, 193, 30)
+1970-01-01 09:40:16,changed colour,(227, 5, 19)
+1970-01-01 09:40:18,started erasing,
+1970-01-01 09:40:23,finished erasing,
+1970-01-01 09:40:23,changed colour,(149, 193, 30)
+1970-01-01 09:40:32,changed colour,(227, 5, 19)
+1970-01-01 09:40:43,changed colour,(243, 146, 0)
+1970-01-01 09:41:08,started erasing,
+1970-01-01 09:41:09,changed lineWidth,3
+1970-01-01 09:41:12,changed lineWidth,3
+1970-01-01 09:41:12,changed lineWidth,16
+1970-01-01 09:41:14,changed lineWidth,47
+1970-01-01 09:41:47,finished erasing,
+1970-01-01 09:41:47,changed colour,(149, 193, 30)
+1970-01-01 09:41:51,changed colour,(149, 27, 129)
+1970-01-01 09:41:53,changed colour,(243, 146, 0)
+1970-01-01 09:41:59,changed colour,(48, 38, 131)
+1970-01-01 09:42:03,changed colour,(212, 168, 63)
+1970-01-01 09:42:05,changed colour,(243, 146, 0)
+1970-01-01 09:42:07,changed colour,(0, 158, 227)
+1970-01-01 09:42:08,changed colour,(255, 255, 255)
+1970-01-01 09:42:10,changed colour,(157, 156, 156)
+1970-01-01 09:42:14,changed lineWidth,6
+1970-01-01 09:42:16,changed lineWidth,3
+1970-01-01 09:42:17,changed lineWidth,14
+1970-01-01 09:42:19,changed lineWidth,24
+1970-01-01 09:42:23,changed lineWidth,51
+1970-01-01 09:43:40,changed colour,(0, 158, 227)
+1970-01-01 09:43:43,changed colour,(48, 38, 131)
+1970-01-01 09:43:48,changed lineWidth,35
+1970-01-01 09:43:48,changed lineWidth,25
+1970-01-01 09:43:48,changed lineWidth,18
+1970-01-01 09:44:23,started erasing,
+1970-01-01 09:44:24,finished erasing,
+1970-01-01 09:44:25,started erasing,
+1970-01-01 09:45:11,finished erasing,
+1970-01-01 09:45:11,changed colour,(0, 158, 227)
+1970-01-01 09:45:28,changed colour,(48, 38, 131)
+1970-01-01 09:45:40,changed colour,(149, 27, 129)
+1970-01-01 09:45:52,changed colour,(227, 5, 19)
+1970-01-01 09:45:54,changed lineWidth,3
+1970-01-01 09:46:12,changed colour,(149, 193, 30)
+1970-01-01 09:46:13,changed colour,(157, 156, 156)
+1970-01-01 09:46:16,changed colour,(227, 5, 19)
+1970-01-01 09:46:40,changed colour,(0, 150, 64)
+1970-01-01 09:46:45,changed lineWidth,3
+1970-01-01 09:46:46,changed lineWidth,24
+1970-01-01 09:47:04,started erasing,
+1970-01-01 09:47:21,finished erasing,
+1970-01-01 09:47:21,changed colour,(48, 38, 131)
+1970-01-01 09:47:23,changed lineWidth,23
+1970-01-01 09:47:25,changed lineWidth,6
+1970-01-01 09:47:26,changed lineWidth,19
+1970-01-01 09:47:28,changed lineWidth,15
+1970-01-01 09:47:29,changed lineWidth,10
+1970-01-01 09:47:30,changed lineWidth,3
+1970-01-01 09:47:31,changed lineWidth,3
+1970-01-01 09:47:37,changed lineWidth,30
+1970-01-01 09:47:38,changed lineWidth,29
+1970-01-01 09:47:39,changed lineWidth,24
+1970-01-01 09:47:40,changed lineWidth,18
+1970-01-01 09:47:43,changed lineWidth,25
+1970-01-01 09:47:44,changed lineWidth,20
+1970-01-01 09:47:45,changed lineWidth,15
+1970-01-01 09:47:48,changed lineWidth,33
+1970-01-01 09:48:08,changed colour,(229, 0, 125)
+1970-01-01 09:48:09,changed lineWidth,5
+1970-01-01 09:49:17,redo,
+1970-01-01 09:49:18,redo,
+1970-01-01 09:49:18,redo,
+1970-01-01 09:49:18,undo,
+1970-01-01 09:49:19,undo,
+1970-01-01 09:49:19,undo,
+1970-01-01 09:49:19,undo,
+1970-01-01 09:49:20,undo,
+1970-01-01 09:50:05,starting application,
+1970-01-01 09:50:11,changed lineWidth,43
+1970-01-01 09:50:12,changed lineWidth,51
+1970-01-01 09:50:24,changed colour,(243, 146, 0)
+1970-01-01 09:50:24,changed colour,(212, 168, 63)
+1970-01-01 09:50:25,changed colour,(243, 146, 0)
+1970-01-01 09:50:44,changed colour,(28, 28, 27)
+1970-01-01 09:50:58,started erasing,
+1970-01-01 09:51:43,finished erasing,
+1970-01-01 09:51:43,changed colour,(243, 146, 0)
+1970-01-01 09:51:46,changed colour,(227, 5, 19)
+1970-01-01 09:51:49,changed colour,(243, 146, 0)
+1970-01-01 09:51:53,started erasing,
+1970-01-01 09:51:56,changed lineWidth,3
+1970-01-01 09:51:59,finished erasing,
+1970-01-01 09:51:59,changed colour,(243, 146, 0)
+1970-01-01 09:52:04,changed lineWidth,51
+1970-01-01 09:52:05,started erasing,
+1970-01-01 09:52:08,changed lineWidth,36
+1970-01-01 09:52:09,changed lineWidth,30
+1970-01-01 09:52:10,finished erasing,
+1970-01-01 09:52:10,changed colour,(243, 146, 0)
+1970-01-01 09:52:15,changed colour,(227, 5, 19)
+1970-01-01 09:52:18,changed colour,(0, 158, 227)
+1970-01-01 09:52:20,changed colour,(48, 38, 131)
+1970-01-01 09:52:23,changed colour,(28, 28, 27)
+1970-01-01 09:52:26,changed colour,(0, 158, 227)
+1970-01-01 09:52:29,changed colour,(28, 28, 27)
+1970-01-01 09:52:41,changed colour,(0, 158, 227)
+1970-01-01 09:53:05,changed colour,(243, 146, 0)
+1970-01-01 09:53:05,changed colour,(212, 168, 63)
+1970-01-01 09:53:21,changed colour,(28, 28, 27)
+1970-01-01 09:53:31,changed colour,(48, 38, 131)
+1970-01-01 09:53:36,started erasing,
+1970-01-01 09:53:37,changed lineWidth,51
+1970-01-01 09:53:40,changed lineWidth,51
+1970-01-01 09:54:08,finished erasing,
+1970-01-01 09:54:08,changed colour,(28, 28, 27)
+1970-01-01 09:54:42,starting application,
+1970-01-01 09:54:44,started animation,
+1970-01-01 09:54:51,Error opening wiimote connection,
+1970-01-01 09:55:15,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/5/
+1970-01-01 09:55:15,started animation,
+1970-01-01 09:55:24,started new animation,/home/pi/OutsideTheBox/D/PiDev/pics/5/
+1970-01-01 09:55:24,started animation,
+1970-01-01 09:55:30,Error opening wiimote connection,
+1970-01-01 09:55:31,started drawing,
+1970-01-01 09:55:32,changed colour,(28, 28, 27)
+1970-01-01 09:55:33,changed colour,(28, 28, 27)
+1970-01-01 09:55:33,changed colour,(28, 28, 27)
+1970-01-01 09:55:34,changed colour,(28, 28, 27)
+1970-01-01 09:56:23,changed colour,(255, 255, 255)
+1970-01-01 09:56:42,changed colour,(212, 168, 63)
+1970-01-01 09:56:46,changed colour,(0, 158, 227)
+1970-01-01 09:57:14,changed colour,(229, 0, 125)
+1970-01-01 09:57:18,changed colour,(212, 168, 63)
+1970-01-01 09:57:20,changed colour,(255, 255, 255)
+1970-01-01 09:57:23,changed colour,(28, 28, 27)
+1970-01-01 09:57:26,changed colour,(149, 193, 30)
+1970-01-01 09:57:58,starting application,
+1970-01-01 09:58:16,changed colour,(28, 28, 27)
+1970-01-01 09:58:25,changed lineWidth,3
+1970-01-01 09:59:36,changed lineWidth,11
+1970-01-01 10:00:53,starting application,
+1970-01-01 10:06:59,started erasing,
+1970-01-01 10:07:00,changed lineWidth,51
+1970-01-01 10:07:02,changed lineWidth,51
+1970-01-01 10:07:46,finished erasing,
+1970-01-01 10:07:46,changed colour,(149, 193, 30)
+1970-01-01 10:07:47,changed colour,(28, 28, 27)
+1970-01-01 10:07:48,changed lineWidth,44
+1970-01-01 10:07:48,changed lineWidth,36
+1970-01-01 10:07:49,changed lineWidth,14
+1970-01-01 10:07:49,changed colour,(243, 146, 0)
+1970-01-01 10:07:50,changed colour,(28, 28, 27)
+1970-01-01 10:07:52,changed lineWidth,16
+1970-01-01 10:07:53,changed lineWidth,15
+1970-01-01 10:08:34,changed lineWidth,51
+1970-01-01 10:08:35,started erasing,
+1970-01-01 10:08:39,finished erasing,
+1970-01-01 10:08:39,changed colour,(28, 28, 27)
+1970-01-01 10:08:40,changed lineWidth,15
+1970-01-01 10:10:33,started erasing,
+1970-01-01 10:10:35,changed lineWidth,3
+1970-01-01 10:10:36,changed lineWidth,3
+1970-01-01 10:10:38,changed lineWidth,7
+1970-01-01 10:11:06,changed lineWidth,8
+1970-01-01 10:11:07,changed lineWidth,9
+1970-01-01 10:11:08,changed lineWidth,13
+1970-01-01 10:11:24,changed lineWidth,3
+1970-01-01 10:11:26,changed lineWidth,3
+1970-01-01 10:11:27,changed lineWidth,3
+1970-01-01 10:11:28,changed lineWidth,4
+1970-01-01 10:11:29,changed lineWidth,3
+1970-01-01 10:11:31,changed lineWidth,3
+1970-01-01 10:11:33,changed lineWidth,5
+1970-01-01 10:11:34,finished erasing,
+1970-01-01 10:11:34,changed colour,(28, 28, 27)
+1970-01-01 10:12:24,changed colour,(212, 168, 63)
+1970-01-01 10:12:32,changed colour,(28, 28, 27)
+1970-01-01 10:12:34,changed lineWidth,13
+1970-01-01 10:12:51,changed colour,(212, 168, 63)
+1970-01-01 10:12:52,changed lineWidth,29
+1970-01-01 10:13:24,changed lineWidth,11
+1970-01-01 10:20:45,changed lineWidth,3
+1970-01-01 10:20:46,changed lineWidth,3
+1970-01-01 10:20:52,changed lineWidth,3
+1970-01-01 10:20:54,started erasing,
+1970-01-01 10:27:59,starting application,
+1970-01-01 10:28:31,started erasing,
+1970-01-01 10:28:39,finished erasing,
+1970-01-01 10:29:06,starting application,
+1970-01-01 10:36:54,started erasing,
+1970-01-01 10:38:12,starting application,
+1970-01-01 10:42:45,changed colour,(212, 168, 63)
+1970-01-01 10:42:47,changed colour,(149, 27, 129)
+1970-01-01 10:42:47,changed colour,(227, 5, 19)
+1970-01-01 10:42:48,changed colour,(0, 150, 64)
+1970-01-01 10:42:48,changed colour,(149, 193, 30)
+1970-01-01 10:42:49,changed colour,(0, 150, 64)
+1970-01-01 10:42:53,changed colour,(28, 28, 27)
+1970-01-01 10:43:05,undo,
+1970-01-01 10:43:06,starting new drawing,
+1970-01-01 10:43:06,undo,
+1970-01-01 10:43:13,started erasing,
+1970-01-01 10:43:14,finished erasing,
+1970-01-01 10:43:14,changed colour,(149, 193, 30)
+1970-01-01 10:43:18,changed colour,(28, 28, 27)
+1970-01-01 10:44:12,undo,
+1970-01-01 10:44:13,undo,
+1970-01-01 10:44:14,undo,
+1970-01-01 10:44:14,undo,
+1970-01-01 10:44:15,undo,
+1970-01-01 10:44:16,undo,
+1970-01-01 10:44:18,undo,
+1970-01-01 10:44:19,started erasing,
+1970-01-01 10:44:32,changed lineWidth,24
+1970-01-01 10:44:35,changed lineWidth,4
+1970-01-01 10:44:37,changed lineWidth,5
+1970-01-01 10:44:38,changed lineWidth,3
+1970-01-01 10:44:38,changed lineWidth,3
+1970-01-01 10:44:39,changed lineWidth,10
+1970-01-01 10:44:39,changed lineWidth,5
+1970-01-01 10:44:40,changed lineWidth,17
+1970-01-01 10:44:41,changed lineWidth,10
+1970-01-01 10:44:41,changed lineWidth,10
+1970-01-01 10:44:41,changed lineWidth,9
+1970-01-01 10:44:42,changed lineWidth,7
+1970-01-01 10:44:42,changed lineWidth,6
+1970-01-01 10:44:43,changed lineWidth,15
+1970-01-01 10:44:48,finished erasing,
+1970-01-01 10:44:48,changed colour,(28, 28, 27)
+1970-01-01 10:44:53,started erasing,
+1970-01-01 10:44:58,finished erasing,
+1970-01-01 10:44:58,changed colour,(157, 156, 156)
+1970-01-01 10:45:08,changed colour,(28, 28, 27)
+1970-01-01 10:45:10,started erasing,
+1970-01-01 10:45:18,changed lineWidth,3
+1970-01-01 10:45:20,changed lineWidth,5
+1970-01-01 10:45:20,changed lineWidth,3
+1970-01-01 10:45:21,changed lineWidth,16
+1970-01-01 10:45:23,changed lineWidth,5
+1970-01-01 10:45:24,changed lineWidth,6
+1970-01-01 10:45:25,changed lineWidth,12
+1970-01-01 10:45:25,changed lineWidth,10
+1970-01-01 10:45:26,changed lineWidth,14
+1970-01-01 10:45:29,changed lineWidth,3
+1970-01-01 10:45:31,changed lineWidth,3
+1970-01-01 10:45:31,changed lineWidth,4
+1970-01-01 10:45:32,changed lineWidth,3
+1970-01-01 10:45:33,changed lineWidth,8
+1970-01-01 10:45:38,finished erasing,
+1970-01-01 10:45:38,changed colour,(28, 28, 27)
+1970-01-01 10:46:49,started erasing,
+1970-01-01 10:46:57,undo,
+1970-01-01 10:47:00,changed lineWidth,3
+1970-01-01 10:47:11,finished erasing,
+1970-01-01 10:47:13,started erasing,
+1970-01-01 10:47:31,finished erasing,
+1970-01-01 10:47:31,changed colour,(28, 28, 27)
+1970-01-01 10:47:36,started erasing,
+1970-01-01 10:47:41,finished erasing,
+1970-01-01 10:47:41,changed colour,(28, 28, 27)
+1970-01-01 10:47:42,changed lineWidth,3
+1970-01-01 10:47:43,changed lineWidth,9
+1970-01-01 10:48:36,started erasing,
+1970-01-01 10:48:40,changed lineWidth,7
+1970-01-01 10:48:41,changed lineWidth,3
+1970-01-01 10:48:42,changed lineWidth,51
+1970-01-01 10:48:44,changed lineWidth,3
+1970-01-01 10:48:51,changed lineWidth,3
+1970-01-01 10:48:52,finished erasing,
+1970-01-01 10:48:53,started erasing,
+1970-01-01 10:48:53,finished erasing,
+1970-01-01 10:48:53,started erasing,
+1970-01-01 10:48:54,finished erasing,
+1970-01-01 10:48:55,started erasing,
+1970-01-01 10:52:38,finished erasing,
+1970-01-01 10:52:38,changed colour,(157, 156, 156)
+1970-01-01 10:52:47,started erasing,
+1970-01-01 10:52:55,finished erasing,
+1970-01-01 10:52:55,changed colour,(149, 27, 129)
+1970-01-01 10:53:58,started erasing,
+1970-01-01 10:55:07,finished erasing,
+1970-01-01 10:55:07,changed colour,(28, 28, 27)
+1970-01-01 10:55:08,changed lineWidth,17
+1970-01-01 10:55:10,changed lineWidth,3
+1970-01-01 10:56:02,changed colour,(229, 0, 125)
+1970-01-01 10:56:02,changed colour,(229, 0, 125)
+1970-01-01 10:56:13,changed colour,(212, 168, 63)
+1970-01-01 10:56:14,changed colour,(212, 168, 63)
+1970-01-01 10:56:18,changed colour,(227, 5, 19)
+1970-01-01 10:56:46,starting application,
+1970-01-01 11:07:38,changed lineWidth,50
+1970-01-01 11:07:43,started erasing,
+1970-01-01 11:08:29,starting application,
+1970-01-01 11:08:33,changed lineWidth,23
+1970-01-01 11:08:37,changed lineWidth,51
+1970-01-01 11:08:46,started erasing,
+1970-01-01 11:08:58,finished erasing,
+1970-01-01 11:09:21,started erasing,
+1970-01-01 11:09:24,finished erasing,
+1970-01-01 11:09:35,started erasing,
+1970-01-01 11:09:47,finished erasing,
+1970-01-01 11:11:03,changed colour,(149, 27, 129)
+1970-01-01 11:11:14,started erasing,
+1970-01-01 11:11:14,finished erasing,
+1970-01-01 11:11:15,started erasing,
+1970-01-01 11:11:20,finished erasing,
+1970-01-01 11:11:24,changed colour,(0, 150, 64)
+1970-01-01 11:12:06,started erasing,
+1970-01-01 11:12:14,finished erasing,
+1970-01-01 11:12:22,started erasing,
+1970-01-01 11:12:26,finished erasing,
+1970-01-01 11:12:26,changed colour,(0, 150, 64)
+1970-01-01 11:12:32,started erasing,
+1970-01-01 11:12:37,finished erasing,
+1970-01-01 11:12:42,started erasing,
+1970-01-01 11:12:43,finished erasing,
+1970-01-01 11:12:45,started erasing,
+1970-01-01 11:12:51,finished erasing,
+1970-01-01 11:12:51,changed colour,(0, 150, 64)
+1970-01-01 11:12:54,started erasing,
+1970-01-01 11:12:59,finished erasing,
+1970-01-01 11:13:03,changed colour,(255, 255, 255)
+1970-01-01 11:13:07,changed colour,(0, 150, 64)
+1970-01-01 11:13:13,started erasing,
+1970-01-01 11:13:16,finished erasing,
+1970-01-01 11:13:16,changed colour,(0, 150, 64)
+1970-01-01 11:13:22,started erasing,
+1970-01-01 11:13:24,finished erasing,
+1970-01-01 11:13:24,changed colour,(0, 150, 64)
+1970-01-01 11:13:31,started erasing,
+1970-01-01 11:13:34,finished erasing,
+1970-01-01 11:13:38,started erasing,
+1970-01-01 11:13:42,finished erasing,
+1970-01-01 11:13:52,started erasing,
+1970-01-01 11:13:55,finished erasing,
+1970-01-01 11:13:55,changed colour,(0, 150, 64)
+1970-01-01 11:13:59,changed colour,(255, 255, 255)
+1970-01-01 11:14:08,changed colour,(0, 150, 64)
+1970-01-01 11:14:12,changed colour,(255, 255, 255)
+1970-01-01 11:14:21,changed colour,(0, 150, 64)
+1970-01-01 11:14:37,changed colour,(255, 255, 255)
+1970-01-01 11:14:45,started erasing,
+1970-01-01 11:14:46,finished erasing,
+1970-01-01 11:14:57,changed colour,(0, 150, 64)
+1970-01-01 11:15:09,changed lineWidth,46
+1970-01-01 11:15:10,changed lineWidth,51
+1970-01-01 11:15:10,changed lineWidth,47
+1970-01-01 11:15:11,changed lineWidth,20
+1970-01-01 11:15:15,changed lineWidth,3
+1970-01-01 11:15:22,changed lineWidth,5
+1970-01-01 11:15:27,changed lineWidth,19
+1970-01-01 11:15:39,changed colour,(255, 255, 255)
+1970-01-01 11:15:42,changed lineWidth,51
+1970-01-01 11:15:46,changed lineWidth,11
+1970-01-01 11:15:57,changed colour,(0, 150, 64)
+1970-01-01 11:16:09,changed lineWidth,51
+1970-01-01 11:16:44,started erasing,
+1970-01-01 11:16:50,finished erasing,
+1970-01-01 11:16:50,changed colour,(0, 150, 64)
+1970-01-01 11:16:53,started erasing,
+1970-01-01 11:16:55,changed lineWidth,7
+1970-01-01 11:17:16,finished erasing,
+1970-01-01 11:17:16,changed colour,(0, 150, 64)
+1970-01-01 11:17:17,changed lineWidth,45
+1970-01-01 11:17:18,changed lineWidth,43
+1970-01-01 11:17:19,changed lineWidth,51
+1970-01-01 11:17:52,changed colour,(255, 255, 255)
+1970-01-01 11:17:57,changed colour,(0, 150, 64)
+1970-01-01 11:22:53,changed colour,(0, 158, 227)
+1970-01-01 11:24:04,starting application,
+1970-01-01 11:24:09,changed lineWidth,37
+1970-01-01 11:24:11,changed lineWidth,3
+1970-01-01 11:24:13,started erasing,
+1970-01-01 11:24:14,finished erasing,
+1970-01-01 11:24:15,started erasing,
+1970-01-01 11:24:15,finished erasing,
+1970-01-01 11:24:16,started erasing,
+1970-01-01 11:24:17,undo,
+1970-01-01 11:24:17,redo,
+1970-01-01 11:24:18,redo,
+1970-01-01 11:24:18,redo,
+1970-01-01 11:24:18,redo,
+1970-01-01 11:24:18,redo,
+1970-01-01 11:24:18,undo,
+1970-01-01 11:24:19,undo,
+1970-01-01 11:24:19,undo,
+1970-01-01 11:24:19,undo,
+1970-01-01 11:26:10,starting application,
+1970-01-01 11:33:49,changed colour,(229, 0, 125)
+1970-01-01 11:43:20,changed colour,(243, 146, 0)
+1970-01-01 11:43:24,changed colour,(227, 5, 19)
+1970-01-01 11:43:31,changed colour,(149, 193, 30)
+1970-01-01 11:43:36,changed colour,(0, 158, 227)
+1970-01-01 11:43:41,changed colour,(48, 38, 131)
+1970-01-01 11:43:48,changed colour,(28, 28, 27)
+1970-01-01 11:43:52,changed colour,(255, 255, 255)
+1970-01-01 11:43:56,changed colour,(212, 168, 63)
+1970-01-01 11:43:59,changed colour,(48, 38, 131)
+1970-01-01 11:44:04,changed colour,(229, 0, 125)
+1970-01-01 11:44:09,changed colour,(227, 5, 19)
+1970-01-01 11:44:17,changed colour,(0, 158, 227)
+1970-01-01 11:44:22,changed colour,(0, 150, 64)
+1970-01-01 11:44:26,changed colour,(48, 38, 131)
+1970-01-01 11:45:01,started erasing,
+1970-01-01 11:45:18,undo,
+1970-01-01 11:45:18,undo,
+1970-01-01 11:45:18,undo,
+1970-01-01 11:45:19,undo,
+1970-01-01 11:45:19,undo,
+1970-01-01 11:45:19,undo,
+1970-01-01 11:45:20,undo,
+1970-01-01 11:45:20,undo,
+1970-01-01 11:45:20,undo,
+1970-01-01 11:45:20,undo,
+1970-01-01 11:45:22,changed lineWidth,50
+1970-01-01 11:45:30,finished erasing,
+1970-01-01 11:45:30,changed colour,(149, 193, 30)
+1970-01-01 11:45:32,changed colour,(0, 158, 227)
+1970-01-01 11:47:30,starting application,
+1970-01-01 13:38:18,changed colour,(229, 0, 125)
+1970-01-01 13:52:15,starting application,
+1970-01-01 13:55:16,starting application,
+1970-01-01 13:59:52,changed colour,(0, 158, 227)
+1970-01-01 15:10:58,starting application,
+1970-01-01 16:00:40,started animation,
+1970-01-01 16:00:46,Error opening wiimote connection,
+1970-01-01 16:00:46,started drawing,
+1970-01-01 16:01:34,starting application,
+1970-01-01 16:02:11,starting application,
+1970-01-01 16:25:04,starting application,
+1970-01-01 16:59:00,starting application,
+1970-01-01 17:09:22,changed lineWidth,3
+1970-01-01 17:09:25,changed lineWidth,8
+1970-01-01 17:09:32,changed lineWidth,48
+1970-01-01 17:11:17,starting application,
+1970-01-01 18:06:43,starting application,
+1970-01-01 18:13:55,starting application,
+1970-01-01 18:53:51,starting application,
+1970-01-01 19:34:15,started animation,
+1970-01-01 19:34:22,Error opening wiimote connection,
+1970-01-01 19:34:22,started drawing,
+1970-01-01 19:34:22,changed colour,(0, 158, 227)
+1970-01-01 19:34:44,changed colour,(28, 28, 27)
+1970-01-01 19:34:46,changed colour,(0, 158, 227)
+1970-01-01 19:34:47,changed colour,(229, 0, 125)
+1970-01-01 19:35:22,starting application,
+1970-01-01 20:01:20,changed colour,(229, 0, 125)
+1970-01-01 20:01:58,starting application,
+1970-01-01 20:02:01,changed colour,(243, 146, 0)
+1970-01-01 20:02:42,starting application,
+1970-01-01 20:02:45,changed colour,(149, 27, 129)
+1970-01-01 20:03:07,changed colour,(243, 146, 0)
+1970-01-01 20:03:14,changed colour,(229, 0, 125)
+1970-01-01 20:03:21,changed colour,(255, 255, 255)
+1970-01-01 20:03:49,changed colour,(0, 158, 227)
+1970-01-01 20:03:49,changed colour,(0, 158, 227)
+1970-01-01 20:04:00,changed colour,(243, 146, 0)
+1970-01-01 20:04:08,changed colour,(229, 0, 125)
+1970-01-01 20:04:18,changed colour,(149, 193, 30)
+1970-01-01 20:04:33,changed colour,(255, 255, 255)
+1970-01-01 20:04:46,changed colour,(149, 193, 30)
+1970-01-01 20:05:05,changed colour,(255, 255, 255)
+1970-01-01 20:05:26,changed colour,(149, 193, 30)
+1970-01-01 20:05:36,changed colour,(255, 255, 255)
+1970-01-01 20:06:02,changed colour,(243, 146, 0)
+1970-01-01 20:06:25,changed colour,(255, 255, 255)
+1970-01-01 20:06:45,changed colour,(255, 255, 255)
+1970-01-01 20:07:03,changed colour,(229, 0, 125)
+1970-01-01 20:07:17,changed colour,(255, 255, 255)
+1970-01-01 20:07:18,changed colour,(255, 255, 255)
+1970-01-01 20:08:16,changed colour,(229, 0, 125)
+1970-01-01 20:08:16,changed colour,(229, 0, 125)
+1970-01-01 20:08:27,changed colour,(255, 255, 255)
+1970-01-01 20:09:10,changed colour,(149, 193, 30)
+1970-01-01 20:09:16,changed colour,(243, 146, 0)
+1970-01-01 20:09:29,changed colour,(255, 255, 255)
+1970-01-01 20:10:59,changed colour,(243, 146, 0)
+1970-01-01 20:11:15,changed colour,(149, 193, 30)
+1970-01-01 20:11:17,changed colour,(0, 150, 64)
+1970-01-01 20:11:20,changed colour,(149, 193, 30)
+1970-01-01 20:11:28,changed colour,(28, 28, 27)
+1970-01-01 20:11:29,changed colour,(0, 150, 64)
+1970-01-01 20:11:30,changed colour,(28, 28, 27)
+1970-01-01 20:11:37,changed colour,(28, 28, 27)
+1970-01-01 20:11:38,changed colour,(0, 150, 64)
+1970-01-01 20:11:48,changed colour,(255, 255, 255)
+1970-01-01 20:12:26,changed colour,(212, 168, 63)
+1970-01-01 20:12:28,changed colour,(28, 28, 27)
+1970-01-01 20:12:28,changed colour,(0, 150, 64)
+1970-01-01 20:12:36,changed colour,(212, 168, 63)
+1970-01-01 20:12:37,changed colour,(28, 28, 27)
+1970-01-01 20:12:38,changed colour,(0, 150, 64)
+1970-01-01 20:13:06,changed colour,(243, 146, 0)
+1970-01-01 20:13:46,starting application,
+1970-01-01 20:13:52,changed colour,(28, 28, 27)
+1970-01-01 20:14:06,changed colour,(255, 255, 255)
+1970-01-01 20:14:20,changed lineWidth,50
+1970-01-01 20:14:24,changed colour,(227, 5, 19)
+1970-01-01 20:14:25,changed colour,(227, 5, 19)
+1970-01-01 20:14:27,changed lineWidth,4
+1970-01-01 20:14:27,changed lineWidth,3
+1970-01-01 20:14:35,changed lineWidth,51
+1970-01-01 20:14:39,changed lineWidth,3
+1970-01-01 20:13:44,starting application,
+1970-01-01 20:13:46,changed lineWidth,51
+1970-01-01 20:13:50,changed colour,(227, 5, 19)
+1970-01-01 20:13:55,redo,
+1970-01-01 20:14:09,changed lineWidth,3
+1970-01-01 20:14:22,undo,
+1970-01-01 20:14:23,undo,
+1970-01-01 20:14:23,undo,
+1970-01-01 20:14:26,changed colour,(255, 255, 255)
+1970-01-01 20:14:35,changed lineWidth,47
+1970-01-01 20:14:58,changed colour,(212, 168, 63)
+1970-01-01 20:15:03,changed colour,(255, 255, 255)
+1970-01-01 20:15:11,changed lineWidth,11
+1970-01-01 20:15:12,changed lineWidth,3
+1970-01-01 20:15:14,changed colour,(212, 168, 63)
+1970-01-01 20:15:18,changed colour,(255, 255, 255)
+1970-01-01 20:15:27,changed lineWidth,47
+1970-01-01 20:15:34,changed colour,(227, 5, 19)
+1970-01-01 20:15:55,changed colour,(255, 255, 255)
+1970-01-01 20:26:44,changed colour,(28, 28, 27)
+1970-01-01 20:26:49,changed colour,(255, 255, 255)
+1970-01-01 20:28:26,changed colour,(227, 5, 19)
+1970-01-01 20:28:36,changed colour,(255, 255, 255)
+1970-01-01 20:40:39,changed lineWidth,12
+1970-01-01 20:40:43,changed lineWidth,17
+1970-01-01 20:40:43,changed colour,(255, 255, 255)
+1970-01-01 20:40:47,changed lineWidth,51
+1970-01-01 20:40:49,changed colour,(0, 158, 227)
+1970-01-01 20:40:59,changed colour,(149, 193, 30)
+1970-01-01 20:41:03,changed colour,(255, 255, 255)
+1970-01-01 20:41:07,changed colour,(149, 193, 30)
+1970-01-01 20:41:25,redo,
+1970-01-01 20:41:46,starting application,
+1970-01-01 20:48:10,changed lineWidth,24
+1970-01-01 20:49:27,changed lineWidth,51
+1970-01-01 20:49:29,changed lineWidth,18
+1970-01-01 20:49:32,changed colour,(229, 0, 125)
+1970-01-01 20:49:36,changed lineWidth,51
+1970-01-01 21:08:48,changed lineWidth,4
+1970-01-01 21:08:53,changed lineWidth,3
+1970-01-01 21:08:59,changed lineWidth,35
+1970-01-01 21:09:05,changed colour,(149, 193, 30)
+1970-01-01 21:43:30,changed lineWidth,50
+1970-01-01 22:08:38,changed lineWidth,25
+1970-01-01 22:27:05,starting application,
+1970-01-01 23:17:22,starting application,
+1970-01-01 23:17:49,changed lineWidth,3
+1970-01-01 23:18:28,starting application,
+1970-01-01 23:18:54,starting application,
